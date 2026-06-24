@@ -1,6 +1,6 @@
 "use client";
 import { useRef, useEffect, useState } from "react";
-import { motion, useInView, useSpring, useTransform } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 import { PlusCircle, Clock, CheckCircle } from "lucide-react";
 import styles from "./GlobalCoverage.module.css";
 
@@ -40,58 +40,113 @@ function AnimatedCounter({ value, suffix = "", prefix = "" }) {
   );
 }
 
-export default function GlobalCoverage() {
-  const titleRef = useRef(null);
-  const isTitleInView = useInView(titleRef, { once: true, margin: "-50px" });
+const regions = [
+  {
+    title: "North America",
+    desc: "Key domestic and international FTL/LTL solutions across the US and Mexico."
+  },
+  {
+    title: "Europe",
+    desc: "Import and export management through major maritime and air hubs."
+  },
+  {
+    title: "Asia",
+    desc: "Seamless supply chain integration for manufacturing and distribution."
+  }
+];
 
-  const containerRef = useRef(null);
-  const isContainerInView = useInView(containerRef, { once: true, margin: "-50px" });
+export default function GlobalCoverage() {
+  const sectionRef = useRef(null);
+  const isInView = useInView(sectionRef, { once: true, margin: "-100px" });
+
+  const containerVariants = {
+    hidden: {},
+    visible: {
+      transition: {
+        staggerChildren: 0.15
+      }
+    }
+  };
+
+  const itemVariants = {
+    hidden: { opacity: 0, y: 30 },
+    visible: { 
+      opacity: 1, 
+      y: 0, 
+      transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] } 
+    }
+  };
 
   return (
-    <section className={styles.section}>
+    <section ref={sectionRef} className={styles.section}>
+      {/* Dotted Global Map background at 10% opacity */}
+      <div className={styles.mapBackground} />
+
       <div className={`container ${styles.container}`}>
-        <div className={styles.content}>
-          <div className={styles.titleReveal} ref={titleRef}>
-            <motion.h2
-              className={styles.title}
-              initial={{ y: "100%", opacity: 0 }}
-              animate={isTitleInView ? { y: "0%", opacity: 1 } : {}}
-              transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-            >
-              GLOBAL COVERAGE
-            </motion.h2>
+        <motion.div
+          className={styles.header}
+          initial={{ opacity: 0, y: -20 }}
+          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+        >
+          <h2 className={styles.sectionTitle}>Global Scope & Connectivity</h2>
+          <div className={styles.titleLine}></div>
+        </motion.div>
+
+        {/* Connectivity Timeline Section */}
+        <motion.div 
+          className={styles.timelineContainer}
+          variants={containerVariants}
+          initial="hidden"
+          animate={isInView ? "visible" : "hidden"}
+        >
+          <div className={styles.connectingLine}></div>
+
+          <div className={styles.regionsGrid}>
+            {regions.map((region, idx) => (
+              <motion.div 
+                key={idx} 
+                className={styles.regionCard}
+                variants={itemVariants}
+              >
+                <div className={styles.titleWrapper}>
+                  <h3 className={styles.regionTitle}>{region.title}</h3>
+                </div>
+                
+                <div className={styles.dotWrapper}>
+                  <div className={styles.outerDot}>
+                    <div className={styles.innerDot}></div>
+                  </div>
+                </div>
+
+                <div className={styles.descWrapper}>
+                  <p className={styles.regionDesc}>{region.desc}</p>
+                </div>
+              </motion.div>
+            ))}
           </div>
-          
-          <div className={styles.statsRow} ref={containerRef}>
-            <motion.div
-              className={styles.statItem}
-              initial={{ opacity: 0, x: -30 }}
-              animate={isContainerInView ? { opacity: 1, x: 0 } : {}}
-              transition={{ duration: 0.6, delay: 0, ease: [0.22, 1, 0.36, 1] }}
-            >
-              <PlusCircle className={styles.icon} />
-              <span><AnimatedCounter value={10000} prefix="+" /> Shipments</span>
-            </motion.div>
-            <motion.div
-              className={styles.statItem}
-              initial={{ opacity: 0, x: -30 }}
-              animate={isContainerInView ? { opacity: 1, x: 0 } : {}}
-              transition={{ duration: 0.6, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
-            >
-              <Clock className={styles.icon} />
-              <span>24/7 Operations</span>
-            </motion.div>
-            <motion.div
-              className={styles.statItem}
-              initial={{ opacity: 0, x: -30 }}
-              animate={isContainerInView ? { opacity: 1, x: 0 } : {}}
-              transition={{ duration: 0.6, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
-            >
-              <CheckCircle className={styles.icon} />
-              <span>Certified Carriers</span>
-            </motion.div>
+        </motion.div>
+
+        {/* Stats Row Section */}
+        <motion.div 
+          className={styles.statsRow}
+          initial={{ opacity: 0, y: 40 }}
+          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.8, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
+        >
+          <div className={styles.statItem}>
+            <PlusCircle className={styles.icon} />
+            <span><AnimatedCounter value={10000} prefix="+" /> Shipments</span>
           </div>
-        </div>
+          <div className={styles.statItem}>
+            <Clock className={styles.icon} />
+            <span>24/7 Operations</span>
+          </div>
+          <div className={styles.statItem}>
+            <CheckCircle className={styles.icon} />
+            <span>Certified Carriers</span>
+          </div>
+        </motion.div>
       </div>
     </section>
   );

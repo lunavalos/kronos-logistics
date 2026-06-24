@@ -1,112 +1,93 @@
 "use client";
-import { useState, useEffect } from "react";
-import { motion } from "framer-motion";
-import { Check } from "lucide-react";
+import { useRef } from "react";
+import { motion, useInView } from "framer-motion";
 import styles from "./USCoverage.module.css";
 
-const coveragePoints = [
-  "Licensed Bonded Carrier",
-  "Port & Border Crossing Specialists",
-  "FTZ Warehouse Access",
-  "Laredo, TX Hub Operations"
+const regions = [
+  {
+    title: "Norteamérica",
+    desc: "Soluciones clave de FTL/LTL nacional e internacional en todo EE. UU. y México."
+  },
+  {
+    title: "Europa",
+    desc: "Gestión de importación y exportación a través de principales centros marítimos y aéreos."
+  },
+  {
+    title: "Asia",
+    desc: "Integración fluida de la cadena de suministro para la manufactura y la distribución."
+  }
 ];
 
 export default function USCoverage() {
-  const [svgContent, setSvgContent] = useState("");
-
-  useEffect(() => {
-    fetch("/coverage-map.svg")
-      .then((res) => res.text())
-      .then((data) => {
-        // Clean up XML declaration if it exists, though browsers parse it fine
-        const cleanSvg = data.replace(/<\?xml.*\?>/g, "");
-        setSvgContent(cleanSvg);
-      })
-      .catch((err) => console.error("Error loading coverage map SVG:", err));
-  }, []);
+  const sectionRef = useRef(null);
+  const isInView = useInView(sectionRef, { once: true, margin: "-100px" });
 
   const containerVariants = {
-    hidden: { opacity: 0 },
+    hidden: {},
     visible: {
-      opacity: 1,
-      transition: { staggerChildren: 0.15, delayChildren: 0.1 }
+      transition: {
+        staggerChildren: 0.2
+      }
     }
   };
 
   const itemVariants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: [0.22, 1, 0.36, 1] } }
-  };
-
-  const listVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: { staggerChildren: 0.1 }
-    }
-  };
-
-  const listItemVariants = {
-    hidden: { opacity: 0, x: -20 },
-    visible: { opacity: 1, x: 0, transition: { duration: 0.4, ease: [0.22, 1, 0.36, 1] } }
-  };
-
-  const mapVariants = {
-    hidden: { opacity: 0, scale: 0.95, x: 30 },
-    visible: {
-      opacity: 1,
-      scale: 1,
-      x: 0,
-      transition: { duration: 0.8, ease: [0.22, 1, 0.36, 1] }
+    hidden: { opacity: 0, y: 30 },
+    visible: { 
+      opacity: 1, 
+      y: 0, 
+      transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] } 
     }
   };
 
   return (
-    <section className={styles.section}>
+    <section ref={sectionRef} className={styles.section}>
+      {/* Background Map with 10% opacity */}
+      <div className={styles.mapBackground} />
+
       <div className={`container ${styles.container}`}>
         <motion.div
-          className={styles.content}
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, margin: "-100px" }}
+          className={styles.header}
+          initial={{ opacity: 0, y: -20 }}
+          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
         >
-          <motion.h2 className={styles.title} variants={itemVariants}>
-            US Service Coverage
-          </motion.h2>
-          
-          <motion.div className={styles.divider} variants={itemVariants}></motion.div>
-          
-          <motion.p className={styles.paragraph} variants={itemVariants}>
-            Dedicated infrastructure and logistics networks across North America, with a focus on seamless US points of entry.
-          </motion.p>
-
-          <motion.ul 
-            className={styles.list}
-            variants={listVariants}
-          >
-            {coveragePoints.map((point, index) => (
-              <motion.li key={index} className={styles.listItem} variants={listItemVariants}>
-                <div className={styles.checkWrapper}>
-                  <Check size={14} strokeWidth={3} />
-                </div>
-                <span>{point}</span>
-              </motion.li>
-            ))}
-          </motion.ul>
+          <h2 className={styles.sectionTitle}>Alcance y Conectividad Global</h2>
+          <div className={styles.titleLine}></div>
         </motion.div>
 
-        <motion.div
-          className={styles.mapContainer}
-          variants={mapVariants}
+        <motion.div 
+          className={styles.timelineContainer}
+          variants={containerVariants}
           initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, margin: "-100px" }}
+          animate={isInView ? "visible" : "hidden"}
         >
-          <div 
-            className={styles.mapWrapper}
-            dangerouslySetInnerHTML={{ __html: svgContent }}
-          />
+          {/* Connecting Line (Horizontal on Desktop, Vertical on Mobile) */}
+          <div className={styles.connectingLine}></div>
+
+          <div className={styles.regionsGrid}>
+            {regions.map((region, idx) => (
+              <motion.div 
+                key={idx} 
+                className={styles.regionCard}
+                variants={itemVariants}
+              >
+                <div className={styles.titleWrapper}>
+                  <h3 className={styles.regionTitle}>{region.title}</h3>
+                </div>
+                
+                <div className={styles.dotWrapper}>
+                  <div className={styles.outerDot}>
+                    <div className={styles.innerDot}></div>
+                  </div>
+                </div>
+
+                <div className={styles.descWrapper}>
+                  <p className={styles.regionDesc}>{region.desc}</p>
+                </div>
+              </motion.div>
+            ))}
+          </div>
         </motion.div>
       </div>
     </section>
