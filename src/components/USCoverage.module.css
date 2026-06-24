@@ -1,0 +1,131 @@
+.section {
+  padding: 8rem 0;
+  background-color: #ffffff;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 1rem;
+  align-items: center;
+}
+
+@media (max-width: 992px) {
+  .container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #111111;
+  margin-bottom: 1.5rem;
+  line-height: 1.15;
+  letter-spacing: -0.5px;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+}
+
+.divider {
+  width: 60px;
+  height: 4px;
+  background-color: var(--primary);
+  margin-bottom: 2rem;
+  border-radius: 2px;
+}
+
+.paragraph {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #555555;
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #222222;
+}
+
+.checkWrapper {
+  background-color: var(--primary);
+  color: #ffffff;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 4px 10px rgba(194, 45, 51, 0.2);
+}
+
+.mapContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.mapWrapper {
+  width: 100%;
+  max-width: 650px;
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  aspect-ratio: 17 / 11;
+  filter: drop-shadow(0 15px 30px rgba(0, 0, 0, 0.08));
+}
+
+.mapWrapper svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.mapWrapper :global(svg) path {
+  transition: fill 0.25s cubic-bezier(0.22, 1, 0.36, 1), stroke 0.25s cubic-bezier(0.22, 1, 0.36, 1), stroke-width 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+  cursor: pointer;
+}
+
+/* Gray states hover: slightly darker grey */
+.mapWrapper :global(svg) path[fill="#d9d9d9"]:hover,
+.mapWrapper :global(svg) path[style*="fill: rgb(217, 217, 217)"]:hover {
+  fill: #cbcbcb !important;
+}
+
+/* Red states hover: darker/richer red */
+.mapWrapper :global(svg) path[fill="#d7301f"]:hover,
+.mapWrapper :global(svg) path[style*="fill: rgb(215, 48, 31)"]:hover {
+  fill: var(--primary-dark) !important;
+}

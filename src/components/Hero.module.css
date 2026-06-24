@@ -1,0 +1,189 @@
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 80px;
+  /* Space for navbar to properly center */
+  overflow: hidden;
+  text-align: left;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.bgVideo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center bottom;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5) 10%, rgba(0, 0, 0, 0.1) 100%);
+  z-index: 2;
+}
+
+.content {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title {
+  font-size: clamp(2.4rem, 5vw, 4.4rem);
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+  line-height: 1.1;
+  letter-spacing: -1.5px;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 2.5rem;
+  max-width: 650px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+/* Switcher Button */
+.switcherBtn {
+  display: inline-flex;
+  align-items: center;
+  background: var(--primary);
+  padding: 0.5rem 0.5rem 0.5rem 1.5rem;
+  border: none;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+
+.switcherBtn:hover {
+  background: #e8555a;
+}
+
+.btnText {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  margin-right: 1rem;
+}
+
+.btnIconWrapper {
+  background: #ffffff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btnIcon {
+  color: var(--primary);
+  transition: transform 0.3s ease;
+}
+
+.switcherBtn:hover .btnIconWrapper {
+  transform: scale(1.05);
+}
+
+.switcherBtn:hover .btnIcon {
+  transform: translateX(2px);
+}
+
+/* Scroll Down Indicator */
+.scrollDown {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 15;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  transition: opacity 0.3s ease;
+}
+
+.scrollDown:hover {
+  opacity: 0.7;
+}
+
+.scrollLabel {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.scrollChevron {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding-top: 150px;
+  }
+
+  .scrollDown {
+    bottom: 50px;
+  }
+}
+
+.diagonalCut {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5;
+  line-height: 0;
+}
+
+.diagonalCut svg {
+  width: 100%;
+  height: 120px;
+  display: block;
+}
