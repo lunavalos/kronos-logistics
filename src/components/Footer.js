@@ -5,15 +5,16 @@ import { motion } from "framer-motion";
 import styles from "./Footer.module.css";
 
 const services = [
-  "Full Truckload (FTL)",
-  "Less Than Truckload (LTL)",
-  "Air Freight",
-  "Sea Freight",
-  "Warehousing",
-  "4PL Logistics",
-  "Hand Carrier Service",
-  "Bonded Carrier",
-  "Trailer Rental"
+  { name: "USMCA FTL", slug: "full-truckload-ftl" },
+  { name: "USMCA LTL", slug: "less-than-truckload-ltl" },
+  { name: "Air Freight", slug: "air-freight" },
+  { name: "Hand Carrier Service", slug: "hand-carrier-service" },
+  { name: "Sea Freight", slug: "sea-freight" },
+  { name: "Warehousing", slug: "warehousing" },
+  { name: "Hazmat Logistics", slug: "hazmat-logistics" },
+  { name: "4PL Logistics", slug: "4pl-logistics" },
+  { name: "Bonded Carrier", slug: "bonded-carrier" },
+  { name: "Trailer Lease", slug: "trailer-rental" }
 ];
 
 const quickLinks = [
@@ -86,8 +87,8 @@ export default function Footer() {
           <ul className={styles.list}>
             {services.map((service, i) => (
               <li key={i}>
-                <Link href="/services" className={styles.link}>
-                  {service}
+                <Link href={`/services/${service.slug}`} className={styles.link}>
+                  {service.name}
                 </Link>
               </li>
             ))}
