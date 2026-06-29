@@ -53,7 +53,6 @@
 .grid {
   display: grid;
   grid-template-columns: 1fr;
-  grid-auto-rows: 270px;
   gap: 2rem;
 }
 
@@ -65,47 +64,23 @@
 
 @media (min-width: 1024px) {
   .grid {
-    height: 580px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    transition: grid-template-columns 0.6s cubic-bezier(0.22, 1, 0.36, 1),
-                grid-template-rows 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 280px;
+    transition: all 0.6s cubic-bezier(0.22, 1, 0.36, 1);
   }
 
-  /* Columns Expansion */
-  .grid:has(.card:nth-child(3n + 1):hover) {
-    grid-template-columns: 2fr 1fr 1fr;
+  /* Bento highlight: Hand Carrier Service (4th item) spans 2 columns in both homepage and all-services view */
+  .gridHome .card:nth-child(4),
+  .gridAll .card:nth-child(4) {
+    grid-column: span 2;
   }
-  .grid:has(.card:nth-child(3n + 2):hover) {
-    grid-template-columns: 1fr 2fr 1fr;
-  }
-  .grid:has(.card:nth-child(3n + 3):hover) {
-    grid-template-columns: 1fr 1fr 2fr;
-  }
-
-  /* Rows Expansion (Default 6 items - 2 rows) */
-  .grid:not(.gridAll):has(.card:nth-child(-n + 3):hover) {
-    grid-template-rows: 1.5fr 1fr;
-  }
-  .grid:not(.gridAll):has(.card:nth-child(n + 4):hover) {
-    grid-template-rows: 1fr 1.5fr;
-  }
-
-  /* Grid for 9 items (3 rows) */
-  .grid.gridAll {
-    height: 870px;
-    grid-template-rows: 1fr 1fr 1fr;
-  }
-
-  /* Rows Expansion (9 items - 3 rows) */
-  .grid.gridAll:has(.card:nth-child(-n + 3):hover) {
-    grid-template-rows: 1.5fr 1fr 1fr;
-  }
-  .grid.gridAll:has(.card:nth-child(n + 4):nth-child(-n + 6):hover) {
-    grid-template-rows: 1fr 1.5fr 1fr;
-  }
-  .grid.gridAll:has(.card:nth-child(n + 7):hover) {
-    grid-template-rows: 1fr 1fr 1.5fr;
+  
+  /* Hazmat Logistics is 7th in the array. Since the homepage slice is services.slice(0, 7), 
+     Hazmat Logistics (index 6, which is the 7th item) will be the last item on the homepage. 
+     We can also make it span 2 columns to highlight it beautifully in both. */
+  .gridHome .card:nth-child(7),
+  .gridAll .card:nth-child(7) {
+    grid-column: span 2;
   }
 }
 
@@ -212,6 +187,24 @@
   opacity: 1;
   transform: translateY(0);
   max-height: 150px;
+}
+
+/* Special Card Large Typography */
+.cardSpecial .cardTitle {
+  font-size: 2.2rem;
+}
+
+@media (max-width: 768px) {
+  .cardSpecial .cardTitle {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cardSpecial .cardDescription {
+    max-width: 60%;
+    font-size: 1.1rem;
+  }
 }
 
 

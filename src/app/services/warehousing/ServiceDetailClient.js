@@ -15,15 +15,16 @@ import {
 import styles from "../ServiceDetail.module.css";
 
 const servicesList = [
-  { title: "Full Truckload (FTL)", slug: "full-truckload-ftl" },
-  { title: "Less Than Truckload (LTL)", slug: "less-than-truckload-ltl" },
+  { title: "USMCA FTL", slug: "full-truckload-ftl" },
+  { title: "USMCA LTL", slug: "less-than-truckload-ltl" },
   { title: "Air Freight", slug: "air-freight" },
+  { title: "Hand Carrier Service", slug: "hand-carrier-service" },
   { title: "Sea Freight", slug: "sea-freight" },
   { title: "Warehousing", slug: "warehousing" },
+  { title: "Hazmat Logistics", slug: "hazmat-logistics" },
   { title: "4PL Logistics", slug: "4pl-logistics" },
-  { title: "Hand Carrier Service", slug: "hand-carrier-service" },
   { title: "Bonded Carrier", slug: "bonded-carrier" },
-  { title: "Trailer Rental", slug: "trailer-rental" }
+  { title: "Trailer Lease", slug: "trailer-rental" }
 ];
 
 const advantages = [

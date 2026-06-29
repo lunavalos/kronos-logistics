@@ -78,8 +78,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             transition={{ duration: 1, delay: delayOffset, ease: [0.22, 1, 0.36, 1] }}
           >
-            GLOBAL LOGISTICS <br />
-            SOLUTIONS
+            KRONOS WORLDWIDE <br />SUPPLY CHAIN SOLUTIONS
           </motion.h1>
 
           <motion.p
@@ -88,7 +87,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: delayOffset + 0.3, ease: [0.22, 1, 0.36, 1] }}
           >
-            Reliable, Fast & Secure Freight Across North America, Europe & Asia
+            Direct Execution. Global Visibility.
           </motion.p>
 
           <motion.div

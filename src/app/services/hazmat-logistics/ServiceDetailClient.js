@@ -3,13 +3,11 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { 
   ArrowRight, 
-  Maximize, 
-  Shield, 
-  DollarSign, 
-  Box, 
-  Layers, 
-  Truck, 
-  Globe, 
+  ShieldAlert, 
+  FileText, 
+  Zap, 
+  Eye, 
+  ShieldCheck, 
   PhoneCall 
 } from "lucide-react";
 import styles from "../ServiceDetail.module.css";
@@ -18,42 +16,40 @@ const servicesList = [
   { title: "USMCA FTL", slug: "full-truckload-ftl" },
   { title: "USMCA LTL", slug: "less-than-truckload-ltl" },
   { title: "Air Freight", slug: "air-freight" },
-  { title: "Hand Carrier Service", slug: "hand-carrier-service" },
   { title: "Sea Freight", slug: "sea-freight" },
   { title: "Warehousing", slug: "warehousing" },
-  { title: "Hazmat Logistics", slug: "hazmat-logistics" },
   { title: "4PL Logistics", slug: "4pl-logistics" },
+  { title: "Hand Carrier Service", slug: "hand-carrier-service" },
   { title: "Bonded Carrier", slug: "bonded-carrier" },
-  { title: "Trailer Lease", slug: "trailer-rental" }
+  { title: "Trailer Lease", slug: "trailer-rental" },
+  { title: "Hazmat Logistics", slug: "hazmat-logistics" }
 ];
 
 const advantages = [
   {
-    title: "Oversized & Heavy Cargo",
-    desc: "Heavy cargo capability by covering many types of oversized and high-volume freight formats.",
-    icon: <Maximize size={24} />
+    title: "Certified Across Every Mode",
+    desc: "DOT, IATA DGR, and IMDG certified handling for hazardous materials by road, air, and sea — one partner, every mode of transport.",
+    icon: <ShieldCheck size={24} />
   },
   {
-    title: "Maximum Transit Safety",
-    desc: "Vessels are highly capable of carrying hazardous materials and specialized cargo under strict international safety standards.",
-    icon: <Shield size={24} />
+    title: "Full Class Coverage",
+    desc: "From Class 1 explosives to Class 9 miscellaneous dangerous goods, our certified teams are trained and equipped to handle the full spectrum of hazard classifications.",
+    icon: <ShieldAlert size={24} />
   },
   {
-    title: "Affordable Global Rates",
-    desc: "For intercontinental logistics, sea freight allows moving larger cargo volumes at significantly lower costs compared to air freight.",
-    icon: <DollarSign size={24} />
+    title: "Cross-Border Compliance",
+    desc: "NOM-002-SCT certified for Mexican road transport, with federally licensed drivers and valid SCT permits at every crossing.",
+    icon: <FileText size={24} />
+  },
+  {
+    title: "Real-Time Tracking",
+    desc: "Monitor your hazmat shipment’s location, compliance status, and milestone progress in real time via the Kronos App.",
+    icon: <Eye size={24} />
   }
 ];
 
-const includedServices = [
-  { title: "Full Container Load (FCL)", icon: <Box size={20} /> },
-  { title: "Less than Container Load (LCL)", icon: <Layers size={20} /> },
-  { title: "Drayage", icon: <Truck size={20} /> },
-  { title: "International Custom Broker Agency", icon: <Globe size={20} /> }
-];
-
 export default function ServiceDetailClient() {
-  const currentSlug = "sea-freight";
+  const currentSlug = "hazmat-logistics";
 
   return (
     <section className={styles.section}>
@@ -68,12 +64,12 @@ export default function ServiceDetailClient() {
           >
             <div className={styles.introText}>
               <p>
-                With the highest quality and security standards, we offer deep sea shipping freight services, import, and export from/to all main ports in the world. Kronos Logistics is capable of providing you with the best shipping logistics and comprehensive customs compliance for your international shipments.
+                Hazardous materials demand zero margin for error. Kronos is fully certified to move dangerous goods by road, air, and sea — under DOT, IATA DGR, IMDG, and NOM-002-SCT standards — with certified specialists managing every checkpoint. Built for the industries that can’t afford a mistake: chemical, petrochemical, pharmaceutical, energy, and industrial manufacturing.
               </p>
             </div>
 
             <div className={styles.advantagesSection}>
-              <h2 className={styles.advantagesTitle}>Key Advantages</h2>
+              <h2 className={styles.advantagesTitle}>The Kronos Hazmat Standard</h2>
               
               <div className={styles.advantagesGrid}>
                 {advantages.map((adv, idx) => (
@@ -92,29 +88,6 @@ export default function ServiceDetailClient() {
                       <h3 className={styles.advantageTitleText}>{adv.title}</h3>
                     </div>
                     <p className={styles.advantageDesc}>{adv.desc}</p>
-                  </motion.div>
-                ))}
-              </div>
-            </div>
-
-            {/* Our Services Include Section */}
-            <div className={styles.includedSection}>
-              <h2 className={styles.includedTitle}>Our Services Include</h2>
-              
-              <div className={styles.includedGrid}>
-                {includedServices.map((service, idx) => (
-                  <motion.div
-                    key={idx}
-                    className={styles.includedCard}
-                    initial={{ opacity: 0, y: 15 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true, margin: "-30px" }}
-                    transition={{ duration: 0.4, delay: idx * 0.08 }}
-                  >
-                    <div className={styles.includedIconWrapper}>
-                      {service.icon}
-                    </div>
-                    <span className={styles.includedText}>{service.title}</span>
                   </motion.div>
                 ))}
               </div>

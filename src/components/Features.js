@@ -1,39 +1,39 @@
 "use client";
 import { useRef, useEffect, useState } from "react";
 import { motion, useScroll, useTransform, useSpring, useInView } from "framer-motion";
-import { Settings, TrendingUp, Clock, DollarSign, Handshake, RadioTower } from "lucide-react";
+import { Sliders, Globe, Eye, FileText, Cpu, Shield } from "lucide-react";
 import styles from "./Features.module.css";
 
 const features = [
   {
-    title: "Efficiency Optimization",
-    description: "Fast track services efficient, smooth, and safe.",
-    icon: <Settings size={32} />
+    title: "Flexibility to match your operation",
+    description: "Choose direct execution, strategic coordination, or a hybrid of both — whatever your supply chain actually needs, shipment by shipment",
+    icon: <Sliders size={32} />
   },
   {
-    title: "High Performance",
-    description: "Deliver support on time with minimal paperwork and disruption.",
-    icon: <TrendingUp size={32} />
+    title: "One partner, every provider coordinated",
+    description: "worldwide — Whether we're moving your freight or managing the providers who do, you have a single point of accountability across six continents.",
+    icon: <Globe size={32} />
   },
   {
-    title: "On-Time Delivery",
-    description: "From coast to coast across North America and all warehouse movements.",
-    icon: <Clock size={32} />
+    title: "Total visibility through the Kronos App",
+    description: "Track every shipment, across every provider and every border, from one real-time dashboard.",
+    icon: <Eye size={32} />
   },
   {
-    title: "Cost Effective",
-    description: "Get all your shipments at competitive, effortless rates.",
-    icon: <DollarSign size={32} />
+    title: "Dedicated customs specialists at every checkpoint",
+    description: "Expert clearance management across your entire network, not just the legs Kronos operates directly.",
+    icon: <FileText size={32} />
   },
   {
-    title: "Personalized Service",
-    description: "Reliable, global shipping solutions tailored to your needs.",
-    icon: <Handshake size={32} />
+    title: "Technology-driven supply chain orchestration",
+    description: "Real-time data and intelligent routing that identify efficiencies no single carrier could see on its own.",
+    icon: <Cpu size={32} />
   },
   {
-    title: "24/7 Dispatch",
-    description: "We provide seven days a week continuous support for your freight.",
-    icon: <RadioTower size={32} />
+    title: "Built for the industries where precision is non-negotiable",
+    description: "Purpose-built for automotive, aerospace, defense, pharmaceutical, and high-technology supply chains operating at global scale.",
+    icon: <Shield size={32} />
   }
 ];
 
@@ -135,7 +135,7 @@ export default function Features() {
               animate={isTitleInView ? { y: "0%", opacity: 1 } : {}}
               transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
             >
-              WHY CHOOSE US
+              WHY KRONOS WORKS FOR YOU
             </motion.h2>
           </div>
         </div>

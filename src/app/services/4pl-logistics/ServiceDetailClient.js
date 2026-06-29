@@ -4,57 +4,64 @@ import Link from "next/link";
 import { 
   ArrowRight, 
   DollarSign, 
-  Clock, 
-  Shuffle, 
   TrendingUp, 
-  MessageSquare, 
   ShieldCheck, 
-  PhoneCall 
+  PhoneCall,
+  Globe,
+  Eye,
+  UserCheck,
+  CheckSquare
 } from "lucide-react";
 import styles from "../ServiceDetail.module.css";
 
 const servicesList = [
-  { title: "Full Truckload (FTL)", slug: "full-truckload-ftl" },
-  { title: "Less Than Truckload (LTL)", slug: "less-than-truckload-ltl" },
+  { title: "USMCA FTL", slug: "full-truckload-ftl" },
+  { title: "USMCA LTL", slug: "less-than-truckload-ltl" },
   { title: "Air Freight", slug: "air-freight" },
   { title: "Sea Freight", slug: "sea-freight" },
   { title: "Warehousing", slug: "warehousing" },
   { title: "4PL Logistics", slug: "4pl-logistics" },
   { title: "Hand Carrier Service", slug: "hand-carrier-service" },
   { title: "Bonded Carrier", slug: "bonded-carrier" },
-  { title: "Trailer Rental", slug: "trailer-rental" }
+  { title: "Trailer Lease", slug: "trailer-rental" },
+  { title: "Hazmat Logistics", slug: "hazmat-logistics" }
 ];
 
 const advantages = [
   {
-    title: "Low Capital Commitment",
-    desc: "Low capital commitment by not needing to invest in warehousing space, technology, transportation and employees to execute the logistics process.",
+    title: "Global Reach, Local Execution",
+    desc: "Operating across borders and markets through an established international network, moving your cargo wherever your business takes you.",
+    icon: <Globe size={24} />
+  },
+  {
+    title: "Secure, Reliable Movement",
+    desc: "Cargo is safeguarded and monitored from origin to final destination, minimizing risk at every point of the journey.",
+    icon: <ShieldCheck size={24} />
+  },
+  {
+    title: "Technology-Driven Visibility",
+    desc: "A fully integrated digital platform delivers real-time tracking and data across every stage of your supply chain, with nothing left to guesswork.",
+    icon: <Eye size={24} />
+  },
+  {
+    title: "Expert Hands, Every Step",
+    desc: "Supply chain and customs specialists oversee every movement, navigating regulatory complexity to keep your cargo flowing without interruption.",
+    icon: <UserCheck size={24} />
+  },
+  {
+    title: "Capital Preserved",
+    desc: "Your resources remain invested in your core business, not in warehouses, fleets, or infrastructure.",
     icon: <DollarSign size={24} />
   },
   {
-    title: "Time Saving",
-    desc: "Time saving by eliminating the need of worrying about paperwork, billing, training and optimization involved on the logistics process.",
-    icon: <Clock size={24} />
-  },
-  {
-    title: "Flexibility",
-    desc: "Flexibility by providing to our customers a much larger variety of services.",
-    icon: <Shuffle size={24} />
-  },
-  {
-    title: "Continuous Optimization",
-    desc: "Continuously optimization by making custom made adjustments and improvements in your supply chain.",
+    title: "Continuous Refinement",
+    desc: "Your supply chain evolves through deliberate, data-informed adjustments, never a standard template.",
     icon: <TrendingUp size={24} />
   },
   {
-    title: "Effective Communication Management",
-    desc: "Effective manage of communication through a single supplier instead of multiple individuals at different companies.",
-    icon: <MessageSquare size={24} />
-  },
-  {
-    title: "Clear Communication",
-    desc: "Miscommunication and confusion will be avoided.",
-    icon: <ShieldCheck size={24} />
+    title: "One Relationship, Complete Accountability",
+    desc: "A single point of contact at KRONOS orchestrates every moving part, with nothing left to interpretation.",
+    icon: <CheckSquare size={24} />
   }
 ];
 
@@ -74,12 +81,12 @@ export default function ServiceDetailClient() {
           >
             <div className={styles.introText}>
               <p>
-                A third-party logistics (3PL) offers outsourced logistics services, we specialize in integrated operations that includes transportation, warehousing and customs services. We will make sure that your cargo will be where you need it to be by using the safest, fastest, most efficient and cost effective shipping method.
+                A dedicated partner for your supply chain, not merely a provider. As your fourth-party logistics (4PL) partner, KRONOS assumes full ownership of your logistics operation — transportation, warehousing, and customs — orchestrated as a single, seamless system spanning an international network of partners, ports, and gateways. Every shipment is engineered with precision, security, and visibility, powered by an integrated technology platform and overseen by specialists in supply chain and customs management who anticipate complexity before it becomes a delay.
               </p>
             </div>
 
             <div className={styles.advantagesSection}>
-              <h2 className={styles.advantagesTitle}>Key Advantages</h2>
+              <h2 className={styles.advantagesTitle}>The KRONOS Advantage</h2>
               
               <div className={styles.advantagesGrid}>
                 {advantages.map((adv, idx) => (

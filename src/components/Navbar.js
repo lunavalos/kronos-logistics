@@ -8,15 +8,16 @@ import GlowBorder from "./GlowBorder";
 import styles from "./Navbar.module.css";
 
 const serviceItems = [
-  { name: "Full Truckload (FTL)", slug: "full-truckload-ftl" },
-  { name: "Less Than Truckload (LTL)", slug: "less-than-truckload-ltl" },
+  { name: "USMCA FTL", slug: "full-truckload-ftl" },
+  { name: "USMCA LTL", slug: "less-than-truckload-ltl" },
   { name: "Air Freight", slug: "air-freight" },
   { name: "Sea Freight", slug: "sea-freight" },
   { name: "Warehousing", slug: "warehousing" },
   { name: "4PL Logistics", slug: "4pl-logistics" },
   { name: "Hand Carrier Service", slug: "hand-carrier-service" },
   { name: "Bonded Carrier", slug: "bonded-carrier" },
-  { name: "Trailer Rental", slug: "trailer-rental" },
+  { name: "Trailer Lease", slug: "trailer-rental" },
+  { name: "Hazmat Logistics", slug: "hazmat-logistics" },
 ];
 
 export default function Navbar() {

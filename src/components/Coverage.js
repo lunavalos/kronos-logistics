@@ -27,7 +27,7 @@ export default function Coverage() {
   return (
     <section className={styles.section}>
       <div className={`container ${styles.container}`}>
-        <motion.div 
+        <motion.div
           className={styles.content}
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -36,20 +36,16 @@ export default function Coverage() {
         >
           <h2 className={styles.title}>COVERAGE IN MEXICO'S AIR CUSTOMS</h2>
           <div className={styles.divider}></div>
-          
+
           <p className={styles.paragraph}>
-            Kronos Logistics holds all the necessary permits to access bonded facilities and customs at the country's main airports.
-          </p>
-          
-          <p className={styles.paragraph}>
-            Our drivers are highly trained in handling general dry cargo and hazardous materials, and they are equipped with TAG and ANAM ID credentials for the clearance and dispatch of import and export shipments.
+            Kronos Logistics holds full authorization to operate within bonded facilities and customs zones at Mexico’s principal international airports — clearance that opens doors most carriers simply can’t access.
           </p>
 
           <p className={styles.paragraph}>
-            We currently provide cargo services at the following air customs offices:
+            Our drivers are extensively trained across general dry cargo and hazardous materials — authorized operators carrying ID badge and ANAM TAG credentials that grant access to the federal zone and enable the clearance and dispatch of import and export shipments without delay.
           </p>
 
-          <motion.ul 
+          <motion.ul
             className={styles.airportList}
             variants={listVariants}
             initial="hidden"
@@ -65,7 +61,7 @@ export default function Coverage() {
           </motion.ul>
 
           <p className={styles.paragraph}>
-            We have extensive experience and advanced technology to ensure the safe handling of your cargo.
+            Backed by deep operational experience and advanced tracking technology, every shipment moves with the precision and security your cargo demands.
           </p>
         </motion.div>
       </div>
