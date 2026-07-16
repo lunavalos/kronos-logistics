@@ -11,43 +11,43 @@ import styles from "./OurServices.module.css";
 const services = [
   {
     title: "USMCA FTL",
-    description: "Move full truckload freight seamlessly across Mexico, the United States, and Canada under the USMCA trade agreement — with the speed your just-in-time operation demands and the compliance your supply chain requires.",
+    description: "We work closely and count with a very large, reliable, and high-quality carrier network to provide professional services and the best affordable rate for all your truckload needs.",
     image: "/services/trailer-rental.webp",
     video: "/services/trailer-rental-video.webm"
   },
   {
     title: "USMCA LTL",
-    description: "Move less-than-truckload freight across Mexico, the United States, and Canada — without paying for space you don't need. We connect you to an extensive network of certified carriers across all three countries.",
+    description: "If you want to reduce your freight costs, LTL (Less Than Truckload) is your best solution. It is ideal when your shipment does not require a dedicated trailer.",
     image: "/services/less-than-truckload.webp",
     video: "/services/less-than-truckload-video.webm"
   },
   {
     title: "Air Freight",
-    description: "When speed determines outcome, KRONOS delivers air freight engineered for security and reliability, supported by technology that ensures complete traceability from origin to destination.",
+    description: "With our global experience, we provide reliable and efficient air freight services to meet our customers' specific transportation and logistics needs.",
     image: "/services/air-freight.webp",
     video: "/services/air-freight-video.webm"
   },
   {
     title: "Hand Carrier Service",
-    description: "Kronos Hand Carrier exists for the cargo that cannot be replaced, cannot be delayed, and cannot be trusted to a warehouse floor. Courier airborne within hours.",
+    description: "The hand-carry / onboard courier is characterized by operating in situations of extreme urgency. We assign a dedicated courier to accompany your cargo on board a passenger flight to ensure custody and speed.",
     image: "/services/hand-carrier-service-v2.webp",
     video: "/services/hand-carrier-service-video.webm"
   },
   {
     title: "Sea Freight",
-    description: "We provide global ocean freight through the commercial ports that matter most, connecting every continent under a single trusted partner with FCL and LCL options.",
+    description: "With the highest quality and security standards, we offer deep sea shipping freight services, import, and export from/to all main ports in the world.",
     image: "/services/sea-freight.webp",
     video: "/services/sea-freight-video.webm"
   },
   {
     title: "Warehousing",
-    description: "Kronos operates a network of certified, monitored warehousing facilities at strategic hubs, giving your cargo a safe, well-placed waypoint between origin and destination.",
+    description: "We understand that modern industries require high storage flexibility along their logistics chain. That’s why we partner with safe, secure, and reliable warehousing providers.",
     image: "/services/warehousing.webp",
     video: "/services/warehousing-video.webm"
   },
   {
     title: "Hazmat Logistics",
-    description: "Precise execution and total compliance for hazardous materials by road, air, and sea under DOT, IATA DGR, IMDG, and NOM-002-SCT standards.",
+    description: "Kronos is fully certified to move dangerous goods by road, air, and sea under DOT, IATA DGR, IMDG, and NOM-002-SCT standards, with certified specialists managing every checkpoint.",
     image: "/services/hazmat-service.webp",
     video: "/services/hazmat-service.webm"
   },
@@ -59,13 +59,13 @@ const services = [
   },
   {
     title: "Bonded Carrier",
-    description: "Move your freight through U.S. ports, border crossings, and FTZ warehouses without paying duties or taxes upfront, keeping your cargo compliant and capital working.",
+    description: "Transportation that is licensed to move freight through/across U.S. points of entry without having to pay duties, taxes and/or fees on those goods during transit.",
     image: "/services/bonded-carrier.webp",
     video: "/services/bonded-carrier-video.webm"
   },
   {
     title: "Trailer Lease",
-    description: "Scale your capacity on demand — without the capital commitment of owning a fleet. Immediate access to a modern, well-maintained trailer fleet.",
+    description: "Rental gives you the freedom and flexibility to have exactly the trailers you need, whether you are looking for a short-term rental or a lease contract.",
     image: "/services/trailer-rental.webp",
     video: "/services/trailer-rental-video.webm"
   }
