@@ -449,5 +449,20 @@
         "description": "El alquiler te brinda la libertad y flexibilidad de tener exactamente los remolques que necesitas, ya sea que busques un alquiler a corto plazo o un contrato de arrendamiento a largo plazo."
       }
     }
+  },
+  "GlobalCoverage": {
+    "title": "Alcance y Conectividad Global",
+    "northAmericaTitle": "Norteamérica",
+    "northAmericaDesc": "Soluciones clave de FTL/LTL domésticas e internacionales en EE. UU. y México.",
+    "europeTitle": "Europa",
+    "europeDesc": "Gestión de importación y exportación a través de los principales centros marítimos y aéreos.",
+    "asiaTitle": "Asia",
+    "asiaDesc": "Integración perfecta de la cadena de suministro para manufactura y distribución.",
+    "shipments": "Embarques",
+    "operations": "Operaciones 24/7",
+    "carriers": "Transportistas Certificados"
+  },
+  "TrustedBy": {
+    "title": "Con la confianza de líderes de la industria mundial"
   }
 }

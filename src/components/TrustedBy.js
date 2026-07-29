@@ -1,8 +1,11 @@
 "use client";
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 import styles from "./TrustedBy.module.css";
 
 export default function TrustedBy() {
+  const t = useTranslations("TrustedBy");
+
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -28,7 +31,7 @@ export default function TrustedBy() {
           viewport={{ once: true, margin: "-50px" }}
           transition={{ duration: 0.6 }}
         >
-          Trusted by Industry Leaders Worldwide
+          {t("title")}
         </motion.h3>
         <motion.div 
           className={styles.logos}

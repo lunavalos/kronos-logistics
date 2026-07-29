@@ -449,5 +449,20 @@
         "description": "Rental gives you the freedom and flexibility to have exactly the trailers you need, whether you are looking for a short-term rental or a lease contract."
       }
     }
+  },
+  "GlobalCoverage": {
+    "title": "Global Scope & Connectivity",
+    "northAmericaTitle": "North America",
+    "northAmericaDesc": "Key domestic and international FTL/LTL solutions across the US and Mexico.",
+    "europeTitle": "Europe",
+    "europeDesc": "Import and export management through major maritime and air hubs.",
+    "asiaTitle": "Asia",
+    "asiaDesc": "Seamless supply chain integration for manufacturing and distribution.",
+    "shipments": "Shipments",
+    "operations": "24/7 Operations",
+    "carriers": "Certified Carriers"
+  },
+  "TrustedBy": {
+    "title": "Trusted by Industry Leaders Worldwide"
   }
 }

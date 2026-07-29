@@ -2,6 +2,7 @@
 import { useRef, useEffect, useState } from "react";
 import { motion, useInView } from "framer-motion";
 import { PlusCircle, Clock, CheckCircle } from "lucide-react";
+import { useTranslations } from "next-intl";
 import styles from "./GlobalCoverage.module.css";
 
 function AnimatedCounter({ value, suffix = "", prefix = "" }) {
@@ -40,24 +41,25 @@ function AnimatedCounter({ value, suffix = "", prefix = "" }) {
   );
 }
 
-const regions = [
-  {
-    title: "North America",
-    desc: "Key domestic and international FTL/LTL solutions across the US and Mexico."
-  },
-  {
-    title: "Europe",
-    desc: "Import and export management through major maritime and air hubs."
-  },
-  {
-    title: "Asia",
-    desc: "Seamless supply chain integration for manufacturing and distribution."
-  }
-];
-
 export default function GlobalCoverage() {
+  const t = useTranslations("GlobalCoverage");
   const sectionRef = useRef(null);
   const isInView = useInView(sectionRef, { once: true, margin: "-100px" });
+
+  const regions = [
+    {
+      title: t("northAmericaTitle"),
+      desc: t("northAmericaDesc")
+    },
+    {
+      title: t("europeTitle"),
+      desc: t("europeDesc")
+    },
+    {
+      title: t("asiaTitle"),
+      desc: t("asiaDesc")
+    }
+  ];
 
   const containerVariants = {
     hidden: {},
@@ -89,7 +91,7 @@ export default function GlobalCoverage() {
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
         >
-          <h2 className={styles.sectionTitle}>Global Scope & Connectivity</h2>
+          <h2 className={styles.sectionTitle}>{t("title")}</h2>
           <div className={styles.titleLine}></div>
         </motion.div>
 
@@ -136,15 +138,15 @@ export default function GlobalCoverage() {
         >
           <div className={styles.statItem}>
             <PlusCircle className={styles.icon} />
-            <span><AnimatedCounter value={10000} prefix="+" /> Shipments</span>
+            <span><AnimatedCounter value={10000} prefix="+" /> {t("shipments")}</span>
           </div>
           <div className={styles.statItem}>
             <Clock className={styles.icon} />
-            <span>24/7 Operations</span>
+            <span>{t("operations")}</span>
           </div>
           <div className={styles.statItem}>
             <CheckCircle className={styles.icon} />
-            <span>Certified Carriers</span>
+            <span>{t("carriers")}</span>
           </div>
         </motion.div>
       </div>
