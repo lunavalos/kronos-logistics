@@ -66,8 +66,11 @@
     "getInTouch": "Get In Touch",
     "contactDesc": "Have questions about our services or need a quote? Our team is ready to help you with your logistics requirements.",
     "email": "Email",
+    "emailValue": "info@kronos-logistics.com",
     "phone": "Phone",
+    "phoneValue": "+1 (555) 123-4567",
     "office": "Office",
+    "officeValue": "Laredo, Texas, USA",
     "sendMessage": "Send a Message",
     "fullName": "Full Name",
     "emailAddress": "Email Address",
@@ -78,6 +81,7 @@
     "heroTitle": "Our Services"
   },
   "Tracking": {
+    "heroTitle": "Track Your Shipment",
     "placeholder": "Enter Chain Code",
     "trackButton": "Track",
     "pickup": "Pickup",

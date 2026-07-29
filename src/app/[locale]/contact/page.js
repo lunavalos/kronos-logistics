@@ -24,7 +24,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h4 style={{ fontWeight: "700", marginBottom: "0.2rem" }}>{t("email")}</h4>
-                  <p style={{ color: "#666" }}>info@kronos-logistics.com</p>
+                  <p style={{ color: "#666" }}>{t("emailValue")}</p>
                 </div>
               </div>
               
@@ -34,7 +34,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h4 style={{ fontWeight: "700", marginBottom: "0.2rem" }}>{t("phone")}</h4>
-                  <p style={{ color: "#666" }}>+1 (555) 123-4567</p>
+                  <p style={{ color: "#666" }}>{t("phoneValue")}</p>
                 </div>
               </div>
               
@@ -44,7 +44,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h4 style={{ fontWeight: "700", marginBottom: "0.2rem" }}>{t("office")}</h4>
-                  <p style={{ color: "#666" }}>Laredo, Texas, USA</p>
+                  <p style={{ color: "#666" }}>{t("officeValue")}</p>
                 </div>
               </div>
             </div>
