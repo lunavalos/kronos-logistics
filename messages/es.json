@@ -75,7 +75,9 @@
     "fullName": "Nombre Completo",
     "emailAddress": "Correo Electrónico",
     "yourMessage": "Su Mensaje",
-    "sendButton": "Enviar Mensaje"
+    "sendButton": "Enviar Mensaje",
+    "success": "¡Gracias! Su mensaje ha sido enviado con éxito.",
+    "error": "La verificación falló. Por favor, inténtelo de nuevo."
   },
   "ServicesPage": {
     "heroTitle": "Nuestros Servicios"

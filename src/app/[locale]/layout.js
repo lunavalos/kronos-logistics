@@ -1,4 +1,5 @@
 import { Raleway } from "next/font/google";
+import Script from "next/script";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CustomCursor from "@/components/CustomCursor";
@@ -32,6 +33,10 @@ export default async function RootLayout({ children, params }) {
   return (
     <html lang={locale} suppressHydrationWarning>
       <body className={raleway.className}>
+        <Script 
+          src="https://www.google.com/recaptcha/api.js?render=6LdYIGwtAAAAAOiB7fRiCALWtAOn58zTowwKDPHe" 
+          strategy="afterInteractive" 
+        />
         <NextIntlClientProvider messages={messages}>
           <Preloader />
           <CustomCursor />
