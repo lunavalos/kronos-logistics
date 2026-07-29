@@ -1,5 +1,6 @@
 "use client";
-import Link from "next/link";
+import { Link } from "@/navigation";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import styles from "./Footer.module.css";
@@ -17,15 +18,16 @@ const services = [
   { name: "Trailer Lease", slug: "trailer-rental" }
 ];
 
-const quickLinks = [
-  { name: "Home", href: "/" },
-  { name: "About Us", href: "/about-us" },
-  { name: "What We Do", href: "/what-we-do" },
-  { name: "Services", href: "/services" },
-  { name: "Contact Us", href: "/contact" }
-];
-
 export default function Footer() {
+  const t = useTranslations("Footer");
+
+  const quickLinks = [
+    { name: t("home"), href: "/" },
+    { name: t("aboutUs"), href: "/about-us" },
+    { name: t("services"), href: "/services" },
+    { name: t("contactUs"), href: "/contact" }
+  ];
+
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -63,13 +65,13 @@ export default function Footer() {
             />
           </Link>
           <p className={styles.copyright}>
-            ALL RIGHTS RESERVED - KRONOS LOGISTICS © - {new Date().getFullYear()}
+            {t("copyright")} - {new Date().getFullYear()}
           </p>
         </motion.div>
 
         {/* Column 2: Quick Links */}
         <motion.div variants={itemVariants} className={styles.colLinks}>
-          <h4 className={styles.colTitle}>QUICK LINKS</h4>
+          <h4 className={styles.colTitle}>{t("quickLinks")}</h4>
           <ul className={styles.list}>
             {quickLinks.map((link, i) => (
               <li key={i}>
@@ -83,7 +85,7 @@ export default function Footer() {
 
         {/* Column 3: Services */}
         <motion.div variants={itemVariants} className={styles.colServices}>
-          <h4 className={styles.colTitle}>SERVICES</h4>
+          <h4 className={styles.colTitle}>{t("servicesTitle")}</h4>
           <ul className={styles.list}>
             {services.map((service, i) => (
               <li key={i}>
@@ -98,10 +100,10 @@ export default function Footer() {
         {/* Column 4: Credits & Policy */}
         <motion.div variants={itemVariants} className={styles.colCredits}>
           <Link href="/privacy-policy" className={styles.privacyLink}>
-            PRIVACY POLICY
+            {t("privacyPolicy")}
           </Link>
           <div className={styles.divider}></div>
-          <p className={styles.createdBy} style={{ marginBottom: "4px" }}>CREATED BY</p>
+          <p className={styles.createdBy} style={{ marginBottom: "4px" }}>{t("createdBy")}</p>
           <Image
             src="/credits-logo-gray.png"
             alt="LunAvalos"

@@ -1,12 +1,14 @@
 "use client";
 import { useRef, useState, useEffect } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import Link from "next/link";
+import { Link } from "@/navigation";
+import { useTranslations } from "next-intl";
 import { ArrowRight, ChevronDown } from "lucide-react";
 import GlowBorder from "./GlowBorder";
 import styles from "./Hero.module.css";
 
 export default function Hero() {
+  const t = useTranslations("Hero");
   const sectionRef = useRef(null);
   const [delayOffset, setDelayOffset] = useState(2.0);
 
@@ -78,7 +80,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             transition={{ duration: 1, delay: delayOffset, ease: [0.22, 1, 0.36, 1] }}
           >
-            KRONOS WORLDWIDE <br />SUPPLY CHAIN SOLUTIONS
+            {t.rich("title", { br: () => <br /> })}
           </motion.h1>
 
           <motion.p
@@ -87,7 +89,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: delayOffset + 0.3, ease: [0.22, 1, 0.36, 1] }}
           >
-            Direct Execution. Global Visibility.
+            {t("subtitle")}
           </motion.p>
 
           <motion.div
@@ -98,7 +100,7 @@ export default function Hero() {
           >
             <GlowBorder>
               <Link href="/contact" className={styles.switcherBtn}>
-                <span className={styles.btnText}>Request a Quote</span>
+                <span className={styles.btnText}>{t("requestQuote")}</span>
                 <span className={styles.btnIconWrapper}>
                   <ArrowRight size={18} className={styles.btnIcon} />
                 </span>
@@ -117,7 +119,7 @@ export default function Hero() {
         transition={{ duration: 0.6, delay: delayOffset + 1.2 }}
         aria-label="Scroll down"
       >
-        <span className={styles.scrollLabel}>Scroll Down</span>
+        <span className={styles.scrollLabel}>{t("scrollDown")}</span>
         <motion.span
           className={styles.scrollChevron}
           animate={{ y: [0, 6, 0] }}

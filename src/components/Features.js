@@ -1,41 +1,9 @@
 "use client";
 import { useRef, useEffect, useState } from "react";
 import { motion, useScroll, useTransform, useSpring, useInView } from "framer-motion";
+import { useTranslations } from "next-intl";
 import { Sliders, Globe, Eye, FileText, Cpu, Shield } from "lucide-react";
 import styles from "./Features.module.css";
-
-const features = [
-  {
-    title: "Flexibility to match your operation",
-    description: "Choose direct execution, strategic coordination, or a hybrid of both — whatever your supply chain actually needs, shipment by shipment",
-    icon: <Sliders size={32} />
-  },
-  {
-    title: "One partner, every provider coordinated",
-    description: "worldwide — Whether we're moving your freight or managing the providers who do, you have a single point of accountability across six continents.",
-    icon: <Globe size={32} />
-  },
-  {
-    title: "Total visibility through the Kronos App",
-    description: "Track every shipment, across every provider and every border, from one real-time dashboard.",
-    icon: <Eye size={32} />
-  },
-  {
-    title: "Dedicated customs specialists at every checkpoint",
-    description: "Expert clearance management across your entire network, not just the legs Kronos operates directly.",
-    icon: <FileText size={32} />
-  },
-  {
-    title: "Technology-driven supply chain orchestration",
-    description: "Real-time data and intelligent routing that identify efficiencies no single carrier could see on its own.",
-    icon: <Cpu size={32} />
-  },
-  {
-    title: "Built for the industries where precision is non-negotiable",
-    description: "Purpose-built for automotive, aerospace, defense, pharmaceutical, and high-technology supply chains operating at global scale.",
-    icon: <Shield size={32} />
-  }
-];
 
 function FeatureCard({ feature, index }) {
   const ref = useRef(null);
@@ -75,6 +43,7 @@ function FeatureCard({ feature, index }) {
 }
 
 export default function Features() {
+  const t = useTranslations("Features");
   const sectionRef = useRef(null);
   const titleRef = useRef(null);
   const isTitleInView = useInView(titleRef, { once: true, margin: "-60px" });
@@ -103,6 +72,39 @@ export default function Features() {
 
   const topTabPath = useTransform(tabXTop, generateTabPath);
   const bottomTabPath = useTransform(tabXBottom, generateTabPath);
+
+  const features = [
+    {
+      title: t("flexibilityTitle"),
+      description: t("flexibilityDesc"),
+      icon: <Sliders size={32} />
+    },
+    {
+      title: t("partnerTitle"),
+      description: t("partnerDesc"),
+      icon: <Globe size={32} />
+    },
+    {
+      title: t("visibilityTitle"),
+      description: t("visibilityDesc"),
+      icon: <Eye size={32} />
+    },
+    {
+      title: t("customsTitle"),
+      description: t("customsDesc"),
+      icon: <FileText size={32} />
+    },
+    {
+      title: t("techTitle"),
+      description: t("techDesc"),
+      icon: <Cpu size={32} />
+    },
+    {
+      title: t("precisionTitle"),
+      description: t("precisionDesc"),
+      icon: <Shield size={32} />
+    }
+  ];
 
   return (
     <section ref={sectionRef} className={styles.section}>
@@ -135,7 +137,7 @@ export default function Features() {
               animate={isTitleInView ? { y: "0%", opacity: 1 } : {}}
               transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
             >
-              WHY KRONOS WORKS FOR YOU
+              {t("title")}
             </motion.h2>
           </div>
         </div>

@@ -3,7 +3,8 @@ import { useState, useEffect, useCallback } from "react";
 import dynamic from "next/dynamic";
 import { motion, AnimatePresence } from "framer-motion";
 import { Search, Info, Clock } from "lucide-react";
-import styles from "@/app/track/track.module.css";
+import { useTranslations } from "next-intl";
+import styles from "@/app/[locale]/track/track.module.css";
 
 // Dynamic import for Leaflet (client-side only)
 const TrackingMap = dynamic(() => import("@/components/Tracking/TrackingMap"), {
@@ -12,6 +13,7 @@ const TrackingMap = dynamic(() => import("@/components/Tracking/TrackingMap"), {
 });
 
 export default function TrackingView({ initialChainCode = "" }) {
+  const t = useTranslations("Tracking");
   const [chainCode, setChainCode] = useState(initialChainCode);
   const [trackingData, setTrackingData] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
@@ -258,7 +260,7 @@ export default function TrackingView({ initialChainCode = "" }) {
         consigneePosition
       });
     } catch (err) {
-      setError(err.message || "Could not connect to the server. Please try again.");
+      setError(err.message || t("connectionError"));
     } finally {
       setIsLoading(false);
     }
@@ -286,14 +288,14 @@ export default function TrackingView({ initialChainCode = "" }) {
             <Search size={18} className={styles.searchIcon} />
             <input 
               type="text" 
-              placeholder="Enter Chain Code" 
+              placeholder={t("placeholder")} 
               className={styles.input}
               value={chainCode}
               onChange={(e) => setChainCode(e.target.value)}
             />
           </div>
           <button className={styles.searchBtn} disabled={isLoading}>
-            {isLoading ? "..." : "Track"}
+            {isLoading ? "..." : t("trackButton")}
           </button>
         </form>
 
@@ -313,16 +315,16 @@ export default function TrackingView({ initialChainCode = "" }) {
                 <span className={styles.statusBadge}>{trackingData.status}</span>
                 <p className={styles.trackingId}>{trackingData.klReference}</p>
                 {trackingData.pickupNumber !== "N/A" && (
-                  <p className={styles.trackingId}>Pickup: {trackingData.pickupNumber}</p>
+                  <p className={styles.trackingId}>{t("pickup")}: {trackingData.pickupNumber}</p>
                 )}
               </div>
 
               {trackingData.pending ? (
                 <div className={styles.pendingState}>
                   <Clock size={32} />
-                  <p className={styles.pendingTitle}>Shipment Registered</p>
+                  <p className={styles.pendingTitle}>{t("shipmentRegistered")}</p>
                   <p className={styles.pendingText}>
-                    There are no records added to this reference yet. Shipment details will appear here once processing begins. Please try again later.
+                    {t("pendingDesc")}
                   </p>
                   {trackingData.notes && (
                     <div className={styles.routeInfo}>
@@ -337,7 +339,7 @@ export default function TrackingView({ initialChainCode = "" }) {
                     <div className={styles.routePoint}>
                       <div className={styles.routeDotOrigin} />
                       <div>
-                        <span className={styles.routeLabel}>Shipper</span>
+                        <span className={styles.routeLabel}>{t("shipper")}</span>
                         <p className={styles.routeValue}>{trackingData.origin}</p>
                       </div>
                     </div>
@@ -345,7 +347,7 @@ export default function TrackingView({ initialChainCode = "" }) {
                     <div className={styles.routePoint}>
                       <div className={styles.routeDotDest} />
                       <div>
-                        <span className={styles.routeLabel}>Consignee</span>
+                        <span className={styles.routeLabel}>{t("consignee")}</span>
                         <p className={styles.routeValue}>{trackingData.destination}</p>
                       </div>
                     </div>
@@ -355,7 +357,7 @@ export default function TrackingView({ initialChainCode = "" }) {
                   <div className={styles.routeInfo}>
                     <div className={styles.routePoint}>
                       <div>
-                        <span className={styles.routeLabel}>ETA Delivery</span>
+                        <span className={styles.routeLabel}>{t("etaDelivery")}</span>
                         <p className={styles.routeValue}>{trackingData.eta}</p>
                       </div>
                     </div>
@@ -364,7 +366,7 @@ export default function TrackingView({ initialChainCode = "" }) {
                         <div className={styles.routeLine} />
                         <div className={styles.routePoint}>
                           <div>
-                            <span className={styles.routeLabel}>Current Location</span>
+                            <span className={styles.routeLabel}>{t("currentLocation")}</span>
                             <p className={styles.routeValue}>{trackingData.currentCity}</p>
                           </div>
                         </div>
@@ -382,7 +384,7 @@ export default function TrackingView({ initialChainCode = "" }) {
                   {/* Timeline */}
                   {trackingData.history.length > 0 && (
                     <div className={styles.timeline}>
-                      <h3 className={styles.timelineTitle}>Tracking History</h3>
+                      <h3 className={styles.timelineTitle}>{t("historyTitle")}</h3>
                       {trackingData.history.map((event, index) => (
                         <div className={styles.timelineItem} key={index}>
                           <div className={`${styles.dot} ${index === 0 ? styles.dotActive : ''}`} />
@@ -407,9 +409,9 @@ export default function TrackingView({ initialChainCode = "" }) {
             >
               <Info size={18} />
               <div>
-                <p className={styles.emptyTitle}>How to use tracking?</p>
+                <p className={styles.emptyTitle}>{t("howToUse")}</p>
                 <p className={styles.emptyText}>
-                  Enter your Chain Code to see shipment information: current status, location, and delivery details.
+                  {t("howToUseDesc")}
                 </p>
               </div>
             </motion.div>

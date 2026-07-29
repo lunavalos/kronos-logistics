@@ -1,0 +1,146 @@
+.container {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.8rem;
+  z-index: 999;
+}
+
+.btn {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  position: relative;
+  outline: none;
+}
+
+.btn:hover {
+  transform: translateY(-4px) scale(1.08);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.whatsapp {
+  background-color: #25D366;
+  color: #ffffff;
+}
+
+.whatsapp:hover {
+  background-color: #20ba5a;
+  box-shadow: 0 0 20px rgba(37, 211, 102, 0.6);
+}
+
+.wechat {
+  background-color: #07C160;
+  color: #ffffff;
+}
+
+.wechat:hover {
+  background-color: #06ad56;
+  box-shadow: 0 0 20px rgba(7, 193, 96, 0.6);
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+  fill: currentColor;
+}
+
+/* Tooltip / QR Overlay */
+.wechatTooltip {
+  position: absolute;
+  bottom: 70px;
+  right: 0;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  padding: 1.2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  z-index: 1000;
+  pointer-events: auto;
+}
+
+.qrTitle {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #111111;
+  margin-bottom: 0.5rem;
+}
+
+.qrContainer {
+  width: 140px;
+  height: 140px;
+  background: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  margin-bottom: 0.5rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.qrImage {
+  width: 130px;
+  height: 130px;
+  object-fit: contain;
+}
+
+.wechatId {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #666666;
+  background: rgba(0, 0, 0, 0.04);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    bottom: 1.5rem;
+    right: 1.5rem;
+    gap: 0.6rem;
+  }
+  
+  .btn {
+    width: 48px;
+    height: 48px;
+  }
+  
+  .icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .wechatTooltip {
+    bottom: 60px;
+    width: 190px;
+    padding: 1rem;
+  }
+  
+  .qrContainer {
+    width: 110px;
+    height: 110px;
+  }
+  
+  .qrImage {
+    width: 100px;
+    height: 100px;
+  }
+}

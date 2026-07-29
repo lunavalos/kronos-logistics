@@ -1,12 +1,14 @@
 "use client";
 import { useRef } from "react";
 import { motion, useScroll, useTransform, useSpring, useInView } from "framer-motion";
-import Link from "next/link";
+import { Link } from "@/navigation";
+import { useTranslations } from "next-intl";
 import { Star, ArrowRight } from "lucide-react";
 import GlowBorder from "./GlowBorder";
 import styles from "./CTA.module.css";
 
 export default function CTA() {
+  const t = useTranslations("CTA");
   const sectionRef = useRef(null);
   const leftRef = useRef(null);
   const rightRef = useRef(null);
@@ -74,7 +76,7 @@ export default function CTA() {
                 animate={isLeftInView ? { y: "0%", opacity: 1 } : {}}
                 transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               >
-                Ready to Move<br/>Your Freight?
+                {t.rich("title", { br: () => <br /> })}
               </motion.h2>
             </div>
             <motion.div
@@ -84,7 +86,7 @@ export default function CTA() {
             >
               <GlowBorder>
                 <Link href="/contact" className={styles.switcherBtn}>
-                  <span className={styles.btnText}>Get a Quote Now</span>
+                  <span className={styles.btnText}>{t("button")}</span>
                   <span className={styles.btnIconWrapper}>
                     <ArrowRight size={20} className={styles.btnIcon} />
                   </span>
@@ -113,13 +115,13 @@ export default function CTA() {
                 ))}
               </div>
               <p className={styles.quote}>
-                &ldquo;Kronos Logistics has been essential to our supply chain, providing fast and reliable deliveries every time.&rdquo;
+                &ldquo;{t("quote")}&rdquo;
               </p>
               <div className={styles.author}>
                 <div className={styles.avatar}>JS</div>
                 <div>
-                  <h4 className={styles.name}>John Smith</h4>
-                  <p className={styles.role}>Supply Chain Manager</p>
+                  <h4 className={styles.name}>{t("name")}</h4>
+                  <p className={styles.role}>{t("role")}</p>
                 </div>
               </div>
             </motion.div>

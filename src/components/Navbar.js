@@ -1,39 +1,76 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
-import Link from "next/link";
+import { Link, useRouter, usePathname } from "@/navigation";
+import { useTranslations, useLocale } from "next-intl";
+import { useParams } from "next/navigation";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, ArrowRight, ChevronDown } from "lucide-react";
+import { Menu, X, ArrowRight, ChevronDown, Globe } from "lucide-react";
 import GlowBorder from "./GlowBorder";
 import styles from "./Navbar.module.css";
+import locales from "@/i18n/locales.json";
+
+const languageNames = {
+  en: "English",
+  es: "Español",
+  pt: "Português",
+  fr: "Français",
+  zh: "中文"
+};
 
 const serviceItems = [
-  { name: "USMCA FTL", slug: "full-truckload-ftl" },
-  { name: "USMCA LTL", slug: "less-than-truckload-ltl" },
-  { name: "Air Freight", slug: "air-freight" },
-  { name: "Sea Freight", slug: "sea-freight" },
-  { name: "Warehousing", slug: "warehousing" },
-  { name: "4PL Logistics", slug: "4pl-logistics" },
-  { name: "Hand Carrier Service", slug: "hand-carrier-service" },
-  { name: "Bonded Carrier", slug: "bonded-carrier" },
-  { name: "Trailer Lease", slug: "trailer-rental" },
-  { name: "Hazmat Logistics", slug: "hazmat-logistics" },
+  { key: "ftl", slug: "full-truckload-ftl" },
+  { key: "ltl", slug: "less-than-truckload-ltl" },
+  { key: "air", slug: "air-freight" },
+  { key: "sea", slug: "sea-freight" },
+  { key: "warehousing", slug: "warehousing" },
+  { key: "fourpl", slug: "4pl-logistics" },
+  { key: "hand", slug: "hand-carrier-service" },
+  { key: "bonded", slug: "bonded-carrier" },
+  { key: "trailer", slug: "trailer-rental" },
+  { key: "hazmat", slug: "hazmat-logistics" },
 ];
 
 export default function Navbar() {
+  const t = useTranslations("Navbar");
+  const tServices = useTranslations("OurServices");
+  const locale = useLocale();
+  const router = useRouter();
+  const pathname = usePathname();
+  const params = useParams();
+  
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
+  const [langOpen, setLangOpen] = useState(false);
+  
   const dropdownRef = useRef(null);
   const timeoutRef = useRef(null);
+  const langRef = useRef(null);
+
+  const handleLocaleChange = (nextLocale) => {
+    router.replace({ pathname, params }, { locale: nextLocale });
+    setLangOpen(false);
+  };
 
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
     };
     window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    
+    const handleClickOutside = (event) => {
+      if (langRef.current && !langRef.current.contains(event.target)) {
+        setLangOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
   }, []);
 
   const handleMouseEnter = () => {
@@ -50,11 +87,10 @@ export default function Navbar() {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   const navLinks = [
-    { name: "Home", href: "/" },
-    { name: "About Us", href: "/about-us" },
-    { name: "What We Do", href: "/what-we-do" },
-    { name: "Services", href: "/services", hasDropdown: true },
-    { name: "Contact", href: "/contact" },
+    { name: t("home"), href: "/" },
+    { name: t("aboutUs"), href: "/about-us" },
+    { name: t("services"), href: "/services", hasDropdown: true },
+    { name: t("contact"), href: "/contact" },
   ];
 
   return (
@@ -103,12 +139,12 @@ export default function Navbar() {
                       <div className={styles.dropdownGrid}>
                         {serviceItems.map((service) => (
                           <Link
-                            key={service.name}
+                            key={service.key}
                             href={`/services/${service.slug}`}
                             className={styles.dropdownItem}
                             onClick={() => setDropdownOpen(false)}
                           >
-                            {service.name}
+                            {tServices(`services.${service.key}.title`)}
                           </Link>
                         ))}
                       </div>
@@ -122,9 +158,41 @@ export default function Navbar() {
               </Link>
             )
           )}
+          <div className={styles.langDropdownWrapper} ref={langRef}>
+            <button 
+              className={styles.langBtn} 
+              onClick={() => setLangOpen(!langOpen)}
+            >
+              <Globe size={16} />
+              <span>{locale.toUpperCase()}</span>
+              <ChevronDown size={14} className={`${styles.chevron} ${langOpen ? styles.chevronOpen : ""}`} />
+            </button>
+            
+            <AnimatePresence>
+              {langOpen && (
+                <motion.div 
+                  className={styles.langDropdown}
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: 10 }}
+                  transition={{ duration: 0.2 }}
+                >
+                  {locales.map((loc) => (
+                    <button 
+                      key={loc}
+                      className={`${styles.langDropdownItem} ${locale === loc ? styles.langDropdownItemActive : ""}`}
+                      onClick={() => handleLocaleChange(loc)}
+                    >
+                      {languageNames[loc] || loc.toUpperCase()}
+                    </button>
+                  ))}
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
           <GlowBorder>
             <Link href="/track" className={styles.switcherBtn}>
-              <span className={styles.btnText}>Track Shipment</span>
+              <span className={styles.btnText}>{t("trackShipment")}</span>
               <span className={styles.btnIconWrapper}>
                 <ArrowRight size={16} className={styles.btnIcon} />
               </span>
@@ -165,12 +233,12 @@ export default function Navbar() {
                     <div className={styles.mobileSubMenu}>
                       {serviceItems.map((service) => (
                         <Link
-                          key={service.name}
+                          key={service.key}
                           href={`/services/${service.slug}`}
                           className={styles.mobileSubItem}
                           onClick={() => setIsOpen(false)}
                         >
-                          {service.name}
+                          {tServices(`services.${service.key}.title`)}
                         </Link>
                       ))}
                     </div>
@@ -192,11 +260,25 @@ export default function Navbar() {
               className={styles.mobileCtaButton}
               onClick={() => setIsOpen(false)}
             >
-              <span>Track Shipment</span>
+              <span>{t("trackShipment")}</span>
               <span>
                 <ArrowRight size={16} />
               </span>
             </Link>
+            <div className={styles.mobileLangSwitcher}>
+              <span className={styles.mobileLangTitle}>Language / Idioma</span>
+              <div className={styles.mobileLangGrid}>
+                {locales.map((loc) => (
+                  <button 
+                    key={loc}
+                    className={`${styles.langDropdownItem} ${locale === loc ? styles.langDropdownItemActive : ""}`} 
+                    onClick={() => { handleLocaleChange(loc); setIsOpen(false); }}
+                  >
+                    {languageNames[loc] || loc.toUpperCase()}
+                  </button>
+                ))}
+              </div>
+            </div>
           </motion.nav>
         )}
       </AnimatePresence>
