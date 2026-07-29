@@ -107,10 +107,10 @@ export default function Footer() {
           <Image
             src="/credits-logo-gray.png"
             alt="LunAvalos"
-            width={95}
-            height={24}
+            width={65}
+            height={16}
             className={styles.creditsLogo}
-            style={{ width: "100%", maxWidth: "95px", height: "auto" }}
+            style={{ width: "100%", maxWidth: "65px", height: "auto" }}
           />
         </motion.div>
 

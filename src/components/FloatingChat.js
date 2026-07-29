@@ -1,4 +1,5 @@
 "use client";
+import { motion } from "framer-motion";
 import styles from "./FloatingChat.module.css";
 
 // SVG path for WhatsApp
@@ -18,26 +19,32 @@ export default function FloatingChat() {
   return (
     <div className={styles.container}>
       {/* WeChat Button */}
-      <a 
+      <motion.a 
         href={wechatUrl}
         target="_blank"
         rel="noopener noreferrer"
         className={`${styles.btn} ${styles.wechat}`}
         aria-label="Contact via WeChat"
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 3, duration: 0.5, type: "spring", stiffness: 100 }}
       >
         <WeChatIcon />
-      </a>
+      </motion.a>
 
       {/* WhatsApp Button */}
-      <a 
+      <motion.a 
         href={whatsappUrl} 
         target="_blank" 
         rel="noopener noreferrer" 
         className={`${styles.btn} ${styles.whatsapp}`}
         aria-label="Contact via WhatsApp"
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 3.2, duration: 0.5, type: "spring", stiffness: 100 }}
       >
         <WhatsAppIcon />
-      </a>
+      </motion.a>
     </div>
   );
 }
