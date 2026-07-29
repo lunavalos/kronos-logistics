@@ -77,7 +77,8 @@
     "yourMessage": "Su Mensaje",
     "sendButton": "Enviar Mensaje",
     "success": "¡Gracias! Su mensaje ha sido enviado con éxito.",
-    "error": "La verificación falló. Por favor, inténtelo de nuevo."
+    "error": "La verificación falló. Por favor, inténtelo de nuevo.",
+    "recaptchaLegal": "Este sitio está protegido por reCAPTCHA y se aplican la <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: underline; color: #888;\">Política de Privacidad</a> y los <a href=\"https://policies.google.com/terms\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: underline; color: #888;\">Términos de Servicio</a> de Google."
   },
   "ServicesPage": {
     "heroTitle": "Nuestros Servicios"

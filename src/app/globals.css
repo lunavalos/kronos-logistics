@@ -72,10 +72,7 @@ a {
   background: var(--primary);
 }
 
-/* Move reCAPTCHA badge to the bottom left so it doesn't overlap WhatsApp/WeChat floating chat */
+/* Hide Google ReCaptcha badge since we display the legal text in the contact form */
 .grecaptcha-badge {
-  left: 20px !important;
-  right: auto !important;
-  bottom: 20px !important;
-  transition: right 0.3s ease, left 0.3s ease !important;
+  visibility: hidden !important;
 }

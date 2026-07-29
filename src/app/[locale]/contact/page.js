@@ -161,6 +161,11 @@ export default function ContactPage() {
                 >
                   {status === "submitting" ? `${t("sendButton")}...` : t("sendButton")}
                 </button>
+
+                <p 
+                  style={{ fontSize: "0.75rem", color: "#888", lineHeight: "1.4", textAlign: "center", marginTop: "0.5rem" }}
+                  dangerouslySetInnerHTML={{ __html: t("recaptchaLegal") }}
+                />
               </form>
             )}
           </div>
