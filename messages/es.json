@@ -463,6 +463,18 @@
     "carriers": "Transportistas Certificados"
   },
   "TrustedBy": {
-    "title": "Con la confianza de líderes de la industria mundial"
+    "title": "Con la confianza global de líderes de la industria"
+  },
+  "Coverage": {
+    "title": "COBERTURA EN ADUANAS AÉREAS DE MÉXICO",
+    "p1": "Kronos Logistics cuenta con la autorización completa para operar dentro de recintos fiscalizados y zonas aduanales en los principales aeropuertos internacionales de México — un despacho que abre puertas a las que la mayoría de los transportistas simplemente no pueden acceder.",
+    "p2": "Nuestros operadores están ampliamente capacitados tanto en carga seca general como en materiales peligrosos — operadores autorizados que portan gafete de identificación y credenciales TAG de la ANAM que les otorgan acceso a la zona federal y permiten el despacho y liberación de embarques de importación y exportación sin demoras.",
+    "p3": "Respaldados por una profunda experiencia operativa y tecnología avanzada de rastreo, cada embarque se mueve con la precisión y seguridad que su carga exige.",
+    "airports": [
+      "ADUANA DEL AEROPUERTO INTERNACIONAL DE LA CIUDAD DE MÉXICO (AICM)",
+      "ADUANA DEL AEROPUERTO INTERNACIONAL FELIPE ÁNGELES (AIFA - NLU)",
+      "ADUANA DEL AEROPUERTO INTERNACIONAL DE GUADALAJARA (GDL)",
+      "ADUANA DEL AEROPUERTO INTERNACIONAL DE MONTERREY (MTY) - General Mariano Escobedo"
+    ]
   }
 }

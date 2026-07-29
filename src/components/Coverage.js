@@ -1,16 +1,19 @@
 "use client";
 import { motion } from "framer-motion";
 import { Check } from "lucide-react";
+import { useTranslations } from "next-intl";
 import styles from "./Coverage.module.css";
 
-const airports = [
-  "MEXICO CITY INTERNATIONAL AIRPORT CUSTOMS (AICM)",
-  "FELIPE ÁNGELES INTERNATIONAL AIRPORT CUSTOMS (AIFA - NLU)",
-  "GUADALAJARA INTERNATIONAL AIRPORT CUSTOMS (GDL)",
-  "MONTERREY INTERNATIONAL AIRPORT CUSTOMS (MTY) - General Mariano Escobedo"
-];
-
 export default function Coverage() {
+  const t = useTranslations("Coverage");
+
+  const airports = [
+    t("airports.0"),
+    t("airports.1"),
+    t("airports.2"),
+    t("airports.3")
+  ];
+
   const listVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -34,15 +37,15 @@ export default function Coverage() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className={styles.title}>COVERAGE IN MEXICO'S AIR CUSTOMS</h2>
+          <h2 className={styles.title}>{t("title")}</h2>
           <div className={styles.divider}></div>
 
           <p className={styles.paragraph}>
-            Kronos Logistics holds full authorization to operate within bonded facilities and customs zones at Mexico’s principal international airports — clearance that opens doors most carriers simply can’t access.
+            {t("p1")}
           </p>
 
           <p className={styles.paragraph}>
-            Our drivers are extensively trained across general dry cargo and hazardous materials — authorized operators carrying ID badge and ANAM TAG credentials that grant access to the federal zone and enable the clearance and dispatch of import and export shipments without delay.
+            {t("p2")}
           </p>
 
           <motion.ul
@@ -61,7 +64,7 @@ export default function Coverage() {
           </motion.ul>
 
           <p className={styles.paragraph}>
-            Backed by deep operational experience and advanced tracking technology, every shipment moves with the precision and security your cargo demands.
+            {t("p3")}
           </p>
         </motion.div>
       </div>

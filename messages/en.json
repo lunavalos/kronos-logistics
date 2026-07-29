@@ -464,5 +464,17 @@
   },
   "TrustedBy": {
     "title": "Trusted by Industry Leaders Worldwide"
+  },
+  "Coverage": {
+    "title": "COVERAGE IN MEXICO'S AIR CUSTOMS",
+    "p1": "Kronos Logistics holds full authorization to operate within bonded facilities and customs zones at Mexico’s principal international airports — clearance that opens doors most carriers simply can’t access.",
+    "p2": "Our drivers are extensively trained across general dry cargo and hazardous materials — authorized operators carrying ID badge and ANAM TAG credentials that grant access to the federal zone and enable the clearance and dispatch of import and export shipments without delay.",
+    "p3": "Backed by deep operational experience and advanced tracking technology, every shipment moves with the precision and security your cargo demands.",
+    "airports": [
+      "MEXICO CITY INTERNATIONAL AIRPORT CUSTOMS (AICM)",
+      "FELIPE ÁNGELES INTERNATIONAL AIRPORT CUSTOMS (AIFA - NLU)",
+      "GUADALAJARA INTERNATIONAL AIRPORT CUSTOMS (GDL)",
+      "MONTERREY INTERNATIONAL AIRPORT CUSTOMS (MTY) - General Mariano Escobedo"
+    ]
   }
 }
