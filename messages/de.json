@@ -1,0 +1,487 @@
+{
+    "Navbar": {
+        "home": "Startseite",
+        "aboutUs": "Über uns",
+        "services": "Leistungen",
+        "contact": "Kontakt",
+        "trackShipment": "Sendung verfolgen"
+    },
+    "Footer": {
+        "copyright": "ALLE RECHTE VORBEHALTEN - KRONOS LOGISTICS ©",
+        "quickLinks": "SCHNELLLINKS",
+        "servicesTitle": "LEISTUNGEN",
+        "createdBy": "ERSTELLT VON",
+        "privacyPolicy": "DATENSCHUTZERKLÄRUNG",
+        "home": "Startseite",
+        "aboutUs": "Über uns",
+        "services": "Leistungen",
+        "contactUs": "Kontakt"
+    },
+    "Hero": {
+        "title": "KRONOS WORLDWIDE <br></br> SUPPLY CHAIN SOLUTIONS",
+        "subtitle": "Direkte Ausführung. Globale Transparenz.",
+        "requestQuote": "Angebot anfordern",
+        "scrollDown": "Nach unten scrollen"
+    },
+    "AboutIntro": {
+        "title": "KRONOS LOGISTICS",
+        "tagline": "Globale Logistik, auf die Sie zählen können.",
+        "description": "Kronos Logistics ist ein globaler Supply-Chain-Partner, dem Branchen vertrauen, in denen Präzision keine Kompromisse duldet. Ihre Lieferkette verdient präzise Lösungen, die auf Zuverlässigkeit, Geschwindigkeit und Kosteneffizienz ausgelegt sind — und genau das liefern wir, überall auf der Welt.",
+        "readMore": "Mehr erfahren"
+    },
+    "Features": {
+        "title": "WARUM KRONOS FÜR SIE ARBEITET",
+        "flexibilityTitle": "Flexibilität, die zu Ihrem Betrieb passt",
+        "flexibilityDesc": "Wählen Sie direkte Ausführung, strategische Koordination oder eine Kombination aus beidem — was auch immer Ihre Lieferkette tatsächlich benötigt, Sendung für Sendung.",
+        "partnerTitle": "Ein Partner, jeder Anbieter koordiniert",
+        "partnerDesc": "Weltweit — Ob wir Ihre Fracht selbst transportieren oder die dafür zuständigen Anbieter koordinieren: Sie haben einen einzigen Ansprechpartner, der auf sechs Kontinenten verantwortlich ist.",
+        "visibilityTitle": "Vollständige Transparenz durch die Kronos App",
+        "visibilityDesc": "Verfolgen Sie jede Sendung, über jeden Anbieter und jede Grenze hinweg, von einem einzigen Echtzeit-Dashboard aus.",
+        "customsTitle": "Spezialisierte Zollexperten an jedem Kontrollpunkt",
+        "customsDesc": "Professionelles Zollabfertigungsmanagement für Ihr gesamtes Netzwerk — nicht nur für die Strecken, die Kronos direkt betreibt.",
+        "techTitle": "Technologiegetriebene Supply-Chain-Orchestrierung",
+        "techDesc": "Echtzeit-Daten und intelligente Routenplanung, die Effizienzpotenziale identifizieren, die kein einzelner Spediteur allein erkennen könnte.",
+        "precisionTitle": "Gebaut für Branchen, in denen Präzision unverzichtbar ist",
+        "precisionDesc": "Speziell entwickelt für globale Lieferketten in der Automobil-, Luft- und Raumfahrt-, Verteidigungs-, Pharma- und Hochtechnologiebranche."
+    },
+    "CTA": {
+        "title": "Bereit, Ihre Fracht <br></br> zu bewegen?",
+        "button": "Jetzt Angebot einholen",
+        "quote": "Kronos Logistics ist für unsere Lieferkette unverzichtbar geworden und liefert jedes Mal schnell und zuverlässig.",
+        "name": "John Smith",
+        "role": "Supply Chain Manager"
+    },
+    "AboutUs": {
+        "heroTitle": "Über uns",
+        "title": "KRONOS LOGISTICS",
+        "subtitle": "Globale Logistik, auf die Sie zählen können.",
+        "description": "Kronos Logistics ist ein globaler Supply-Chain-Partner, dem Branchen vertrauen, in denen Präzision keine Kompromisse duldet. Ihre Lieferkette verdient präzise Lösungen, die auf Zuverlässigkeit, Geschwindigkeit und Kosteneffizienz ausgelegt sind — und genau das liefern wir, überall auf der Welt. Wir sichern jedes Glied Ihrer Lieferkette mit zertifizierten Zollspezialisten, die die Abfertigung an Grenzen weltweit übernehmen, und einem einzigen Ansprechpartner, der Ihnen genau das Maß an Kontrolle verschafft, das Ihr Betrieb benötigt — ob durch direkten Transport Ihrer Güter, die Koordination eines gesamten Anbieternetzwerks oder beides. Ein globaler Partner. Jede Lösung. Totale Sicherheit, von Anfang bis Ende.",
+        "col1Title": "3PL — Direkte Ausführung",
+        "col1Text": "Wir übernehmen Transport, Lagerung und Zolldienstleistungen direkt — ein einziger, verantwortlicher Partner, der Ihre physische Lieferkette von Anfang bis Ende verwaltet, unterstützt durch zertifizierte Spezialisten und Echtzeit-Tracking über die Kronos App.",
+        "col2Title": "4PL — Strategische Orchestrierung",
+        "col2Text": "Wenn Ihr Logistiknetzwerk mehrere Spediteure, Lager und Anbieter über Grenzen und Kontinente hinweg umfasst, wird Kronos zur zentralen Steuerungsinstanz — und koordiniert Ihr gesamtes Netzwerk, einschließlich externer Anbieter, unter einer einheitlichen Strategie."
+    },
+    "Contact": {
+        "heroTitle": "Kontakt",
+        "getInTouch": "Nehmen Sie Kontakt auf",
+        "contactDesc": "Haben Sie Fragen zu unseren Leistungen oder benötigen Sie ein Angebot? Unser Team steht Ihnen für Ihre Logistikanforderungen zur Verfügung.",
+        "email": "E-Mail",
+        "emailValue": "booking@kronos-logistics.com",
+        "phone": "Telefon",
+        "phoneValue": "+1(956)600-3606",
+        "office": "Büro",
+        "officeValue": "Laredo, Texas, USA",
+        "sendMessage": "Nachricht senden",
+        "fullName": "Vollständiger Name",
+        "emailAddress": "E-Mail-Adresse",
+        "yourMessage": "Ihre Nachricht",
+        "sendButton": "Nachricht senden",
+        "success": "Vielen Dank! Ihre Nachricht wurde erfolgreich gesendet.",
+        "error": "Überprüfung fehlgeschlagen. Bitte versuchen Sie es erneut.",
+        "recaptchaLegal": "Diese Website ist durch reCAPTCHA geschützt. Es gelten die <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: underline; color: #888;\">Datenschutzrichtlinie</a> und die <a href=\"https://policies.google.com/terms\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: underline; color: #888;\">Nutzungsbedingungen</a> von Google."
+    },
+    "ServicesPage": {
+        "heroTitle": "Unsere Leistungen"
+    },
+    "Tracking": {
+        "heroTitle": "Sendung verfolgen",
+        "placeholder": "Chain Code eingeben",
+        "trackButton": "Verfolgen",
+        "pickup": "Abholung",
+        "shipmentRegistered": "Sendung registriert",
+        "pendingDesc": "Für diese Referenz wurden noch keine Einträge hinzugefügt. Die Sendungsdetails werden hier angezeigt, sobald die Bearbeitung beginnt. Bitte versuchen Sie es später erneut.",
+        "shipper": "Absender",
+        "consignee": "Empfänger",
+        "etaDelivery": "Voraussichtliche Lieferung",
+        "currentLocation": "Aktueller Standort",
+        "historyTitle": "Tracking-Verlauf",
+        "howToUse": "Wie funktioniert die Sendungsverfolgung?",
+        "howToUseDesc": "Geben Sie Ihren Chain Code ein, um Sendungsinformationen abzurufen: aktuellen Status, Standort und Lieferdetails.",
+        "connectionError": "Verbindung zum Server nicht möglich. Bitte versuchen Sie es erneut."
+    },
+    "Services": {
+        "4pl-logistics": {
+            "metaTitle": "4PL-Logistik - Kronos Logistics",
+            "metaDesc": "Kronos Logistics bietet maßgeschneiderte 4PL-Logistiklösungen, die Lagerung, Transport und Bestandsmanagement integrieren, um Ihre Lieferkette zu optimieren und Kosten zu senken.",
+            "heroTitle": "4PL-Logistik",
+            "intro": "Ein dedizierter Partner für Ihre Lieferkette — nicht bloß ein Dienstleister. Als Ihr 4PL-Partner übernimmt KRONOS die vollständige Verantwortung für Ihren Logistikbetrieb — Transport, Lagerung und Zoll — orchestriert als ein einziges, nahtloses System, das ein internationales Netzwerk von Partnern, Häfen und Umschlagspunkten umspannt. Jede Sendung wird mit Präzision, Sicherheit und Transparenz geplant, unterstützt von einer integrierten Technologieplattform und überwacht von Spezialisten für Supply-Chain- und Zollmanagement, die Komplexität erkennen, bevor sie zur Verzögerung wird.",
+            "advantagesTitle": "Der KRONOS-Vorteil",
+            "advantages": [
+                {
+                    "title": "Globale Reichweite, lokale Ausführung",
+                    "desc": "Tätigkeit über Grenzen und Märkte hinweg durch ein etabliertes internationales Netzwerk — wir transportieren Ihre Waren dorthin, wo Ihr Geschäft Sie hinführt."
+                },
+                {
+                    "title": "Sichere und zuverlässige Beförderung",
+                    "desc": "Fracht wird vom Ursprung bis zum Endziel gesichert und überwacht, um das Risiko an jedem Punkt der Reise zu minimieren."
+                },
+                {
+                    "title": "Technologiegestützte Transparenz",
+                    "desc": "Eine vollständig integrierte digitale Plattform liefert Echtzeit-Tracking und Daten über jede Phase Ihrer Lieferkette — ohne Unklarheiten."
+                },
+                {
+                    "title": "Expertenhände auf jedem Schritt",
+                    "desc": "Supply-Chain- und Zollspezialisten überwachen jede Bewegung und navigieren regulatorische Komplexität, damit Ihre Fracht ohne Unterbrechung fließt."
+                },
+                {
+                    "title": "Kapital erhalten",
+                    "desc": "Ihre Ressourcen bleiben in Ihrem Kerngeschäft investiert — nicht in Lagerhäuser, Fuhrparks oder Infrastruktur."
+                },
+                {
+                    "title": "Kontinuierliche Optimierung",
+                    "desc": "Ihre Lieferkette entwickelt sich durch gezielte, datengestützte Anpassungen weiter — niemals nach einer Standardvorlage."
+                },
+                {
+                    "title": "Eine Beziehung, vollständige Verantwortung",
+                    "desc": "Ein einziger Ansprechpartner bei KRONOS koordiniert alle beweglichen Teile — ohne Interpretationsspielraum."
+                }
+            ]
+        },
+        "air-freight": {
+            "metaTitle": "Luftfracht - Kronos Logistics",
+            "metaDesc": "Kronos Logistics bietet schnelle, sichere und zuverlässige Luftfrachtdienste weltweit. Wir analysieren Ihre Frachtgröße und Ihr Budget, um kosteneffiziente Logistiklösungen zu liefern.",
+            "heroTitle": "Luftfracht",
+            "intro": "Mit unserer globalen Erfahrung bieten wir zuverlässige und effiziente Luftfrachtdienste, die den spezifischen Transport- und Logistikbedürfnissen unserer Kunden entsprechen. Wir analysieren Ihre Frachtgröße und Ihr Budget, um Ihnen die geeignetste und kosteneffizienteste Lösung anzubieten, mit der Sie Ihre Fracht schnell und sicher bewegen können.",
+            "advantagesTitle": "Wesentliche Vorteile",
+            "advantages": [
+                {
+                    "title": "Schnellste Versandmethode",
+                    "desc": "Ihre Fracht kann in kurzer Zeit große Entfernungen zurücklegen und stellt sicher, dass dringende Lieferungen ihren Termin einhalten."
+                },
+                {
+                    "title": "Zuverlässige Planung & Tracking",
+                    "desc": "Verlässliche Ankunfts- und Abflugzeiten mit einfachem Echtzeit-Tracking, das Ihnen jederzeit den Status Ihrer Fracht anzeigt."
+                },
+                {
+                    "title": "Hohes Sicherheitsniveau",
+                    "desc": "Strenge Flughafensicherheitskontrollen reduzieren das Diebstahlrisiko und verhindern potenzielle Frachtverunreinigung."
+                },
+                {
+                    "title": "Geringes Beschädigungsrisiko",
+                    "desc": "Weniger Umschlagspunkte und minimale Handhabung während des Transports senken die Wahrscheinlichkeit von Beschädigungen erheblich."
+                }
+            ],
+            "includedTitle": "Unsere Leistungen umfassen",
+            "included": [
+                "Nächster verfügbarer Flug (Next Flight Out)",
+                "Expressversand",
+                "Charterflüge",
+                "Hand Carrier",
+                "Counter to Counter",
+                "Internationale Zollagentur"
+            ]
+        },
+        "bonded-carrier": {
+            "metaTitle": "Bonded Carrier - Kronos Logistics",
+            "metaDesc": "Kronos Logistics bietet lizenzierte Bonded-Carrier-Dienste, mit denen Sie Fracht sicher und effizient durch US-Grenzübergänge transportieren können, ohne sofortige Zollzahlungen leisten zu müssen.",
+            "heroTitle": "Bonded Carrier",
+            "intro": "Transport, der lizenziert ist, Fracht durch US-Grenzübergänge zu befördern, ohne während des Transits Zölle, Steuern oder Gebühren auf diese Waren zahlen zu müssen. Mit diesem spezialisierten Service helfen wir unseren Kunden, Transitzeiten zu verkürzen, grenzüberschreitende Verfahren zu vereinfachen und die Logistikkosten niedrig zu halten.",
+            "advantagesTitle": "Wesentliche Vorteile",
+            "advantages": [
+                {
+                    "title": "Zollaufschub & Transit",
+                    "desc": "Ermöglicht den Transport Ihrer Fracht über internationale Grenzen, bevor Zölle oder Steuern entrichtet werden müssen."
+                },
+                {
+                    "title": "Integration von Zolllager",
+                    "desc": "Ermöglicht die Lagerung Ihrer Waren in einem gesicherten Zolllager, während auf den nächsten geplanten Transport gewartet wird."
+                },
+                {
+                    "title": "Zeit- und Kosteneffizienz",
+                    "desc": "Spart Zeit und Geld durch erhebliche Reduzierung von Papierkram und Zollabfertigungsverzögerungen an Grenzübergängen."
+                },
+                {
+                    "title": "Erhöhte Transportsicherheit",
+                    "desc": "Bietet vollständige Sicherheit, da die Fracht in einem versiegelten Auflieger transportiert und während des Transits engmaschig überwacht werden muss."
+                }
+            ]
+        },
+        "full-truckload-ftl": {
+            "metaTitle": "USMCA FTL - Kronos Logistics",
+            "metaDesc": "Kronos Logistics bietet zuverlässige und professionelle USMCA-Komplettladungsverkehre (FTL). Wir bieten Trockenvan-, temperaturgeführte, Schwertransport- und Flachwagen-Transporte an.",
+            "heroTitle": "USMCA FTL",
+            "intro": "Wir arbeiten eng mit einem sehr großen, zuverlässigen und qualitativ hochwertigen Spediteurnetzwerk zusammen, um professionelle Dienstleistungen und den besten erschwinglichen Tarif für alle Ihre Komplettladungsbedürfnisse zu bieten. Wenn Sie eine Sendung haben, die einen Standardauflieger füllt, oder wenn Sie hochwertige Fracht haben, ist unser FTL-Service die beste Option, um Ihre Fracht sicher und effizient zu transportieren.",
+            "advantagesTitle": "Wesentliche Vorteile",
+            "advantages": [
+                {
+                    "title": "Direkter & schneller Transit",
+                    "desc": "Schnellste Versandmethode auf dem Landweg. Ihre Fracht geht direkt von A nach B ohne zusätzliche Zwischenstopps."
+                },
+                {
+                    "title": "Dedizierte & sichere Fracht",
+                    "desc": "Beste Option für großvolumige Fracht. Geringeres Beschädigungsrisiko, da der Auflieger Ihrer Fracht gewidmet ist und vom Abgang bis zum Ziel geschlossen bleibt."
+                },
+                {
+                    "title": "Kosteneffiziente Logistik",
+                    "desc": "Ermöglicht den Versand großer Warenmengen zu geringeren Kosten pro Einheit und maximiert Ihre Budgeteffizienz."
+                }
+            ],
+            "includedTitle": "Unsere Leistungen umfassen",
+            "included": [
+                "Trockenvan",
+                "Temperaturgeführt (Kühlauflieger)",
+                "Schwertransport & Sondertransporte",
+                "Flachwagen",
+                "Gefahrgut (Hazmat)",
+                "Expressversand",
+                "Cross-Docking"
+            ]
+        },
+        "hand-carrier-service": {
+            "metaTitle": "Hand Carrier Service - Kronos Logistics",
+            "metaDesc": "Kronos Logistics bietet hochdringliche Hand-Carrier-/Onboard-Kurier-Dienste. Ihre hochwertigen oder kritischen Sendungen sind stets unter vollständiger Kontrolle, Obhut und maximaler Geschwindigkeit.",
+            "heroTitle": "Hand Carrier Service",
+            "intro": "Der Hand-Carry-/Onboard-Kurier-Dienst zeichnet sich durch den Einsatz in Situationen äußerster Dringlichkeit aus. Wenn ein Unternehmen Fracht sofort liefern muss (kritische Teile, Prototypen oder hochwertige Gegenstände), um Bandstillstände oder hohe Vertragsstrafen zu vermeiden, ist dieser Service die beste Lösung. Wir stellen einen dedizierten Kurier bereit, der Ihre Fracht an Bord eines Passagierflugzeugs begleitet, um Obhut, Geschwindigkeit und Lieferung zu gewährleisten.",
+            "advantagesTitle": "Wesentliche Vorteile",
+            "advantages": [
+                {
+                    "title": "Maximale Geschwindigkeit & Dringlichkeit",
+                    "desc": "Schnellste Versandmethode. Der Kurier nimmt den nächsten verfügbaren Flug, um die Fracht direkt an ihren Bestimmungsort zu liefern."
+                },
+                {
+                    "title": "Lückenlose Obhut",
+                    "desc": "Vollständige Obhut und Kontrolle. Der Kurier hat die Fracht vom Abholort bis zur Lieferung jederzeit in seiner persönlichen Obhut."
+                },
+                {
+                    "title": "Beschleunigte Zollabfertigung",
+                    "desc": "Verkürzt Zollabfertigungszeiten. Die Fracht reist als Passagiergepäck, was Zollverfahren am Zielort beschleunigt."
+                },
+                {
+                    "title": "Kontinuierliche Überwachung",
+                    "desc": "Überwachter Transit. Echtzeit-Updates und direkte Kommunikation mit dem Kurier während der gesamten Reise."
+                }
+            ]
+        },
+        "hazmat-logistics": {
+            "metaTitle": "Gefahrgutlogistik - Kronos Logistics",
+            "metaDesc": "Kronos ist vollständig zertifiziert für den Transport gefährlicher Güter auf der Straße, in der Luft und auf See nach DOT-, IATA-DGR-, IMDG- und NOM-002-SCT-Standards.",
+            "heroTitle": "Gefahrgutlogistik",
+            "intro": "Gefahrstoffe dulden keinen Fehler. Kronos ist vollständig zertifiziert für den Transport gefährlicher Güter auf der Straße, in der Luft und auf See — gemäß DOT-, IATA-DGR-, IMDG- und NOM-002-SCT-Standards — mit zertifizierten Spezialisten, die jeden Kontrollpunkt überwachen. Entwickelt für Branchen, die sich keinen Fehler leisten können: Chemie, Petrochemie, Pharmazeutik, Energie und Industrieproduktion.",
+            "advantagesTitle": "Der Kronos-Gefahrgutstandard",
+            "advantages": [
+                {
+                    "title": "Zertifiziert für jeden Transportweg",
+                    "desc": "DOT-, IATA-DGR- und IMDG-zertifizierte Handhabung gefährlicher Güter auf der Straße, in der Luft und auf See — ein Partner, jeder Transportweg."
+                },
+                {
+                    "title": "Vollständige Gefahrklassenabdeckung",
+                    "desc": "Von Klasse 1 (Explosivstoffe) bis Klasse 9 (sonstige gefährliche Güter) — unsere zertifizierten Teams sind ausgebildet und ausgerüstet, um das gesamte Spektrum der Gefahrklassifizierungen zu handhaben."
+                },
+                {
+                    "title": "Grenzüberschreitende Compliance",
+                    "desc": "NOM-002-SCT-zertifiziert für den mexikanischen Straßentransport, mit bundesbehördlich zugelassenen Fahrern und gültigen SCT-Genehmigungen an jedem Übergang."
+                },
+                {
+                    "title": "Echtzeit-Tracking",
+                    "desc": "Überwachen Sie Standort, Compliance-Status und Meilensteinfortschritt Ihrer Gefahrgutsendung in Echtzeit über die Kronos App."
+                }
+            ]
+        },
+        "less-than-truckload-ltl": {
+            "metaTitle": "USMCA LTL - Kronos Logistics",
+            "metaDesc": "Kronos Logistics bietet flexiblen und kosteneffizienten USMCA-Sammelgutverkehr (LTL). Kombinieren Sie Ihre Fracht mit anderen, um Transportkosten zu senken und die Effizienz zu steigern.",
+            "heroTitle": "USMCA LTL",
+            "intro": "Wenn Sie Ihre Frachtkosten senken möchten, ist LTL (Sammelgutverkehr) Ihre beste Lösung. Es ist ideal, wenn Ihre Sendung keinen dedizierten Auflieger erfordert. Unser LTL-Service kombiniert Sendungen mehrerer Kunden auf einem einzigen Auflieger und bietet mehr Flexibilität, Effizienz und erhebliche Einsparungen für Ihre täglichen Transportoperationen.",
+            "advantagesTitle": "Wesentliche Vorteile",
+            "advantages": [
+                {
+                    "title": "Kosteneffizienter Versand",
+                    "desc": "Kosteneffizienter Frachttransport durch die Kombination von Fracht mehrerer Versender auf einem einzigen Auflieger."
+                },
+                {
+                    "title": "Geeignet für kleine Unternehmen",
+                    "desc": "Ideal für kleine und mittlere Unternehmen, die nicht in großen Mengen versenden, aber regelmäßige Abfahrten benötigen."
+                },
+                {
+                    "title": "Verbesserte Frachtsicherheit",
+                    "desc": "Verbessert die Sicherheit, da Sendungen häufig auf Paletten gepackt und vor dem Verladen schrumpfgewickelt werden."
+                },
+                {
+                    "title": "Echtzeit-Tracking",
+                    "desc": "Leicht zu verfolgen, sodass Sie immer wissen, wo sich Ihre Fracht befindet und wann sie an ihrem Ziel ankommt."
+                },
+                {
+                    "title": "Flexible Abfahrtszeiten",
+                    "desc": "Ideal für nicht zeitkritische Sendungen mit flexiblen Transitoptionen zu einem günstigeren Preis."
+                }
+            ],
+            "includedTitle": "Unsere Leistungen umfassen",
+            "included": [
+                "Regulärer Sammelgutverkehr (LTL)",
+                "Konsolidierung",
+                "Gefahrgut",
+                "Internationale Zollagentur"
+            ]
+        },
+        "sea-freight": {
+            "metaTitle": "Seefracht - Kronos Logistics",
+            "metaDesc": "Kronos Logistics bietet hochwertige und sichere Seefracht-Dienste, einschließlich FCL, LCL und Zoll-Compliance für weltweite Im- und Exporte.",
+            "heroTitle": "Seefracht",
+            "intro": "Mit höchsten Qualitäts- und Sicherheitsstandards bieten wir Seefracht-Dienstleistungen, Import und Export von/zu allen wichtigen Häfen der Welt an. Kronos Logistics ist in der Lage, Ihnen die beste Versandlogistik und umfassende Zoll-Compliance für Ihre internationalen Sendungen zu bieten.",
+            "advantagesTitle": "Wesentliche Vorteile",
+            "advantages": [
+                {
+                    "title": "Übergroße & schwere Fracht",
+                    "desc": "Kapazität für schwere Fracht durch Abdeckung vieler Arten von übergroßen und großvolumigen Frachtformaten."
+                },
+                {
+                    "title": "Maximale Transitsicherheit",
+                    "desc": "Schiffe sind in hohem Maße für den Transport von Gefahrstoffen und Spezialgütern unter strengen internationalen Sicherheitsstandards ausgelegt."
+                },
+                {
+                    "title": "Günstige globale Tarife",
+                    "desc": "Für interkontinentale Logistik ermöglicht Seefracht den Transport größerer Frachtmengen zu deutlich geringeren Kosten als Luftfracht."
+                }
+            ],
+            "includedTitle": "Unsere Leistungen umfassen",
+            "included": [
+                "Vollcontainerladung (FCL)",
+                "Sammelcontainerladung (LCL)",
+                "Drayage (Containernahverkehr)",
+                "Internationale Zollagentur"
+            ]
+        },
+        "trailer-rental": {
+            "metaTitle": "Auflieger-Leasing - Kronos Logistics",
+            "metaDesc": "Kronos Logistics bietet flexibles Trockenvan- und Flachwagen-Auflieger-Leasing. Kurzzeit- oder Langzeitmiete, um Ihren Fuhrpark nach Bedarf zu skalieren.",
+            "heroTitle": "Auflieger-Leasing",
+            "intro": "Die Miete gibt Ihnen die Freiheit und Flexibilität, genau die Auflieger zu haben, die Sie benötigen — ob Sie eine Kurzzeit-Miete für Spitzensaisonbedarf oder einen Leasingvertrag zur langfristigen Fuhrparkskalierung suchen. Wir bieten gut gewartete, zuverlässige Auflieger-Ausrüstung, die bereit ist, Ihre Fracht zu transportieren.",
+            "advantagesTitle": "Wesentliche Vorteile",
+            "advantages": [
+                {
+                    "title": "Geringere Kapitalkosten",
+                    "desc": "Die Miete gibt Ihnen die Freiheit und Flexibilität, genau die Auflieger zu haben, die Sie benötigen — zu geringeren Kosten als beim Kauf."
+                },
+                {
+                    "title": "Keine Wartungskosten",
+                    "desc": "Keine Wartungskosten, da wir regelmäßige Wartung und Inspektionen übernehmen und vollständige Compliance und Sicherheit gewährleisten."
+                },
+                {
+                    "title": "Keine Standkosten",
+                    "desc": "Vermeiden Sie langfristige Lagergebühren und Kosten für ruhende Anlagen, indem Sie unsere Auflieger nur bei aktiver Nutzung einsetzen."
+                },
+                {
+                    "title": "Flexible Mietdauern",
+                    "desc": "Auflieger-Miete für genau die Zeit, die Sie benötigen — ob Kurzzeit-Miete oder Langzeit-Leasingvertrag."
+                }
+            ],
+            "includedTitle": "Ausrüstungsoptionen",
+            "included": [
+                "Trockenvan-Auflieger",
+                "Flachwagen-Auflieger",
+                "Spezialausrüstung"
+            ]
+        },
+        "warehousing": {
+            "metaTitle": "Lagerung - Kronos Logistics",
+            "metaDesc": "Kronos Logistics bietet sichere, flexible und überwachte Lagerlösungen. Halten Sie Ihre Fracht an strategischen Verteilpunkten sicher aufbewahrt.",
+            "heroTitle": "Lagerung",
+            "intro": "Wir verstehen, dass moderne Industrien eine hohe Lagerflexibilität entlang ihrer Logistikkette benötigen. Deshalb arbeiten wir mit sicheren und zuverlässigen Lagerdienstleistern an wichtigen Häfen und strategischen Standorten zusammen, damit Ihre Fracht unter kontinuierlicher Überwachung und professionellem Management gehalten werden kann.",
+            "advantagesTitle": "Wesentliche Vorteile",
+            "advantages": [
+                {
+                    "title": "Betriebskosteneinsparungen",
+                    "desc": "Kosteneinsparungen durch Wegfall von Ausgaben für Anlagenwartung, dediziertes Personal und spezialisierte Lagerausrüstung."
+                },
+                {
+                    "title": "Strategische Verteilung",
+                    "desc": "Etablieren Sie strategische Verteilpunkte in der Nähe wichtiger Häfen und Logistikdrehscheiben, um Transitzeiten zu optimieren."
+                },
+                {
+                    "title": "Flächenoptimierung",
+                    "desc": "Sparen Sie wertvollen Lagerplatz in Ihrer eigenen Anlage, indem Sie Überschussbestände in unserem gesicherten Netzwerk lagern."
+                },
+                {
+                    "title": "Nahtlose Geschäftserweiterung",
+                    "desc": "Unser Lagernetzwerk wird zur Erweiterung Ihres Unternehmens, ohne dass direkte Arbeitskräfte oder Managementaufwand erhöht werden müssen."
+                }
+            ],
+            "includedTitle": "Unsere Leistungen umfassen",
+            "included": [
+                "Verpackung",
+                "Be- & Entladung",
+                "Zyklische Inventur & Bestandskontrolle"
+            ]
+        }
+    },
+    "ServicesSidebar": {
+        "title": "Lösung gesucht?",
+        "text": "Kontaktieren Sie noch heute unsere Logistikexperten, um die perfekte Lösung für Ihre Supply-Chain-Anforderungen zu finden.",
+        "button": "Kontakt aufnehmen"
+    },
+    "OurServices": {
+        "title": "UNSERE LEISTUNGEN",
+        "quote": "Zuverlässige Lösungen. Globales Netzwerk. Aufgebaut auf Vertrauen.",
+        "subtitle": "Unternehmen müssen sicher sein, dass ihr Transportdienstleister alle Arten des Frachtmanagements anbieten kann — hochwertige, personalisierte und innovative Lösungen, die auf die eigenen Geschäftsbedürfnisse zugeschnitten sind. Deshalb bieten wir globale Logistikdienste, auf die Sie zählen können.",
+        "exploreAll": "Alle Leistungen entdecken",
+        "services": {
+            "ftl": {
+                "title": "USMCA FTL",
+                "description": "Wir arbeiten eng mit einem sehr großen, zuverlässigen und qualitativ hochwertigen Spediteurnetzwerk zusammen, um professionelle Dienstleistungen und den besten erschwinglichen Tarif für alle Ihre Komplettladungsbedürfnisse zu bieten."
+            },
+            "ltl": {
+                "title": "USMCA LTL",
+                "description": "Wenn Sie Ihre Frachtkosten senken möchten, ist LTL (Sammelgutverkehr) Ihre beste Lösung. Er ist ideal, wenn Ihre Sendung keinen dedizierten Auflieger erfordert."
+            },
+            "air": {
+                "title": "Luftfracht",
+                "description": "Mit unserer globalen Erfahrung bieten wir zuverlässige und effiziente Luftfrachtdienste, die den spezifischen Transport- und Logistikbedürfnissen unserer Kunden entsprechen."
+            },
+            "hand": {
+                "title": "Hand Carrier Service",
+                "description": "Der Hand-Carry-/Onboard-Kurier-Dienst zeichnet sich durch den Einsatz in Situationen äußerster Dringlichkeit aus. Wir stellen einen dedizierten Kurier bereit, der Ihre Fracht an Bord eines Passagierflugzeugs begleitet, um Obhut und Geschwindigkeit zu gewährleisten."
+            },
+            "sea": {
+                "title": "Seefracht",
+                "description": "Mit höchsten Qualitäts- und Sicherheitsstandards bieten wir Seefracht-Dienstleistungen, Import und Export von/zu allen wichtigen Häfen der Welt an."
+            },
+            "warehousing": {
+                "title": "Lagerung",
+                "description": "Wir verstehen, dass moderne Industrien eine hohe Lagerflexibilität entlang ihrer Logistikkette benötigen. Deshalb arbeiten wir mit sicheren und zuverlässigen Lagerdienstleistern zusammen."
+            },
+            "hazmat": {
+                "title": "Gefahrgutlogistik",
+                "description": "Kronos ist vollständig zertifiziert für den Transport gefährlicher Güter auf der Straße, in der Luft und auf See nach DOT-, IATA-DGR-, IMDG- und NOM-002-SCT-Standards, mit zertifizierten Spezialisten an jedem Kontrollpunkt."
+            },
+            "fourpl": {
+                "title": "4PL-Logistik",
+                "description": "Als Ihr 4PL-Partner übernimmt KRONOS die vollständige Verantwortung für Ihren Logistikbetrieb — Transport, Lagerung und Zoll — orchestriert als ein einziges, nahtloses System."
+            },
+            "bonded": {
+                "title": "Bonded Carrier",
+                "description": "Transport, der lizenziert ist, Fracht durch US-Grenzübergänge zu befördern, ohne während des Transits Zölle, Steuern oder Gebühren auf diese Waren zahlen zu müssen."
+            },
+            "trailer": {
+                "title": "Auflieger-Leasing",
+                "description": "Die Miete gibt Ihnen die Freiheit und Flexibilität, genau die Auflieger zu haben, die Sie benötigen — ob Kurzzeit-Miete oder Leasingvertrag."
+            }
+        }
+    },
+    "GlobalCoverage": {
+        "title": "Globale Reichweite & Vernetzung",
+        "northAmericaTitle": "Nordamerika",
+        "northAmericaDesc": "Wichtige nationale und internationale FTL/LTL-Lösungen in den USA und Mexiko.",
+        "europeTitle": "Europa",
+        "europeDesc": "Import- und Exportmanagement über wichtige See- und Luftdrehscheiben.",
+        "asiaTitle": "Asien",
+        "asiaDesc": "Nahtlose Supply-Chain-Integration für Produktion und Distribution.",
+        "shipments": "Sendungen",
+        "operations": "24/7-Betrieb",
+        "carriers": "Zertifizierte Spediteure"
+    },
+    "TrustedBy": {
+        "title": "Vertrauenspartner von Branchenführern weltweit"
+    },
+    "Coverage": {
+        "title": "ABDECKUNG IM MEXIKANISCHEN LUFTZOLL",
+        "p1": "Kronos Logistics ist vollständig autorisiert, in Zollagern und Zollzonen an Mexikos wichtigsten internationalen Flughäfen zu operieren — eine Zulassung, die Türen öffnet, zu denen die meisten Spediteure schlicht keinen Zugang haben.",
+        "p2": "Unsere Fahrer sind umfassend für allgemeine Trockenfracht und Gefahrgut geschult — zugelassene Betreiber mit Dienstausweis und ANAM-TAG-Zugangsdaten, die den Zugang zur Bundeszone ermöglichen und die Abfertigung und den Versand von Import- und Exportsendungen ohne Verzögerung erlauben.",
+        "p3": "Gestützt auf umfangreiche Betriebserfahrung und fortschrittliche Tracking-Technologie bewegt sich jede Sendung mit der Präzision und Sicherheit, die Ihre Fracht erfordert.",
+        "airports": [
+            "ZOLL AM INTERNATIONALEN FLUGHAFEN MEXIKO-STADT (AICM)",
+            "ZOLL AM INTERNATIONALEN FLUGHAFEN FELIPE ÁNGELES (AIFA - NLU)",
+            "ZOLL AM INTERNATIONALEN FLUGHAFEN GUADALAJARA (GDL)",
+            "ZOLL AM INTERNATIONALEN FLUGHAFEN MONTERREY (MTY) - General Mariano Escobedo"
+        ]
+    }
+}

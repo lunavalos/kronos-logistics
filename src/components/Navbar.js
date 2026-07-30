@@ -15,7 +15,19 @@ const languageNames = {
   es: "Español",
   pt: "Português",
   fr: "Français",
-  zh: "中文"
+  zh: "中文",
+  de: "Deutsch",
+  ko: "한국어"
+};
+
+const languageFlags = {
+  en: "🇺🇸",
+  es: "🇲🇽",
+  pt: "🇵🇹",
+  fr: "🇫🇷",
+  zh: "🇨🇳",
+  de: "🇩🇪",
+  ko: "🇰🇷"
 };
 
 const serviceItems = [
@@ -162,8 +174,9 @@ export default function Navbar() {
             <button 
               className={styles.langBtn} 
               onClick={() => setLangOpen(!langOpen)}
+              style={{ display: "flex", alignItems: "center", gap: "6px" }}
             >
-              <Globe size={16} />
+              <span style={{ fontSize: "1.1rem", lineHeight: "1" }}>{languageFlags[locale] || "🌐"}</span>
               <span>{locale.toUpperCase()}</span>
               <ChevronDown size={14} className={`${styles.chevron} ${langOpen ? styles.chevronOpen : ""}`} />
             </button>
@@ -182,8 +195,10 @@ export default function Navbar() {
                       key={loc}
                       className={`${styles.langDropdownItem} ${locale === loc ? styles.langDropdownItemActive : ""}`}
                       onClick={() => handleLocaleChange(loc)}
+                      style={{ display: "flex", alignItems: "center", gap: "8px" }}
                     >
-                      {languageNames[loc] || loc.toUpperCase()}
+                      <span style={{ fontSize: "1.1rem" }}>{languageFlags[loc] || "🌐"}</span>
+                      <span>{languageNames[loc] || loc.toUpperCase()}</span>
                     </button>
                   ))}
                 </motion.div>
@@ -273,8 +288,10 @@ export default function Navbar() {
                     key={loc}
                     className={`${styles.langDropdownItem} ${locale === loc ? styles.langDropdownItemActive : ""}`} 
                     onClick={() => { handleLocaleChange(loc); setIsOpen(false); }}
+                    style={{ display: "flex", alignItems: "center", gap: "8px", justifyContent: "center" }}
                   >
-                    {languageNames[loc] || loc.toUpperCase()}
+                    <span style={{ fontSize: "1.1rem" }}>{languageFlags[loc] || "🌐"}</span>
+                    <span>{languageNames[loc] || loc.toUpperCase()}</span>
                   </button>
                 ))}
               </div>

@@ -1,0 +1,487 @@
+{
+    "Navbar": {
+        "home": "首页",
+        "aboutUs": "关于我们",
+        "services": "服务",
+        "contact": "联系我们",
+        "trackShipment": "追踪货物"
+    },
+    "Footer": {
+        "copyright": "版权所有 - KRONOS LOGISTICS ©",
+        "quickLinks": "快速链接",
+        "servicesTitle": "服务",
+        "createdBy": "技术支持",
+        "privacyPolicy": "隐私政策",
+        "home": "首页",
+        "aboutUs": "关于我们",
+        "services": "服务",
+        "contactUs": "联系我们"
+    },
+    "Hero": {
+        "title": "KRONOS WORLDWIDE <br></br> 全球供应链解决方案",
+        "subtitle": "直接执行。全球可视化。",
+        "requestQuote": "申请报价",
+        "scrollDown": "向下滚动"
+    },
+    "AboutIntro": {
+        "title": "KRONOS LOGISTICS",
+        "tagline": "值得信赖的全球物流。",
+        "description": "Kronos Logistics 是受精密要求行业信赖的全球供应链合作伙伴。您的供应链应得到专为可靠性、速度和成本效率而设计的精准解决方案——这正是我们在世界任何地方所提供的。",
+        "readMore": "了解更多"
+    },
+    "Features": {
+        "title": "为什么选择 KRONOS",
+        "flexibilityTitle": "灵活匹配您的运营需求",
+        "flexibilityDesc": "根据每票货物的实际需求，选择直接执行、战略协调或两者结合的混合模式——完全因需制宜。",
+        "partnerTitle": "一个合作伙伴，统筹所有服务商",
+        "partnerDesc": "无论我们是直接承运您的货物，还是管理承运的服务商，您在六大洲都只需面对一个责任主体。",
+        "visibilityTitle": "通过 Kronos App 实现全程可视化",
+        "visibilityDesc": "通过一个实时仪表板，追踪每票货物、跨越每位服务商和每条边境线。",
+        "customsTitle": "每个节点均配备专业报关专家",
+        "customsDesc": "覆盖整个网络的专业清关管理——不仅限于 Kronos 直接运营的航段。",
+        "techTitle": "技术驱动的供应链编排",
+        "techDesc": "实时数据与智能路由，识别任何单一承运商都无法独立发现的效率优化空间。",
+        "precisionTitle": "专为精密要求行业打造",
+        "precisionDesc": "专门服务于汽车、航空航天、国防、制药及高科技领域的全球供应链。"
+    },
+    "CTA": {
+        "title": "准备好发运您的货物了吗？<br></br>",
+        "button": "立即获取报价",
+        "quote": "Kronos Logistics 对我们的供应链至关重要，每次都能快速、可靠地完成交付。",
+        "name": "John Smith",
+        "role": "供应链经理"
+    },
+    "AboutUs": {
+        "heroTitle": "关于我们",
+        "title": "KRONOS LOGISTICS",
+        "subtitle": "值得信赖的全球物流。",
+        "description": "Kronos Logistics 是受精密要求行业信赖的全球供应链合作伙伴。您的供应链应得到专为可靠性、速度和成本效率而设计的精准解决方案——这正是我们在世界任何地方所提供的。我们以经认证的报关专家保障供应链的每一个环节，统一管理全球各口岸的清关业务；并通过单一联系人提供您运营所需的精确管控级别——无论是直接运输货物、协调整个服务商网络，还是两者兼而有之。一个全球合作伙伴。全方位解决方案。端到端全面保障。",
+        "col1Title": "3PL — 直接执行",
+        "col1Text": "我们直接管理运输、仓储和报关服务——作为单一责任合作伙伴，端到端处理您的实体供应链，并通过 Kronos App 提供认证专家支持和实时追踪。",
+        "col2Title": "4PL — 战略编排",
+        "col2Text": "当您的物流网络跨越多家承运商、仓库和跨境、跨洲服务商时，Kronos 成为中央管控节点——在统一战略下协调您的整个网络，包括我们自有运力以外的服务商。"
+    },
+    "Contact": {
+        "heroTitle": "联系我们",
+        "getInTouch": "取得联系",
+        "contactDesc": "对我们的服务有疑问或需要报价？我们的团队随时准备满足您的物流需求。",
+        "email": "电子邮件",
+        "emailValue": "booking@kronos-logistics.com",
+        "phone": "电话",
+        "phoneValue": "+1(956)600-3606",
+        "office": "办公室",
+        "officeValue": "美国德克萨斯州拉雷多",
+        "sendMessage": "发送消息",
+        "fullName": "姓名",
+        "emailAddress": "电子邮件地址",
+        "yourMessage": "您的留言",
+        "sendButton": "发送消息",
+        "success": "感谢您！您的消息已成功发送。",
+        "error": "验证失败，请重试。",
+        "recaptchaLegal": "本网站受 reCAPTCHA 保护，适用 Google <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: underline; color: #888;\">隐私政策</a>和<a href=\"https://policies.google.com/terms\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: underline; color: #888;\">服务条款</a>。"
+    },
+    "ServicesPage": {
+        "heroTitle": "我们的服务"
+    },
+    "Tracking": {
+        "heroTitle": "追踪您的货物",
+        "placeholder": "输入 Chain Code",
+        "trackButton": "追踪",
+        "pickup": "提货",
+        "shipmentRegistered": "货物已登记",
+        "pendingDesc": "此参考编号暂无记录。处理开始后，货物详情将在此显示。请稍后再试。",
+        "shipper": "发货方",
+        "consignee": "收货方",
+        "etaDelivery": "预计送达时间",
+        "currentLocation": "当前位置",
+        "historyTitle": "追踪历史",
+        "howToUse": "如何使用追踪功能？",
+        "howToUseDesc": "输入您的 Chain Code，即可查看货物信息：当前状态、位置和交付详情。",
+        "connectionError": "无法连接服务器，请重试。"
+    },
+    "Services": {
+        "4pl-logistics": {
+            "metaTitle": "4PL 物流 - Kronos Logistics",
+            "metaDesc": "Kronos Logistics 提供量身定制的 4PL 物流解决方案，整合仓储、运输和库存管理，优化您的供应链并降低成本。",
+            "heroTitle": "4PL 物流",
+            "intro": "真正专注于您供应链的合作伙伴，而非普通服务商。作为您的第四方物流（4PL）合作伙伴，KRONOS 全面承接您的物流运营——运输、仓储和报关——作为一个整合国际合作伙伴、港口和枢纽的统一无缝系统进行编排。每票货物均以精准、安全和透明的方式规划，由集成技术平台驱动，并由供应链与报关管理专家全程监督，在延误发生之前提前预判复杂情况。",
+            "advantagesTitle": "KRONOS 优势",
+            "advantages": [
+                {
+                    "title": "全球覆盖，本地执行",
+                    "desc": "依托成熟的国际网络跨境运营——将您的货物送达业务所需的任何地方。"
+                },
+                {
+                    "title": "安全可靠的运输保障",
+                    "desc": "货物从起运地到目的地全程受到保护和监控，将风险降至最低。"
+                },
+                {
+                    "title": "技术赋能的全程可视化",
+                    "desc": "全面集成的数字平台在供应链每个环节提供实时追踪和数据，无任何盲点。"
+                },
+                {
+                    "title": "专家全程把控",
+                    "desc": "供应链与报关专家监督每一次货物流转，应对监管复杂性，确保货物不间断流通。"
+                },
+                {
+                    "title": "资本有效保全",
+                    "desc": "您的资源保持投入于核心业务，而非仓库、车队或基础设施。"
+                },
+                {
+                    "title": "持续优化迭代",
+                    "desc": "供应链通过有针对性的数据驱动调整持续进化，从不套用标准模板。"
+                },
+                {
+                    "title": "单一关系，完整责任",
+                    "desc": "KRONOS 的单一联系人统筹协调所有运营环节，责任清晰，无歧义。"
+                }
+            ]
+        },
+        "air-freight": {
+            "metaTitle": "空运 - Kronos Logistics",
+            "metaDesc": "Kronos Logistics 提供快速、安全、可靠的全球空运服务。我们分析您的货物规模和预算，提供具有成本效益的物流解决方案。",
+            "heroTitle": "空运",
+            "intro": "凭借丰富的全球经验，我们提供可靠高效的空运服务，满足客户特定的运输和物流需求。我们将分析您的货物规模和预算，为您提供最适合、最具成本效益的方案，快速安全地运输您的货物。",
+            "advantagesTitle": "核心优势",
+            "advantages": [
+                {
+                    "title": "最快的运输方式",
+                    "desc": "货物可在短时间内跨越长距离，确保紧急交货按时完成。"
+                },
+                {
+                    "title": "可靠的排班与追踪",
+                    "desc": "准时的到达和出发时间，配合便捷的实时追踪，让您随时掌握货物状态。"
+                },
+                {
+                    "title": "高度安全保障",
+                    "desc": "严格的机场安全管控降低盗窃风险，杜绝潜在的货物污染。"
+                },
+                {
+                    "title": "极低的损坏风险",
+                    "desc": "运输过程中更少的中转环节和最小化的人工搬运，显著降低货物损坏概率。"
+                }
+            ],
+            "includedTitle": "服务范围包括",
+            "included": [
+                "下一班可用航班（Next Flight Out）",
+                "优先运输",
+                "包机服务",
+                "手提随身携带",
+                "柜台对柜台",
+                "国际报关代理"
+            ]
+        },
+        "bonded-carrier": {
+            "metaTitle": "保税承运商 - Kronos Logistics",
+            "metaDesc": "Kronos Logistics 提供持牌保税承运服务，允许您在无需即时缴纳关税的情况下，安全高效地将货物运过美国入境口岸。",
+            "heroTitle": "保税承运商",
+            "intro": "持有许可证的运输服务，可在无需对货物缴纳关税、税款和/或费用的情况下，将货物运过/跨越美国入境口岸。通过提供此专项服务，我们帮助客户缩短运输时间、简化跨境程序并降低物流成本。",
+            "advantagesTitle": "核心优势",
+            "advantages": [
+                {
+                    "title": "关税递延与过境",
+                    "desc": "允许在缴纳任何关税或税款之前，将货物跨越国际边境运输。"
+                },
+                {
+                    "title": "保税仓库联动",
+                    "desc": "允许在等待下次预定运输期间，将货物存放在安全的保税仓库中。"
+                },
+                {
+                    "title": "时间与成本效率",
+                    "desc": "通过大幅减少文件工作和口岸清关延误，节省时间和资金。"
+                },
+                {
+                    "title": "增强过境安全",
+                    "desc": "提供全面安全保障——货物须在封闭拖车中运输并在过境期间严密监控。"
+                }
+            ]
+        },
+        "full-truckload-ftl": {
+            "metaTitle": "USMCA 整车运输（FTL）- Kronos Logistics",
+            "metaDesc": "Kronos Logistics 提供可靠专业的 USMCA 整车运输（FTL）解决方案，包括厢式车、温控、超限货物和平板车运输。",
+            "heroTitle": "USMCA FTL 整车运输",
+            "intro": "我们与庞大、可靠、高品质的承运商网络紧密合作，为您的整车运输需求提供专业服务和最具竞争力的价格。当您的货物装满一个标准拖车，或当您拥有高价值货物时，我们的 FTL 服务是安全高效运输的最佳选择。",
+            "advantagesTitle": "核心优势",
+            "advantages": [
+                {
+                    "title": "直达快速运输",
+                    "desc": "陆路最快运输方式。货物从 A 点直达 B 点，无需额外中转停靠。"
+                },
+                {
+                    "title": "专属安全货运",
+                    "desc": "大批量货物的最佳选择。拖车专属用于您的货物且从发车到目的地全程封闭，损坏风险极低。"
+                },
+                {
+                    "title": "高性价比物流",
+                    "desc": "以更低的单位成本运输大量货物，最大化您的预算效益。"
+                }
+            ],
+            "includedTitle": "服务范围包括",
+            "included": [
+                "干货厢式车",
+                "温控运输（冷藏车）",
+                "超限及重型货物运输",
+                "平板车",
+                "危险品（Hazmat）",
+                "加急运输",
+                "越库作业（Cross-Docking）"
+            ]
+        },
+        "hand-carrier-service": {
+            "metaTitle": "手提随行服务 - Kronos Logistics",
+            "metaDesc": "Kronos Logistics 提供高度紧急的手提随行/随机快递服务，确保您的高价值或关键货物始终处于完全管控、贴身陪护和极速运输状态。",
+            "heroTitle": "手提随行服务",
+            "intro": "手提随行/随机快递服务专为极度紧急情况而设计。当企业需要立即交付货物（关键零部件、原型机或高价值物品）以避免停线或高额违约金时，此服务是最佳解决方案。我们将指派专属随行人员陪同您的货物登机，确保全程贴身保管、极速运达。",
+            "advantagesTitle": "核心优势",
+            "advantages": [
+                {
+                    "title": "最快速度与极致紧迫性",
+                    "desc": "最快的运输方式。随行人员搭乘下一班可用航班，将货物直接送达目的地。"
+                },
+                {
+                    "title": "全程贴身保管",
+                    "desc": "全面保管与管控。随行人员从提货到交付全程亲手保管货物，分秒不离。"
+                },
+                {
+                    "title": "加速清关",
+                    "desc": "缩短清关时间。货物作为乘客行李运输，加快目的地的海关程序。"
+                },
+                {
+                    "title": "全程实时监控",
+                    "desc": "全程监控运输状态。全程与随行人员保持实时更新和直接沟通。"
+                }
+            ]
+        },
+        "hazmat-logistics": {
+            "metaTitle": "危险品物流 - Kronos Logistics",
+            "metaDesc": "Kronos 完全通过认证，可按照 DOT、IATA DGR、IMDG 和 NOM-002-SCT 标准通过公路、航空和海运运输危险品。",
+            "heroTitle": "危险品物流",
+            "intro": "危险品运输不允许任何差错。Kronos 完全通过认证，可按照 DOT、IATA DGR、IMDG 和 NOM-002-SCT 标准通过公路、航空和海运运输危险品，并由认证专家管控每一个节点。专为无法承受失误的行业打造：化工、石化、制药、能源和工业制造。",
+            "advantagesTitle": "Kronos 危险品标准",
+            "advantages": [
+                {
+                    "title": "覆盖所有运输方式的认证资质",
+                    "desc": "持有 DOT、IATA DGR 和 IMDG 认证，可通过公路、航空和海运处理危险品——一个合作伙伴，覆盖所有运输方式。"
+                },
+                {
+                    "title": "全类别危险品覆盖",
+                    "desc": "从第1类（爆炸物）到第9类（杂项危险品），我们的认证团队经过专业培训并具备处理全危险品分类的能力。"
+                },
+                {
+                    "title": "跨境合规保障",
+                    "desc": "持有墨西哥公路运输 NOM-002-SCT 认证，配备联邦持照司机，每个口岸均持有有效的 SCT 许可证。"
+                },
+                {
+                    "title": "实时追踪",
+                    "desc": "通过 Kronos App 实时监控危险品货物的位置、合规状态和里程碑进度。"
+                }
+            ]
+        },
+        "less-than-truckload-ltl": {
+            "metaTitle": "USMCA 零担运输（LTL）- Kronos Logistics",
+            "metaDesc": "Kronos Logistics 提供灵活高效的 USMCA 零担运输（LTL）服务。与其他货物拼箱运输，降低运费，提升效率。",
+            "heroTitle": "USMCA LTL 零担运输",
+            "intro": "如果您希望降低货运成本，零担运输（LTL）是您的最佳方案。它适用于货物量不足以占用一辆专属拖车的情况。我们的 LTL 服务将多位客户的货物合并至同一拖车，为您的日常运输运营提供更高的灵活性、效率和显著节省。",
+            "advantagesTitle": "核心优势",
+            "advantages": [
+                {
+                    "title": "高性价比运输",
+                    "desc": "通过将多个发货方的货物合并至同一拖车，实现高性价比的货物运输。"
+                },
+                {
+                    "title": "适合中小企业",
+                    "desc": "非常适合货运量不大但需要定期发货的中小型企业。"
+                },
+                {
+                    "title": "提升货物安全性",
+                    "desc": "货物通常在装载前打托并缠绕收缩膜，有效提升安全保障。"
+                },
+                {
+                    "title": "实时追踪",
+                    "desc": "便于追踪，让您随时掌握货物位置和预计到达时间。"
+                },
+                {
+                    "title": "灵活排班",
+                    "desc": "适用于非紧急货物，提供灵活的运输选择和更低的价格。"
+                }
+            ],
+            "includedTitle": "服务范围包括",
+            "included": [
+                "普通承运商零担（LTL）",
+                "货物拼箱整合",
+                "危险品运输",
+                "国际报关代理"
+            ]
+        },
+        "sea-freight": {
+            "metaTitle": "海运 - Kronos Logistics",
+            "metaDesc": "Kronos Logistics 提供高质量、安全的深海货运服务，包括整箱、拼箱及全球进出口报关合规服务。",
+            "heroTitle": "海运",
+            "intro": "我们以最高质量和安全标准，提供全球主要港口的深海货运、进口和出口服务。Kronos Logistics 能够为您的国际货物提供最优质的运输物流和全面的报关合规服务。",
+            "advantagesTitle": "核心优势",
+            "advantages": [
+                {
+                    "title": "超大件及重型货物运输",
+                    "desc": "具备承运多种超限和大体积货物格式的重型货物运输能力。"
+                },
+                {
+                    "title": "最高过境安全性",
+                    "desc": "船舶完全具备在严格国际安全标准下承运危险品和特种货物的能力。"
+                },
+                {
+                    "title": "实惠的全球运价",
+                    "desc": "对于洲际物流，海运可以比空运低得多的成本运输更大批量的货物。"
+                }
+            ],
+            "includedTitle": "服务范围包括",
+            "included": [
+                "整箱运输（FCL）",
+                "拼箱运输（LCL）",
+                "集装箱短驳（Drayage）",
+                "国际报关代理"
+            ]
+        },
+        "trailer-rental": {
+            "metaTitle": "拖车租赁 - Kronos Logistics",
+            "metaDesc": "Kronos Logistics 提供灵活的干货厢式车和平板拖车租赁服务，按需短租或长租，弹性扩充您的车队。",
+            "heroTitle": "拖车租赁",
+            "intro": "租赁服务让您自由灵活地拥有所需的拖车——无论您是寻找应对旺季需求的短期租赁，还是用于长期车队扩充的租约合同。我们提供维护良好、性能可靠的拖车设备，随时准备承运您的货物。",
+            "advantagesTitle": "核心优势",
+            "advantages": [
+                {
+                    "title": "较低的资本支出",
+                    "desc": "租赁让您以低于购买的成本，自由灵活地拥有所需的拖车。"
+                },
+                {
+                    "title": "零维护成本",
+                    "desc": "无需承担维护费用，我们负责定期保养和检查，确保完全合规与安全。"
+                },
+                {
+                    "title": "无闲置资产费用",
+                    "desc": "仅在实际使用时租用我们的拖车，避免长期存储费和闲置资产成本。"
+                },
+                {
+                    "title": "灵活租期",
+                    "desc": "按需租用所需时长——无论是短期租赁还是长期租约合同。"
+                }
+            ],
+            "includedTitle": "可用设备",
+            "included": [
+                "干货厢式拖车",
+                "平板拖车",
+                "特种设备"
+            ]
+        },
+        "warehousing": {
+            "metaTitle": "仓储 - Kronos Logistics",
+            "metaDesc": "Kronos Logistics 提供安全、灵活、全程监控的仓储解决方案，在战略性分拨节点安全保管您的货物。",
+            "heroTitle": "仓储",
+            "intro": "我们深知现代工业在其物流链上需要高度的仓储灵活性。因此，我们与主要港口和战略要地的安全可靠仓储服务商合作，让您的货物在持续监控和专业管理下得到妥善保管。",
+            "advantagesTitle": "核心优势",
+            "advantages": [
+                {
+                    "title": "运营成本节约",
+                    "desc": "通过消除设施维护、专职员工和特种存储设备的费用实现成本节约。"
+                },
+                {
+                    "title": "战略性分拨布局",
+                    "desc": "在主要港口和物流枢纽附近建立战略分拨节点，优化运输时效。"
+                },
+                {
+                    "title": "场地空间优化",
+                    "desc": "将超量库存存放在我们的安全网络中，为您自有设施节省宝贵的仓储空间。"
+                },
+                {
+                    "title": "无缝业务延伸",
+                    "desc": "我们的仓储网络成为您业务的延伸，无需增加直接人力或管理开销。"
+                }
+            ],
+            "includedTitle": "服务范围包括",
+            "included": [
+                "包装",
+                "装卸作业",
+                "循环盘点与库存管控"
+            ]
+        }
+    },
+    "ServicesSidebar": {
+        "title": "需要解决方案？",
+        "text": "立即联系我们的物流专家，为您的供应链需求找到最佳匹配方案。",
+        "button": "联系我们"
+    },
+    "OurServices": {
+        "title": "我们的服务",
+        "quote": "可靠的解决方案。全球网络。以信任为基。",
+        "subtitle": "企业需要确信其运输服务商能够提供所有类型的货物管理——高质量、个性化、基于自身业务需求的创新解决方案。这正是我们提供值得信赖的全球物流服务的初衷。",
+        "exploreAll": "探索全部服务",
+        "services": {
+            "ftl": {
+                "title": "USMCA FTL 整车运输",
+                "description": "我们与庞大、可靠、高品质的承运商网络紧密合作，为您的整车运输需求提供专业服务和最具竞争力的价格。"
+            },
+            "ltl": {
+                "title": "USMCA LTL 零担运输",
+                "description": "如果您希望降低货运成本，零担运输（LTL）是您的最佳方案。它适用于货物量不足以占用一辆专属拖车的情况。"
+            },
+            "air": {
+                "title": "空运",
+                "description": "凭借丰富的全球经验，我们提供可靠高效的空运服务，满足客户特定的运输和物流需求。"
+            },
+            "hand": {
+                "title": "手提随行服务",
+                "description": "手提随行/随机快递服务专为极度紧急情况而设计。我们指派专属随行人员陪同您的货物登机，确保全程贴身保管和极速送达。"
+            },
+            "sea": {
+                "title": "海运",
+                "description": "我们以最高质量和安全标准，提供全球主要港口的深海货运、进口和出口服务。"
+            },
+            "warehousing": {
+                "title": "仓储",
+                "description": "我们深知现代工业在物流链上需要高度的仓储灵活性，因此与安全可靠的仓储服务商合作，为您提供专业保管。"
+            },
+            "hazmat": {
+                "title": "危险品物流",
+                "description": "Kronos 完全通过认证，可按照 DOT、IATA DGR、IMDG 和 NOM-002-SCT 标准通过公路、航空和海运运输危险品，每个节点均配备认证专家。"
+            },
+            "fourpl": {
+                "title": "4PL 物流",
+                "description": "作为您的第四方物流（4PL）合作伙伴，KRONOS 全面承接您的物流运营——运输、仓储和报关——作为统一无缝系统进行编排。"
+            },
+            "bonded": {
+                "title": "保税承运商",
+                "description": "持有许可证的运输服务，可在无需对货物缴纳关税、税款和/或费用的情况下，将货物运过美国入境口岸。"
+            },
+            "trailer": {
+                "title": "拖车租赁",
+                "description": "租赁服务让您自由灵活地拥有所需的拖车——无论是短期租赁还是长期租约合同。"
+            }
+        }
+    },
+    "GlobalCoverage": {
+        "title": "全球覆盖与互联互通",
+        "northAmericaTitle": "北美洲",
+        "northAmericaDesc": "覆盖美国和墨西哥的主要国内及国际整车/零担运输解决方案。",
+        "europeTitle": "欧洲",
+        "europeDesc": "通过主要海运和航空枢纽进行进出口管理。",
+        "asiaTitle": "亚洲",
+        "asiaDesc": "面向制造与分销的无缝供应链整合。",
+        "shipments": "货物批次",
+        "operations": "24/7 全天候运营",
+        "carriers": "认证承运商"
+    },
+    "TrustedBy": {
+        "title": "全球行业领导者的信赖之选"
+    },
+    "Coverage": {
+        "title": "墨西哥空港海关覆盖",
+        "p1": "Kronos Logistics 持有在墨西哥主要国际机场保税区和海关监管区内运营的完整授权——这一资质打开了大多数承运商根本无法进入的大门。",
+        "p2": "我们的司机经过普通干货和危险品的全面培训，持有驾驶执照，并持有 ANAM TAG 认证凭证——授权进入联邦监管区，实现进出口货物的清关与调派，无任何延误。",
+        "p3": "凭借深厚的运营经验和先进的追踪技术，每票货物都以您的货物所要求的精准度和安全性移动。",
+        "airports": [
+            "墨西哥城国际机场海关（AICM）",
+            "费利佩·安赫莱斯国际机场海关（AIFA - NLU）",
+            "瓜达拉哈拉国际机场海关（GDL）",
+            "蒙特雷国际机场海关（MTY）- General Mariano Escobedo"
+        ]
+    }
+}
