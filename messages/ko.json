@@ -4,7 +4,8 @@
         "aboutUs": "회사 소개",
         "services": "서비스",
         "contact": "문의하기",
-        "trackShipment": "화물 추적"
+        "trackShipment": "화물 추적",
+        "airCustoms": "항공 통관"
     },
     "Footer": {
         "copyright": "모든 권리 보유 - KRONOS LOGISTICS ©",

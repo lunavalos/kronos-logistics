@@ -1,0 +1,126 @@
+.section {
+  padding: 6rem 0;
+  background-color: #ffffff;
+}
+
+.contentWrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+}
+
+@media (min-width: 1024px) {
+  .contentWrapper {
+    grid-template-columns: 1.2fr 1fr;
+    gap: 4rem;
+    align-items: start;
+  }
+}
+
+.textContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #111111;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.redLine {
+  width: 50px;
+  height: 3px;
+  background-color: var(--primary, #E31824);
+  margin: 1rem 0 2rem 0;
+}
+
+.paragraph {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #444444;
+  margin-bottom: 1.5rem;
+}
+
+.airportList {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.airportItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.2rem;
+  background-color: #f9fafb;
+  border: 1px solid #eeeeee;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  border-left: 4px solid transparent;
+}
+
+.airportItem:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border-color: #dddddd;
+}
+
+.activeItem {
+  border-left-color: var(--primary, #E31824);
+  background-color: #f3f4f6;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transform: translateY(-2px);
+}
+
+.checkIcon {
+  color: var(--primary, #E31824);
+  flex-shrink: 0;
+}
+
+.activeItem .checkIcon {
+  transform: scale(1.1);
+}
+
+.airportName {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #1f2937;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.mapContainer {
+  height: 450px;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #eeeeee;
+}
+
+@media (min-width: 1024px) {
+  .mapContainer {
+    height: 600px;
+    position: sticky;
+    top: 120px;
+  }
+}
+
+.mapLoading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: #f3f4f6;
+  color: #6b7280;
+  font-weight: 500;
+}

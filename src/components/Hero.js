@@ -131,7 +131,7 @@ export default function Hero() {
 
       {/* Rounded tab divider — animates with scroll */}
       <div className={styles.diagonalCut}>
-        <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none" style={{ overflow: "visible" }}>
           <motion.path
             d={tabPath}
             fill="#ffffff"

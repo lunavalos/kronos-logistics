@@ -4,7 +4,6 @@ import Features from "@/components/Features";
 import OurServices from "@/components/OurServices";
 import GlobalCoverage from "@/components/GlobalCoverage";
 import TrustedBy from "@/components/TrustedBy";
-import Coverage from "@/components/Coverage";
 import CTA from "@/components/CTA";
 
 export const metadata = {
@@ -21,7 +20,6 @@ export default function Home() {
       <OurServices />
       <GlobalCoverage />
       <TrustedBy />
-      <Coverage />
       <CTA />
     </main>
   );

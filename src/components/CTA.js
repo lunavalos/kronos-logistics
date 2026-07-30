@@ -20,10 +20,6 @@ export default function CTA() {
     offset: ["start end", "end start"]
   });
 
-  // Parallax on the background
-  const bgY = useTransform(scrollYProgress, [0, 1], ["0%", "20%"]);
-  const smoothBgY = useSpring(bgY, { stiffness: 100, damping: 30 });
-
   const tabXTop = useTransform(scrollYProgress, [0, 1], [1150, 150]);
   const tabXBottom = useTransform(scrollYProgress, [0, 1], [1150, 150]);
 
@@ -47,6 +43,7 @@ export default function CTA() {
   return (
     <section ref={sectionRef} className={styles.cta}>
       {/* Video Background */}
+      {/* Video Background */}
       <video
         className={styles.bgVideo}
         autoPlay
@@ -61,7 +58,7 @@ export default function CTA() {
       
       {/* Top Divider */}
       <div className={styles.topDivider}>
-        <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none" style={{ overflow: "visible" }}>
           <motion.path d={topTabPath} fill="#ffffff" />
         </svg>
       </div>
@@ -131,7 +128,7 @@ export default function CTA() {
 
       {/* Bottom Divider */}
       <div className={styles.bottomDivider}>
-        <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none" style={{ overflow: "visible" }}>
           <motion.path d={bottomTabPath} fill="#ffffff" />
         </svg>
       </div>

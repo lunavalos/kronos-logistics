@@ -26,6 +26,10 @@ export const pathnames = {
   '/track/[uuid]': {
     en: '/track/[uuid]',
     es: '/rastreo/[uuid]'
+  },
+  '/air-customs': {
+    en: '/air-customs',
+    es: '/aduanas-aereas'
   }
 } as const;
 

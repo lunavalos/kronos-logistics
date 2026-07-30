@@ -123,7 +123,7 @@ export default function Features() {
 
       {/* Top Divider (rotated 180deg via CSS) */}
       <div className={styles.topDivider}>
-        <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none" style={{ overflow: "visible" }}>
           <motion.path d={topTabPath} fill="#ffffff" />
         </svg>
       </div>
@@ -151,7 +151,7 @@ export default function Features() {
 
       {/* Bottom Divider */}
       <div className={styles.bottomDivider}>
-        <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none" style={{ overflow: "visible" }}>
           <motion.path d={bottomTabPath} fill="#ffffff" />
         </svg>
       </div>

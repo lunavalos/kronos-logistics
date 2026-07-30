@@ -59,7 +59,7 @@ export default function PageHero({ title, video = "/hero-video-new.webm" }) {
 
       {/* Moving Tab Divider */}
       <div className={styles.bottomDivider}>
-        <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none" style={{ overflow: "visible" }}>
           <motion.path d={bottomTabPath} fill="#ffffff" />
         </svg>
       </div>

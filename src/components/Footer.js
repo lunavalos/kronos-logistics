@@ -64,9 +64,14 @@ export default function Footer() {
               style={{ width: "100%", maxWidth: "220px", height: "auto" }}
             />
           </Link>
-          <p className={styles.copyright}>
-            {t("copyright")} - {new Date().getFullYear()}
-          </p>
+          <div className={styles.brandBottom}>
+            <Link href="/privacy-policy" className={styles.privacyLink}>
+              {t("privacyPolicy")}
+            </Link>
+            <p className={styles.copyright}>
+              {t("copyright")} - {new Date().getFullYear()}
+            </p>
+          </div>
         </motion.div>
 
         {/* Column 2: Quick Links */}
@@ -83,11 +88,11 @@ export default function Footer() {
           </ul>
         </motion.div>
 
-        {/* Column 3: Services */}
+        {/* Column 3: Services (Col 1) */}
         <motion.div variants={itemVariants} className={styles.colServices}>
           <h4 className={styles.colTitle}>{t("servicesTitle")}</h4>
           <ul className={styles.list}>
-            {services.map((service, i) => (
+            {services.slice(0, 5).map((service, i) => (
               <li key={i}>
                 <Link href={`/services/${service.slug}`} className={styles.link}>
                   {service.name}
@@ -97,21 +102,18 @@ export default function Footer() {
           </ul>
         </motion.div>
 
-        {/* Column 4: Credits & Policy */}
-        <motion.div variants={itemVariants} className={styles.colCredits}>
-          <Link href="/privacy-policy" className={styles.privacyLink}>
-            {t("privacyPolicy")}
-          </Link>
-          <div className={styles.divider}></div>
-          <p className={styles.createdBy} style={{ marginBottom: "4px" }}>{t("createdBy")}</p>
-          <Image
-            src="/credits-logo-gray.png"
-            alt="LunAvalos"
-            width={65}
-            height={16}
-            className={styles.creditsLogo}
-            style={{ width: "100%", maxWidth: "65px", height: "auto" }}
-          />
+        {/* Column 4: Services (Col 2) */}
+        <motion.div variants={itemVariants} className={styles.colServices}>
+          <h4 className={styles.colTitle} style={{ visibility: "hidden" }}>&nbsp;</h4>
+          <ul className={styles.list}>
+            {services.slice(5).map((service, i) => (
+              <li key={i}>
+                <Link href={`/services/${service.slug}`} className={styles.link}>
+                  {service.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
         </motion.div>
 
       </motion.div>

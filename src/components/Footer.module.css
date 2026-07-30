@@ -46,8 +46,6 @@
   font-size: 0.75rem;
   color: #999999;
   font-weight: 700;
-  margin-top: auto;
-  padding-top: 2rem;
   letter-spacing: 0.5px;
   text-transform: uppercase;
 }
@@ -83,22 +81,18 @@
   transform: translateX(3px);
 }
 
-/* Credits Column */
-.colCredits {
+.brandBottom {
+  margin-top: auto;
+  padding-top: 2rem;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  gap: 0.5rem;
 }
 
 @media (min-width: 1024px) {
-  .colCredits {
-    align-items: flex-end;
-    text-align: right;
-  }
-
-  .copyright {
+  .brandBottom {
+    margin-top: auto;
     padding-top: 0;
-    margin-top: 2rem;
   }
 }
 
@@ -107,42 +101,10 @@
   font-weight: 800;
   font-size: 0.85rem;
   letter-spacing: 0.5px;
-  margin-bottom: 1.2rem;
   transition: opacity 0.2s;
+  align-self: flex-start;
 }
 
 .privacyLink:hover {
   opacity: 0.8;
-}
-
-.divider {
-  width: 100%;
-  height: 1px;
-  background-color: #eeeeee;
-  margin-bottom: 1.5rem;
-}
-
-.createdBy {
-  font-size: 0.6rem;
-  font-weight: 700;
-  color: #999999;
-  margin-bottom: 0.3rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.lunavalosLogo {
-  font-size: 1.6rem;
-  font-family: Georgia, serif;
-  color: #000000;
-  letter-spacing: -0.5px;
-}
-
-.lunavalosLogo span {
-  font-style: italic;
-}
-
-.creditsLogo {
-  filter: none;
-  opacity: 0.9;
 }

@@ -102,6 +102,7 @@ export default function Navbar() {
     { name: t("home"), href: "/" },
     { name: t("aboutUs"), href: "/about-us" },
     { name: t("services"), href: "/services", hasDropdown: true },
+    { name: t("airCustoms"), href: "/air-customs" },
     { name: t("contact"), href: "/contact" },
   ];
 
