@@ -1,0 +1,34 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "es.kronos-logistics.com" }],
+      "destination": "https://kronos-logistics.com/es",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "de.kronos-logistics.com" }],
+      "destination": "https://kronos-logistics.com/de",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "cn.kronos-logistics.com" }],
+      "destination": "https://kronos-logistics.com/zh",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "ko.kronos-logistics.com" }],
+      "destination": "https://kronos-logistics.com/ko",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "hazmat.kronos-logistics.com" }],
+      "destination": "https://kronos-logistics.com/services/hazmat-logistics",
+      "permanent": true
+    }
+  ]
+}
