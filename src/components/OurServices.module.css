@@ -78,9 +78,8 @@
   
   /* Hazmat Logistics is 7th in the array. Since the homepage slice is services.slice(0, 7), 
      Hazmat Logistics (index 6, which is the 7th item) will be the last item on the homepage. 
-     We can also make it span 2 columns to highlight it beautifully in both. */
-  .gridHome .card:nth-child(7),
-  .gridAll .card:nth-child(7) {
+     We can also make it span 2 columns to highlight it beautifully on the homepage. */
+  .gridHome .card:nth-child(7) {
     grid-column: span 2;
   }
 }

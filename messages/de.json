@@ -594,6 +594,10 @@
       "trailer": {
         "title": "Auflieger-Leasing",
         "description": "Die Miete gibt Ihnen die Freiheit und Flexibilität, genau die Auflieger zu haben, die Sie benötigen — ob Kurzzeit-Miete oder Leasingvertrag."
+      },
+      "airCustoms": {
+        "title": "Luftzoll",
+        "description": ""
       }
     }
   },

@@ -594,6 +594,10 @@
       "trailer": {
         "title": "拖车租赁",
         "description": "租赁服务让您自由灵活地拥有所需的拖车——无论是短期租赁还是长期租约合同。"
+      },
+      "airCustoms": {
+        "title": "航空海关",
+        "description": ""
       }
     }
   },

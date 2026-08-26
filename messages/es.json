@@ -19,7 +19,7 @@
     "contactUs": "Contáctanos"
   },
   "Hero": {
-    "title": "KRONOS WORLDWIDE <br></br> SOLUCIONES GLOBALES DE CADENA DE SUMINISTRO",
+    "title": "SOLUCIONES GLOBALES DE CADENA DE SUMINISTRO",
     "subtitle": "Ejecución Directa. Visibilidad Global.",
     "requestQuote": "Solicitar Cotización",
     "scrollDown": "Desplácese Hacia Abajo"
@@ -27,15 +27,15 @@
   "AboutIntro": {
     "title": "KRONOS LOGISTICS",
     "tagline": "Logística Global en la Que Puede Confiar.",
-    "description": "Kronos Logistics es el socio de confianza para cadenas de suministro globales en industrias donde no existe margen de error. Su cadena de suministro merece soluciones precisas, diseñadas para la confiabilidad, la velocidad y la eficiencia de costos — y eso es exactamente lo que entregamos, en cualquier parte del mundo.",
+    "description": "Kronos Logistics es el socio de confianza para cadenas de suministro globales en industrias donde no existe margen de error. Su cadena de suministro merece soluciones precisas, diseñadas para la confiabilidad, la velocidad y la eficiencia de costos — y eso es exactamente lo que entregamos, en cualquier parte del mundo. Aseguramos cada eslabón de su cadena de suministro con especialistas certificados en gestión aduanal que manejan el despacho a través de fronteras a nivel mundial, y un único punto de contacto que le brinda exactamente el nivel de control que su operación necesita — ya sea moviendo su carga directamente, orquestando una red completa de proveedores, o ambos. Un solo socio global. Soluciones integrales. Confiabilidad total, en cada paso.",
     "readMore": "Leer Más"
   },
   "Features": {
-    "title": "POR QUÉ KRONOS FUNCIONA PARA USTED",
+    "title": "Por Qué Kronos Funciona Para Usted:",
     "flexibilityTitle": "Flexibilidad que se adapta a su operación",
     "flexibilityDesc": "Elija ejecución directa, coordinación estratégica, o una combinación de ambas — lo que su cadena de suministro realmente necesite, embarque por embarque.",
-    "partnerTitle": "Un solo socio, cada proveedor coordinado",
-    "partnerDesc": "a nivel mundial — Ya sea que nosotros movamos su carga o gestionemos a los proveedores que lo hacen, usted tiene un único punto de responsabilidad en seis continentes.",
+    "partnerTitle": "Un solo socio, cada proveedor coordinado — a nivel mundial",
+    "partnerDesc": "Ya sea que nosotros movamos su carga o gestionemos a los proveedores que lo hacen, usted tiene un único punto de responsabilidad en seis continentes.",
     "visibilityTitle": "Visibilidad total a través de la Kronos App",
     "visibilityDesc": "Rastree cada embarque, con cada proveedor y en cada frontera, desde un solo tablero en tiempo real.",
     "customsTitle": "Especialistas aduanales dedicados en cada punto de revisión",
@@ -109,32 +109,32 @@
       "advantagesTitle": "La Ventaja KRONOS",
       "advantages": [
         {
-          "title": "Alcance Global, Ejecución Local",
-          "desc": "Operando a través de fronteras y mercados mediante una red internacional ya establecida, moviendo su carga a donde su negocio lo requiera."
+          "title": "Alcance global, ejecución local",
+          "desc": "operando a través de fronteras y mercados mediante una red internacional ya establecida, moviendo su carga a donde su negocio lo requiera."
         },
         {
-          "title": "Movimiento Seguro y Confiable",
-          "desc": "La carga es protegida y monitoreada desde el origen hasta el destino final, minimizando el riesgo en cada punto del trayecto."
+          "title": "Movimiento seguro y confiable",
+          "desc": "la carga es protegida y monitoreada desde el origen hasta el destino final, minimizando el riesgo en cada punto del trayecto."
         },
         {
-          "title": "Visibilidad Impulsada por Tecnología",
-          "desc": "Una plataforma digital totalmente integrada entrega seguimiento y datos en tiempo real en cada etapa de su cadena de suministro, sin dejar nada a la suposición."
+          "title": "Visibilidad impulsada por tecnología",
+          "desc": "una plataforma digital totalmente integrada entrega seguimiento y datos en tiempo real en cada etapa de su cadena de suministro, sin dejar nada a la suposición."
         },
         {
-          "title": "Manos Expertas, en Cada Paso",
-          "desc": "Especialistas en cadena de suministro y gestión aduanal supervisan cada movimiento, navegando la complejidad regulatoria para mantener su carga en movimiento sin interrupciones."
+          "title": "Manos expertas, en cada paso",
+          "desc": "especialistas en cadena de suministro y gestión aduanal supervisan cada movimiento, navegando la complejidad regulatoria para mantener su carga en movimiento sin interrupciones."
         },
         {
-          "title": "Capital Preservado",
-          "desc": "Sus recursos permanecen invertidos en su negocio principal, no en almacenes, flotas o infraestructura."
+          "title": "Capital preservado",
+          "desc": "sus recursos permanecen invertidos en su negocio principal, no en almacenes, flotas o infraestructura."
         },
         {
-          "title": "Mejora Continua",
-          "desc": "Su cadena de suministro evoluciona mediante ajustes deliberados, basados en datos, nunca con una plantilla estándar."
+          "title": "Mejora continua",
+          "desc": "su cadena de suministro evoluciona mediante ajustes deliberados, basados en datos, nunca con una plantilla estándar."
         },
         {
-          "title": "Una Sola Relación, Responsabilidad Total",
-          "desc": "Un único punto de contacto en KRONOS orquesta cada parte en movimiento, sin dejar nada a la interpretación."
+          "title": "Una sola relación, responsabilidad total",
+          "desc": "un único punto de contacto en KRONOS orquesta cada parte en movimiento, sin dejar nada a la interpretación."
         }
       ]
     },
@@ -142,28 +142,28 @@
       "metaTitle": "Transporte Aéreo - Kronos Logistics",
       "metaDesc": "Kronos Logistics ofrece servicios de transporte de carga aérea rápidos, seguros y confiables a nivel mundial. Analizamos el tamaño de su carga y su presupuesto para ofrecerle soluciones logísticas rentables.",
       "heroTitle": "Transporte Aéreo",
-      "intro": "Cuando la velocidad determina el resultado, KRONOS ofrece transporte aéreo diseñado para la seguridad y la confiabilidad, respaldado por tecnología que garantiza una trazabilidad completa desde el origen hasta el destino. Nuestra experiencia abarca las industrias automotriz, tecnológica y aeroespacial, donde la carga crítica y frágil exige un estándar de precisión más allá del transporte aéreo convencional.",
-      "advantagesTitle": "La Ventaja de Kronos",
+      "intro": "Cuando la velocidad determina el resultado, KRONOS entrega transporte aéreo diseñado para la seguridad y la confiabilidad, respaldado por tecnología que garantiza trazabilidad completa desde el origen hasta el destino. Nuestra experiencia abarca las industrias automotriz, tecnológica y aeroespacial, donde la carga crítica y frágil exige un estándar de precisión más allá del transporte aéreo convencional.",
+      "advantagesTitle": "La Ventaja de Transporte Aéreo",
       "advantages": [
         {
           "title": "Velocidad sin compromisos",
-          "desc": "el modo más rápido disponible, comprimiendo los tiempos de tránsito que el transporte terrestre o marítimo no pueden igualar."
+          "desc": "el modo más rápido disponible, comprimiendo tiempos de tránsito que el transporte terrestre o marítimo no pueden igualar."
         },
         {
-          "title": "Confiable, a tiempo",
-          "desc": "rendimiento constante y tiempos de tránsito confiables en cada nivel de servicio, envío tras envío."
+          "title": "Confiable, en tiempo",
+          "desc": "desempeño puntual consistente y tiempos de tránsito confiables en cada nivel de servicio, embarque tras embarque."
         },
         {
-          "title": "Trazabilidad de extremo a extremo",
-          "desc": "una plataforma tecnológica integrada monitorea cada envío en tiempo real, garantizando una visibilidad total desde el origen hasta el destino final."
+          "title": "Trazabilidad de principio a fin",
+          "desc": "una plataforma tecnológica integrada monitorea cada embarque en tiempo real, garantizando visibilidad total desde el origen hasta el destino final."
         },
         {
           "title": "Seguro por diseño",
-          "desc": "rigurosos protocolos de seguridad y un manejo minimizado reducen la exposición a pérdidas, daños o compromisos en toda la cadena de suministro."
+          "desc": "protocolos de seguridad rigurosos y manejo minimizado reducen la exposición a pérdida, daño o compromiso a lo largo de la cadena de suministro."
         },
         {
-          "title": "Seguro de carga, bajo demanda",
-          "desc": "cobertura opcional que protege el valor total de su envío durante el tránsito."
+          "title": "Seguro de carga, a solicitud",
+          "desc": "cobertura opcional que protege el valor total de su embarque durante el tránsito."
         },
         {
           "title": "Diseñado para carga crítica",
@@ -171,26 +171,26 @@
         },
         {
           "title": "Red global, ejecución local",
-          "desc": "agentes nacionales combinados con acceso directo a los aeropuertos de mayor tráfico del mundo, asegurando una ejecución consistente en cada mercado que servimos."
+          "desc": "agentes locales combinados con acceso directo a los aeropuertos de mayor tráfico del mundo, garantizando una ejecución consistente en cada mercado que atendemos."
         },
         {
-          "title": "Orientación aduanera, de origen a destino",
-          "desc": "asesoría dedicada que rige cada requisito regulatorio a lo largo del viaje."
+          "title": "Asesoría aduanal, de origen a destino",
+          "desc": "asesoría dedicada que rige cada requisito regulatorio a lo largo del trayecto."
         }
       ],
-      "includedTitle": "Oferta de Servicios",
+      "includedTitle": "Oferta de Servicio",
       "included": [
         {
           "title": "Economy",
-          "desc": "transporte aéreo rentable para envíos donde los plazos flexibles permiten mayores ahorros."
+          "desc": "transporte aéreo eficiente en costo para embarques donde los tiempos flexibles permiten mayores ahorros."
         },
         {
           "title": "Priority Freight",
-          "desc": "manejo acelerado y tiempos de tránsito reducidos para envíos donde la certeza del cronograma es crítica."
+          "desc": "manejo expedito y tiempos de tránsito reducidos para embarques donde la certeza del calendario es crítica."
         },
         {
           "title": "Next Flight Out (NFO)",
-          "desc": "el despacho más rápido posible, colocando carga en tiempo crítico en el próximo vuelo disponible."
+          "desc": "el despacho más rápido posible, colocando carga de tiempo crítico en el siguiente vuelo disponible."
         }
       ]
     },
@@ -198,66 +198,66 @@
       "metaTitle": "Transportista Afianzado - Kronos Logistics",
       "metaDesc": "Kronos Logistics ofrece servicios licenciados de Transportista Afianzado, permitiéndole mover carga a través de puntos de entrada de EE. UU. de forma segura y eficiente sin pago inmediato de aranceles.",
       "heroTitle": "Transportista Afianzado",
-      "intro": "Mueva su carga a través de puertos de EE. UU., cruces fronterizos y almacenes FTZ, sin pagar aranceles o impuestos por adelantado. Disponible por transporte terrestre, aéreo y marítimo, Kronos mantiene su carga en cumplimiento y su capital trabajando para su negocio, con una cadena de custodia totalmente auditable desde el origen hasta la entrega final.",
-      "advantagesTitle": "Por qué el Transporte en Tránsito Funciona para Usted",
+      "intro": "Mueva su carga a través de puertos, cruces fronterizos y almacenes de zona franca (FTZ) en EE.UU. — sin pagar aranceles ni impuestos por anticipado. Disponible por transporte terrestre, aéreo y marítimo, Kronos mantiene su carga en cumplimiento y su capital trabajando para su negocio, con una cadena de custodia totalmente auditable desde el origen hasta la entrega final.",
+      "advantagesTitle": "Por Qué Bonded Carrier Funciona Para Usted:",
       "advantages": [
         {
-          "title": "Aplace los pagos de aranceles e impuestos",
-          "desc": "Mejore el flujo de caja pagando solo cuando los bienes ingresen formalmente al comercio de los EE. UU., no antes."
+          "title": "Diferera el pago de aranceles e impuestos",
+          "desc": "Mejore su flujo de efectivo pagando únicamente cuando la mercancía entra formalmente al comercio de EE.UU., no antes."
         },
         {
-          "title": "Transporte en tránsito terrestre, aéreo y marítimo",
-          "desc": "Mueva la carga por camión a través de los cruces fronterizos, por aire a través de instalaciones de almacenes aduaneros en los principales aeropuertos, o por mar a través de terminales aduaneras en los principales puertos de EE. UU., según lo que requiera su carga."
+          "title": "Transporte bonded terrestre, aéreo y marítimo",
+          "desc": "Mueva su carga por camión a través de cruces fronterizos, por avión mediante instalaciones de almacén bonded en los principales aeropuertos, o por mar a través de terminales bonded en los principales puertos de EE.UU. — el modo que su carga requiera."
         },
         {
-          "title": "Almacenamiento flexible a largo plazo",
-          "desc": "Mantenga el inventario en tránsito durante el tiempo que lo requiera su estrategia, sin plazos forzados."
+          "title": "Almacenaje flexible a largo plazo",
+          "desc": "Mantenga su inventario en bond durante el tiempo que su estrategia requiera, sin plazos forzados."
         },
         {
           "title": "Integridad del producto protegida",
-          "desc": "Las instalaciones monitoreadas y con clima controlado preservan la calidad y condición de la carga durante todo el almacenamiento."
+          "desc": "Instalaciones con clima controlado y monitoreadas preservan la calidad y condición de la carga durante todo el almacenaje."
         },
         {
-          "title": "Cumplimiento total de la cadena de custodia",
+          "title": "Cumplimiento total de cadena de custodia",
           "desc": "Cada movimiento documentado y listo para auditoría, construido para los estándares que exigen las industrias reguladas."
         }
       ],
-      "heroSubtitle": "Muévase Libremente. Retrase Aranceles. Manténgase en Cumplimiento."
+      "heroSubtitle": "Muévase Libremente. Diferera Impuestos. Mantenga el Cumplimiento."
     },
     "full-truckload-ftl": {
       "metaTitle": "FTL T-MEC - Kronos Logistics",
       "metaDesc": "Kronos Logistics ofrece soluciones de transporte confiables y profesionales de Carga Completa (FTL) bajo el T-MEC. Ofrecemos transporte de caja seca, con temperatura controlada, sobredimensionado y de plataforma.",
       "heroTitle": "USMCA FTL",
-      "intro": "Mueva carga de camión completo sin interrupciones a través de México, Estados Unidos y Canadá bajo el tratado comercial T-MEC — con la velocidad que su operación justo a tiempo demanda y el cumplimiento que su cadena de suministro requiere. Kronos combina la experiencia transfronteriza certificada por C-TPAT con una red de transportistas dedicados, impulsada por la tecnología Samsara y la aplicación Kronos Client App, para mantener su carga en movimiento sin demoras en cada cruce fronterizo.",
-      "advantagesTitle": "Por Qué FTL T-MEC Funciona para Usted:",
+      "intro": "Mueva carga de camión completo (FTL) sin contratiempos a través de México, Estados Unidos y Canadá bajo el tratado comercial USMCA — con la velocidad que su operación justo a tiempo (JIT) requiere y el cumplimiento que su cadena de suministro exige. Kronos combina experiencia cross-border certificada C-TPAT con una red de transportistas dedicada, impulsada por tecnología Samsara y la Kronos Client App, para mantener su carga en movimiento sin demoras en cada cruce fronterizo.",
+      "advantagesTitle": "Por Qué USMCA FTL Funciona Para Usted:",
       "advantages": [
         {
           "title": "Cobertura trinacional",
-          "desc": "Servicio directo de camión completo a través de México, Estados Unidos y Canadá, todo bajo una misma relación con el transportista y un único punto de contacto."
+          "desc": "Servicio directo de camión completo a través de México, EE.UU. y Canadá, todo bajo una sola relación de transportista y un solo punto de contacto."
         },
         {
           "title": "Diseñado para entregas justo a tiempo",
-          "desc": "Rutas optimizadas para cruces fronterizos y capacidad dedicada mantienen sus líneas de producción en marcha sin costosos tiempos de inactividad."
+          "desc": "Rutas de cruce fronterizo optimizadas y capacidad dedicada mantienen sus líneas de producción funcionando sin costosos tiempos de inactividad."
         },
         {
           "title": "Seguridad certificada C-TPAT",
-          "desc": "Reconocido por Aduanas y Protección Fronteriza de EE. UU. como un socio de bajo riesgo y de confianza — lo que significa un despacho más rápido y menos inspecciones en cada cruce."
+          "desc": "Reconocidos por la Aduana de EE.UU. (CBP) como un socio confiable y de bajo riesgo — lo que significa despacho más rápido y menos inspecciones en cada cruce."
         },
         {
           "title": "Visibilidad de flota impulsada por Samsara",
-          "desc": "Rastreo por GPS en vivo, cumplimiento de ELD y tiempos de llegada predictivos en cada carga, brindándole visibilidad de precisión desde la recolección hasta la entrega."
+          "desc": "Rastreo GPS en vivo, cumplimiento ELD, y tiempos estimados de llegada (ETA) predictivos en cada carga, dándole visibilidad precisa desde la recolección hasta la entrega."
         },
         {
-          "title": "Rastreo de envíos en tiempo real mediante la Kronos Client App",
-          "desc": "Monitoree el estado del cruce fronterizo, la documentación y los hitos de entrega desde su teléfono, en cualquier parte del mundo."
+          "title": "Seguimiento en tiempo real vía la Kronos Client App",
+          "desc": "Monitoree el estatus de cruce fronterizo, documentación e hitos de entrega desde su teléfono, en cualquier parte del mundo."
         },
         {
-          "title": "Documentación en cumplimiento con el T-MEC",
-          "desc": "Certificados de origen y trámites aduaneros manejados de principio a fin, reduciendo retrasos en cada punto de control."
+          "title": "Documentación conforme a USMCA",
+          "desc": "Certificados de origen y trámites aduanales gestionados de principio a fin, reduciendo retrasos en cada punto de revisión."
         },
         {
-          "title": "Transportistas transfronterizos dedicados",
-          "desc": "Una red evaluada con amplia experiencia en Laredo, El Paso, Port Huron, Windsor y otros importantes cruces del T-MEC."
+          "title": "Transportistas cross-border dedicados",
+          "desc": "Una red certificada con amplia experiencia en Laredo, El Paso, Port Huron, Windsor y otros cruces principales de USMCA."
         }
       ],
       "includedTitle": "Nuestros Servicios Incluyen",
@@ -270,33 +270,33 @@
         "Envío Expedito",
         "Cross-Docking"
       ],
-      "heroSubtitle": "Cruce Fronteras. Mantenga su Itinerario. Mantenga su Producción en Marcha."
+      "heroSubtitle": "Cruce Fronteras. Mantenga el Calendario. Mantenga la Producción en Marcha."
     },
     "hand-carrier-service": {
       "metaTitle": "Servicio de Mensajero Personal - Kronos Logistics",
       "metaDesc": "Kronos Logistics ofrece servicios de mensajero personal / courier a bordo de alta urgencia. Tenga la certeza de que sus embarques críticos o de alto valor están bajo control, custodia y velocidad total.",
       "heroTitle": "Hand Carrier / On Board Courier",
       "intro": [
-        "Kronos Hand Carrier existe para la carga que no puede ser reemplazada, no puede retrasarse y no puede confiarse al piso de un almacén. Cuando una línea de ensamblaje, una aeronave, una operación de defensa o un tratamiento que salva vidas dependen de un solo envío, ponemos un mensajero dedicado en el próximo vuelo disponible: su carga, en mano, en cualquier parte del mundo.",
-        "Este es nuestro nivel de servicio de mayor prioridad: cada envío de Hand Carrier recibe despacho prioritario, enrutamiento prioritario y manejo prioritario, asegurado en cada paso, despachado en cada frontera, para las industrias donde el fracaso no tiene margen."
+        "Kronos Hand Carrier existe para la carga que no puede ser reemplazada, no puede ser retrasada, y no puede confiarse al piso de un almacén. Cuando una línea de ensamblaje, una aeronave, una operación de defensa, o un tratamiento que salva vidas depende de un solo embarque, ponemos a un mensajero dedicado en el siguiente vuelo disponible — su carga, en mano, en cualquier parte del mundo.",
+        "Este es nuestro nivel de servicio de mayor prioridad: cada embarque Hand Carrier recibe despacho prioritario, ruteo prioritario y manejo prioritario — asegurado en cada paso, despachado en cada frontera, para las industrias donde la falla no tiene margen."
       ],
-      "advantagesTitle": "Construido para Industrias Donde el Retraso No Es una Opción:",
+      "advantagesTitle": "Diseñado para las Industrias Donde el Retraso No Es una Opción:",
       "advantages": [
         {
           "title": "Automotriz",
-          "desc": "Una sola pieza faltante puede detener una línea de ensamblaje entera, costando mucho más por hora que el propio servicio de mensajería. Nosotros llegamos primero."
+          "desc": "Una sola pieza faltante puede detener toda una línea de ensamblaje, costando mucho más por hora que el servicio de mensajería en sí. Nosotros la llevamos primero."
         },
         {
           "title": "Aeroespacial y Defensa",
-          "desc": "Componentes críticos para el vuelo y materiales clasificados que no pueden quedarse en un almacén. Custodia que nunca se rompe, despacho que nunca se estanca."
+          "desc": "Componentes críticos de vuelo y materiales clasificados que no pueden esperar en un almacén. Custodia que nunca se rompe, despacho que nunca se detiene."
         },
         {
           "title": "Farmacéutica y Médica",
-          "desc": "Equipos quirúrgicos y biológicos necesarios en una ubicación específica, con un cronograma ajustado. Cuando un paciente está esperando, nosotros también lo estamos: ya en el aire."
+          "desc": "Equipo quirúrgico y biológicos requeridos en una ubicación específica, con un tiempo muy ajustado. Cuando un paciente está esperando, nosotros también — ya en el aire."
         },
         {
           "title": "Alta Tecnología y Semiconductores",
-          "desc": "Componentes prototipo y electrónicos sensibles que demandan custodia mano a mano. Nada irreemplazable toca jamás la bodega de carga."
+          "desc": "Componentes de prototipo y electrónicos sensibles que exigen custodia de mano en mano. Nada irremplazable jamás toca una bodega de carga."
         }
       ],
       "heroSubtitle": "Carga Crítica. Respuesta Inmediata.",
@@ -304,19 +304,19 @@
       "included": [
         {
           "title": "Servicio prioritario, siempre",
-          "desc": "Los envíos de Hand Carrier se despachan primero, se enrutan primero y se despachan en aduana primero. Su carga nunca hace cola detrás del flete estándar."
+          "desc": "Los embarques Hand Carrier se despachan primero, se rutean primero y se despachan en aduana primero. Su carga nunca espera detrás de carga estándar."
         },
         {
-          "title": "Cobertura Global. A Un Mensajero de Distancia.",
-          "desc": "Cobertura de mensajería directa y mundial que llega a cada centro internacional importante, en todos los continentes: dondequiera que opere su empresa, ya estamos posicionados para responder."
+          "title": "Cobertura Global. Un Mensajero de Distancia.",
+          "desc": "Cobertura de mensajería directa a nivel mundial que alcanza cada centro internacional importante, en cada continente — donde sea que opere su negocio, ya estamos posicionados para responder."
         },
         {
-          "title": "Respuesta medida en horas, no días",
-          "desc": "Un mensajero dedicado es despachado y está en el aire pocas horas después de su llamada. En su industria, el tiempo no es una conveniencia, es el costo de hacer negocios."
+          "title": "Respuesta medida en horas, no en días",
+          "desc": "Un mensajero dedicado es despachado y está en el aire dentro de horas de su llamada. En su industria, el tiempo no es una conveniencia — es el costo de hacer negocios."
         },
         {
-          "title": "Asesoría aduanera dedicada",
-          "desc": "Un especialista en aduanas de Kronos gestiona su estrategia de despacho por adelantado y viaja el proceso en persona con su mensajero, convirtiendo un trámite aduanero de varios días en cuestión de minutos en cada punto de control, incluso para carga controlada y regulada."
+          "title": "Asesoría aduanal dedicada",
+          "desc": "Un especialista aduanal de Kronos gestiona su estrategia de despacho con anticipación y acompaña el proceso en persona con su mensajero — convirtiendo un proceso aduanal de varios días en cuestión de minutos en cada punto de revisión, incluso para carga controlada y regulada."
         },
         {
           "title": "Rastreo en vivo en la Kronos App",
@@ -330,76 +330,76 @@
       "metaDesc": "Kronos cuenta con certificación total para mover mercancías peligrosas por carretera, aire y mar bajo los estándares DOT, IATA DGR, IMDG y NOM-002-SCT.",
       "heroTitle": "Logística de Materiales Peligrosos",
       "intro": [
-        "Los materiales peligrosos exigen cero margen de error. Kronos está totalmente certificado para mover mercancías peligrosas por tierra, aire y mar, bajo los estándares DOT, IATA DGR, IMDG y NOM-002-SCT, con especialistas certificados administrando cada punto de control.",
-        "Construido para las industrias que no pueden permitirse un error: química, petroquímica, farmacéutica, energética y de manufactura industrial."
+        "Los materiales peligrosos exigen cero margen de error. Kronos está totalmente certificado para mover mercancías peligrosas por tierra, aire y mar — bajo los estándares DOT, IATA DGR, IMDG y NOM-002-SCT — con especialistas certificados gestionando cada punto de revisión.",
+        "Diseñado para las industrias que no pueden permitirse un error: química, petroquímica, farmacéutica, energética y manufactura industrial."
       ],
-      "advantagesTitle": "El Estándar Hazmat de Kronos:",
+      "advantagesTitle": "El Estándar Kronos Hazmat:",
       "advantages": [
         {
-          "title": "Certificado en todos los modos",
-          "desc": "Manejo certificado por DOT, IATA DGR e IMDG para materiales peligrosos por tierra, aire y mar: un socio, todos los modos de transporte."
+          "title": "Certificados en cada modalidad",
+          "desc": "Manejo certificado DOT, IATA DGR e IMDG para materiales peligrosos por tierra, aire y mar — un solo socio, cada modo de transporte."
         },
         {
           "title": "Cobertura completa de clases",
-          "desc": "Desde explosivos de Clase 1 hasta mercancías peligrosas diversas de Clase 9, nuestros equipos certificados están capacitados y equipados para manejar el espectro completo de clasificaciones de riesgo."
+          "desc": "Desde explosivos de Clase 1 hasta mercancías peligrosas misceláneas de Clase 9, nuestros equipos certificados están capacitados y equipados para manejar todo el espectro de clasificaciones de riesgo."
         },
         {
-          "title": "Cumplimiento transfronterizo, México y más allá",
-          "desc": "Certificación NOM-002-SCT para el transporte por carretera en México, con conductores con licencia federal y permisos SCT válidos en cada cruce."
+          "title": "Cumplimiento cross-border, México y más allá",
+          "desc": "Certificados NOM-002-SCT para transporte terrestre en México, con conductores con licencia federal y permisos SCT vigentes en cada cruce."
         },
         {
           "title": "Documentación que resiste el escrutinio",
-          "desc": "Documentación completa de respuesta a emergencias, protocolos de segregación y trámites de cumplimiento: listos para auditorías, siempre."
+          "desc": "Documentación completa de respuesta a emergencias, protocolos de segregación y trámites de cumplimiento — listos para auditoría, siempre."
         },
         {
-          "title": "Rastreo en tiempo real a través de la Kronos App",
-          "desc": "Monitoree la ubicación de su envío de materiales peligrosos, el estado de cumplimiento y el progreso de los hitos en tiempo real, desde cualquier parte del mundo."
+          "title": "Rastreo en tiempo real vía la Kronos App",
+          "desc": "Monitoree la ubicación de su embarque hazmat, estatus de cumplimiento y avance de hitos en tiempo real, desde cualquier parte del mundo."
         },
         {
           "title": "Especialistas, no generalistas",
-          "desc": "Cada envío hazmat es gestionado por especialistas certificados que comprenden el peso regulatorio de lo que mueven, no por un equipo de carga estándar que maneja una excepción."
+          "desc": "Cada embarque hazmat es gestionado por especialistas certificados que entienden el peso regulatorio de lo que están moviendo — no un equipo de carga estándar manejando una excepción."
         }
       ],
       "heroSubtitle": "Ejecución Precisa. Cumplimiento Total.",
-      "outro": "Seguridad en la que puede confiar. Cada envío, cada vez."
+      "outro": "Seguridad en la que puede confiar. Cada embarque, siempre."
     },
     "less-than-truckload-ltl": {
       "metaTitle": "LTL T-MEC - Kronos Logistics",
       "metaDesc": "Kronos Logistics ofrece un servicio de Carga Consolidada (LTL) T-MEC flexible y rentable. Combine su carga con la de otros para reducir costos de tránsito y aumentar la eficiencia.",
       "heroTitle": "USMCA LTL",
       "intro": [
-        "Mueva carga de menos de un camión (LTL) a través de México, Estados Unidos y Canadá, sin pagar por el espacio que no necesita. Kronos lo conecta a una extensa red de transportistas certificados en los tres países, consolidando sus envíos en las rutas transfronterizas más eficientes disponibles, con niveles de servicio estándar y prioritario para ajustarse a su cronograma.",
-        "Esto es LTL T-MEC creado para proveedores que envían con frecuencia, pero no siempre en camiones completos: rentable, transfronterizo y nunca más lento de lo necesario."
+        "Mueva carga consolidada (LTL) a través de México, Estados Unidos y Canadá — sin pagar por espacio que no necesita. Kronos lo conecta con una extensa red de transportistas certificados en los tres países, consolidando sus embarques en las rutas cross-border más eficientes disponibles, con niveles de servicio estándar y prioritario para ajustarse a su calendario.",
+        "Este es el servicio USMCA LTL diseñado para proveedores que envían con frecuencia, pero no siempre en camión completo — eficiente en costo, cross-border, y nunca más lento de lo necesario."
       ],
-      "advantagesTitle": "Por Qué USMCA LTL Funciona para Usted:",
+      "advantagesTitle": "Por Qué USMCA LTL Funciona Para Usted:",
       "advantages": [
         {
-          "title": "Red de múltiples transportistas en Norteamérica",
-          "desc": "Acceso directo a una amplia red de transportistas LTL certificados en todo Canadá, Estados Unidos y México: más opciones de ruta, mejores tarifas y más flexibilidad que un servicio de transportista único."
+          "title": "Red multi-transportista en toda Norteamérica",
+          "desc": "Acceso directo a una amplia red de transportistas LTL certificados en Canadá, Estados Unidos y México — más opciones de ruteo, mejores tarifas y más flexibilidad que un servicio de un solo transportista."
         },
         {
-          "title": "Tiempos de tránsito los mejores en su clase",
-          "desc": "El enrutamiento transfronterizo optimizado y la consolidación hacen que su carga se mueva por la ruta disponible más rápida, en todo momento."
+          "title": "Tiempos de tránsito de primer nivel",
+          "desc": "El ruteo cross-border optimizado y la consolidación ponen su carga en movimiento por la ruta más rápida disponible, siempre."
         },
         {
           "title": "Niveles de servicio Estándar y Prioritario",
-          "desc": "Elija LTL estándar para envíos rutinarios impulsados por el costo, o servicio prioritario cuando su cronograma no pueda flexionarse: misma red, mismo cumplimiento, diferente velocidad."
+          "desc": "Elija LTL estándar para embarques rutinarios enfocados en costo, o servicio prioritario cuando su calendario no tiene flexibilidad — misma red, mismo cumplimiento, diferente velocidad."
         },
         {
-          "title": "LTL en tránsito para envíos de materiales peligrosos (Hazmat)",
-          "desc": "Mueva mercancías peligrosas certificadas por los tres países sin pagar aranceles o impuestos por adelantado, con manejo completo que cumple con el DOT, IATA DGR y código IMDG, incluso cuando se consolida con otra carga."
+          "title": "LTL Bonded para embarques hazmat",
+          "desc": "Mueva mercancías peligrosas certificadas a través de los tres países sin pagar aranceles ni impuestos por anticipado, con manejo totalmente conforme a DOT, IATA DGR e IMDG — incluso cuando se consolida con otra carga."
         },
         {
-          "title": "Documentación en cumplimiento con el T-MEC",
-          "desc": "Certificados de origen y trámites aduaneros manejados de principio a fin para cada envío, independientemente de cuántos otros remitentes haya en el remolque."
+          "title": "Documentación conforme a USMCA",
+          "desc": "Certificados de origen y trámites aduanales gestionados de principio a fin para cada embarque, sin importar cuántos otros remitentes compartan el remolque."
         },
         {
-          "title": "Rastreo de envíos en tiempo real mediante la Kronos Client App",
-          "desc": "Monitoree la ubicación de su carga, el estado de consolidación y el progreso del cruce fronterizo desde su teléfono, en cualquier parte del mundo."
+          "title": "Seguimiento en tiempo real vía la Kronos Client App",
+          "desc": "Monitoree la ubicación de su carga, estatus de consolidación y avance del cruce fronterizo desde su teléfono, en cualquier parte del mundo."
         },
         {
           "title": "Pague solo por lo que envía",
-          "desc": "Sin remolque dedicado, sin capacidad desperdiciada: solo el espacio que su envío realmente necesita, a una tarifa transfronteriza creada para proveedores recurrentes."
+          "desc": "Sin remolque dedicado, sin capacidad desperdiciada — solo el espacio que su embarque realmente necesita, a una tarifa cross-border diseñada para proveedores recurrentes."
         }
       ],
       "includedTitle": "Nuestros Servicios Incluyen",
@@ -417,30 +417,30 @@
       "metaDesc": "Kronos Logistics ofrece servicios de transporte marítimo de altura de alta calidad y seguros, incluyendo FCL, LCL y cumplimiento aduanal para importación y exportación global.",
       "heroTitle": "Transporte Marítimo",
       "intro": [
-        "El océano es la cadena de suministro más grande del mundo. Kronos está construido para navegarla. Proporcionamos transporte marítimo global a través de los puertos comerciales más importantes, conectando cada continente bajo un único socio de confianza. Desde el primer contenedor cargado hasta la entrega de la última milla, su carga se mueve con el cumplimiento, la visibilidad y la precisión que exige el comercio global de alto volumen.",
-        "Este es transporte marítimo diseñado a escala: componentes automotrices, maquinaria industrial, compuestos químicos y manufactura en volumen, movidos a través de los puertos de los que depende el mundo, gestionados por el socio en el que puede confiar."
+        "El océano es la cadena de suministro más grande del mundo. Kronos está construido para navegarla. Ofrecemos transporte marítimo global a través de los puertos comerciales que más importan, conectando cada continente bajo un solo socio de confianza. Desde el primer contenedor cargado hasta la última milla entregada, su carga se mueve con el cumplimiento, la visibilidad y la precisión que el comercio global de alto volumen exige.",
+        "Este es transporte marítimo diseñado para la escala: componentes automotrices, maquinaria industrial, compuestos químicos y manufactura por volumen — movidos a través de los puertos de los que depende el mundo, gestionados por el socio del que usted puede depender."
       ],
-      "advantagesTitle": "El Estándar Kronos en Transporte Marítimo:",
+      "advantagesTitle": "El Estándar Kronos Sea Freight:",
       "advantages": [
         {
           "title": "Cobertura portuaria global, sin compromisos",
-          "desc": "Acceso directo a las puertas de enlace comerciales que impulsan el comercio mundial, incluidos los principales puertos de México (Manzanillo, Veracruz, Lázaro Cárdenas), Estados Unidos (Los Ángeles/Long Beach, Houston, Nueva York/Nueva Jersey), China (Shanghái, Qingdao, Shenzhen) y centros clave en Asia, África y Europa."
+          "desc": "Acceso directo a los puntos de entrada comerciales que impulsan el comercio mundial, incluyendo puertos principales en México (Manzanillo, Veracruz, Lázaro Cárdenas), Estados Unidos (Los Ángeles/Long Beach, Houston, Nueva York/Nueva Jersey), China (Shanghái, Qingdao, Shenzhen), y centros clave en Asia, África y Europa."
         },
         {
           "title": "FCL y LCL, diseñados para su volumen",
-          "desc": "Carga de contenedor completo (FCL) para envíos a escala, o carga de menos de un contenedor (LCL) cuando la precisión importa más que el volumen; ambos respaldados por el mismo estándar inflexible de cumplimiento y visibilidad."
+          "desc": "Contenedor completo (FCL) para embarques a escala, o carga consolidada (LCL) cuando la precisión importa más que el volumen — ambos respaldados por el mismo estándar inflexible de cumplimiento y visibilidad."
         },
         {
           "title": "Agencia aduanal, de principio a fin",
-          "desc": "Un equipo gestiona el despacho en origen y destino, a través de cada jurisdicción que cruza su carga, para que su mercancía nunca espere por trámites innecesarios."
+          "desc": "Un solo equipo gestiona el despacho en origen y destino, a través de cada jurisdicción que su carga cruza — para que su carga nunca espere por trámites que no debería tener que esperar."
         },
         {
           "title": "Visibilidad total, de océano a océano",
-          "desc": "Rastree la ubicación de su contenedor, el estado del puerto y la llegada estimada en tiempo real a través de la Kronos Client App."
+          "desc": "Rastree la ubicación de su contenedor, el estatus del puerto y la llegada estimada en tiempo real a través de la Kronos Client App."
         },
         {
-          "title": "Un contacto. Cada puerto. Cada vez.",
-          "desc": "Un único punto de contacto en toda su red oceánica global: sin transportistas fragmentados, sin traspasos perdidos, sin sorpresas en aduanas."
+          "title": "Un contacto. Cada puerto. Siempre.",
+          "desc": "Un único punto de contacto a través de toda su red marítima global — sin transportistas fragmentados, sin transferencias perdidas, sin sorpresas en aduana."
         }
       ],
       "includedTitle": "Nuestros Servicios Incluyen",
@@ -457,24 +457,24 @@
       "metaTitle": "Renta de Remolques - Kronos Logistics",
       "metaDesc": "Kronos Logistics ofrece renta flexible de remolques de caja seca y plataforma. Rente a corto o largo plazo para escalar su flota según lo necesite.",
       "heroTitle": "Trailer Lease",
-      "intro": "Escale su capacidad a demanda, sin el compromiso de capital de ser propietario de una flota. Ya sea que necesite un remolque por un solo día o un arrendamiento dedicado para un ciclo de producción extendido, Kronos le brinda acceso inmediato a una flota de remolques moderna y bien mantenida que se flexibiliza con su operación, no en su contra.",
-      "advantagesTitle": "Por Qué Kronos Trailer Lease Funciona para Usted:",
+      "intro": "Escale su capacidad a demanda — sin el compromiso de capital que implica poseer una flota. Ya sea que necesite un remolque por un solo día o un arrendamiento dedicado para un ciclo de producción extendido, Kronos le da acceso inmediato a una flota de remolques moderna y bien mantenida que se ajusta a su operación, no en contra de ella.",
+      "advantagesTitle": "Por Qué Kronos Trailer Lease Funciona Para Usted:",
       "advantages": [
         {
           "title": "Menor costo, por diseño",
-          "desc": "Acceda a los remolques que necesita sin el gasto de capital de ser propietario de una flota."
+          "desc": "Acceda a los remolques que necesita sin el gasto de capital que implica poseer una flota."
         },
         {
           "title": "Cero carga de mantenimiento",
-          "desc": "Sin costos de reparación, sin tiempo de inactividad por servicio: cada remolque se mantiene y está listo antes de que llegue a usted."
+          "desc": "Sin costos de reparación, sin tiempo de inactividad por servicio — cada remolque es mantenido y está listo antes de llegar a usted."
         },
         {
-          "title": "Opciones flexibles de almacenamiento en patio",
-          "desc": "Elija entre arrendamiento de uso diario o almacenamiento mensual en el patio para los remolques que necesita en espera; pague solo por el acuerdo que coincida con cómo funciona realmente su operación."
+          "title": "Opciones flexibles de almacenaje en patio",
+          "desc": "Elija entre arrendamiento de uso diario o almacenaje mensual en patio para remolques que necesita en espera — pague solo por el esquema que se ajusta a cómo realmente opera su negocio."
         },
         {
-          "title": "Términos flexibles, construidos alrededor de su cronograma",
-          "desc": "Desde arrendamientos diarios hasta acuerdos a largo plazo, elija la duración que coincida con su necesidad operativa real."
+          "title": "Términos flexibles, construidos alrededor de su calendario",
+          "desc": "Desde arrendamientos día a día hasta acuerdos a largo plazo, elija la duración que se ajuste a su necesidad operativa real."
         }
       ],
       "includedTitle": "Opciones de Equipo",
@@ -483,22 +483,22 @@
         "Remolques de Plataforma",
         "Equipo Especializado"
       ],
-      "heroSubtitle": "La Flota que Necesita. Exactamente Cuando la Necesita.",
-      "outro": "Capacidad en sus términos. Compromiso en su cronograma."
+      "heroSubtitle": "La Flota Que Necesita. Exactamente Cuando la Necesita.",
+      "outro": "Capacidad en sus términos. Compromiso en su calendario."
     },
     "warehousing": {
       "metaTitle": "Almacenaje - Kronos Logistics",
       "metaDesc": "Kronos Logistics ofrece soluciones de almacenaje seguras, flexibles y monitoreadas. Mantenga su carga segura en puntos estratégicos de distribución.",
       "heroTitle": "Almacenaje",
       "intro": [
-        "Las cadenas de suministro exigen flexibilidad, y la estrategia de almacenamiento adecuada es lo que hace posible esa flexibilidad. Kronos opera una red de instalaciones de almacenamiento certificadas y monitoreadas en centros estratégicos, brindando a su carga un punto de paso seguro y bien ubicado entre el origen y el destino.",
-        "Esto es almacenamiento construido para funcionar como una extensión de su negocio, sin los gastos generales de administrarlo usted mismo."
+        "Las cadenas de suministro exigen flexibilidad — y la estrategia de almacenaje correcta es lo que hace posible esa flexibilidad. Kronos opera una red de instalaciones de almacenaje certificadas y monitoreadas en centros estratégicos, dándole a su carga un punto de tránsito seguro y bien ubicado entre el origen y el destino.",
+        "Este es un servicio de almacenaje diseñado para funcionar como una extensión de su negocio — sin la carga operativa de manejarlo usted mismo."
       ],
-      "advantagesTitle": "Por Qué el Almacenamiento de Kronos Funciona para Usted:",
+      "advantagesTitle": "Por Qué Kronos Warehousing Funciona Para Usted:",
       "advantages": [
         {
           "title": "Elimine costos fijos",
-          "desc": "Sin mantenimiento, sin equipos, sin personal adicional. Costos de almacenamiento que se escalan con su necesidad real, no un gasto fijo que soporta todo el año."
+          "desc": "Sin mantenimiento, sin equipo, sin personal adicional. Costos de almacenaje que escalan con su necesidad real, no un gasto fijo que carga todo el año."
         },
         {
           "title": "Posicionamiento estratégico de distribución",
@@ -506,22 +506,22 @@
         },
         {
           "title": "Recupere su propio espacio",
-          "desc": "Libere sus instalaciones para lo que más le importa a su operación, mientras Kronos administra el resto."
+          "desc": "Libere su instalación para lo que más importa en su operación, mientras Kronos gestiona el resto."
         },
         {
           "title": "Una extensión de su equipo, no una carga para él",
-          "desc": "Escale la capacidad de almacenamiento y manejo sin agregar mano de obra, capacitación o gastos generales de administración de su lado."
+          "desc": "Escale capacidad de almacenaje y manejo sin agregar mano de obra, capacitación, o carga administrativa de su lado."
         },
         {
           "title": "Seguridad monitoreada 24/7",
-          "desc": "Vigilancia constante y acceso controlado mantienen su carga protegida las 24 horas, en cada instalación."
+          "desc": "Vigilancia constante y acceso controlado mantienen su carga protegida todo el día, en cada instalación."
         }
       ],
-      "includedTitle": "El Almacenamiento de Servicio Completo Incluye:",
+      "includedTitle": "El Servicio Integral de Almacenaje Incluye:",
       "included": [
         {
-          "title": "Empaque",
-          "desc": "Empaque profesional según estándares de la industria y específicos del envío."
+          "title": "Embalaje",
+          "desc": "Embalaje profesional conforme a estándares específicos de la industria y del embarque."
         },
         {
           "title": "Carga y descarga",
@@ -529,18 +529,18 @@
         },
         {
           "title": "Conteos cíclicos",
-          "desc": "Verificación regular de inventario para mantener sus registros precisos y listos para auditorías."
+          "desc": "Verificación regular de inventario para mantener sus registros precisos y listos para auditoría."
         },
         {
-          "title": "Reetiquetado",
-          "desc": "Reetiquetado en cumplimiento para destinos cambiantes, regulaciones o requisitos del cliente."
+          "title": "Re-etiquetado",
+          "desc": "Re-etiquetado conforme para cambios de destino, regulaciones o requisitos del cliente."
         },
         {
           "title": "Inspección de material",
-          "desc": "Controles de calidad y condición al ingreso y durante el almacenamiento."
+          "desc": "Verificaciones de calidad y condición al ingreso y durante todo el almacenaje."
         }
       ],
-      "heroSubtitle": "Su Inventario. Ubicado Estratégicamente. Totalmente Seguro.",
+      "heroSubtitle": "Su Inventario. Estratégicamente Ubicado. Totalmente Asegurado.",
       "outro": "Espacio que se adapta. Seguridad que escala con usted."
     }
   },
@@ -594,6 +594,10 @@
       "trailer": {
         "title": "Renta de Remolques",
         "description": "El alquiler te brinda la libertad y flexibilidad de tener exactamente los remolques que necesitas, ya sea que busques un alquiler a corto plazo o un contrato de arrendamiento a largo plazo."
+      },
+      "airCustoms": {
+        "title": "Aduanas Aéreas",
+        "description": ""
       }
     }
   },
@@ -614,14 +618,15 @@
   },
   "Coverage": {
     "title": "COBERTURA EN ADUANAS AÉREAS DE MÉXICO",
-    "p1": "Kronos Logistics cuenta con la autorización completa para operar dentro de recintos fiscalizados y zonas aduanales en los principales aeropuertos internacionales de México — un despacho que abre puertas a las que la mayoría de los transportistas simplemente no pueden acceder.",
-    "p2": "Nuestros operadores están ampliamente capacitados tanto en carga seca general como en materiales peligrosos — operadores autorizados que portan gafete de identificación y credenciales TAG de la ANAM que les otorgan acceso a la zona federal y permiten el despacho y liberación de embarques de importación y exportación sin demoras.",
-    "p3": "Respaldados por una profunda experiencia operativa y tecnología avanzada de rastreo, cada embarque se mueve con la precisión y seguridad que su carga exige.",
+    "p1": "Kronos Logistics cuenta con autorización plena para operar dentro de instalaciones bonded y zonas aduaneras en los principales aeropuertos internacionales de México — un acceso que pocos transportistas pueden ofrecer.",
+    "p2": "Nuestros operadores están ampliamente capacitados en el manejo de carga general seca y materiales peligrosos — personal autorizado con gafete de identificación y credencial TAG ANAM, que les permite el acceso a la zona federal y la gestión del despacho de embarques de importación y exportación sin demora.",
+    "p3": "Respaldados por amplia experiencia operativa y tecnología avanzada de rastreo, cada embarque se mueve con la precisión y seguridad que su carga exige.",
     "airports": [
-      "ADUANA DEL AEROPUERTO INTERNACIONAL DE LA CIUDAD DE MÉXICO (AICM)",
-      "ADUANA DEL AEROPUERTO INTERNACIONAL FELIPE ÁNGELES (AIFA - NLU)",
-      "ADUANA DEL AEROPUERTO INTERNACIONAL DE GUADALAJARA (GDL)",
-      "ADUANA DEL AEROPUERTO INTERNACIONAL DE MONTERREY (MTY) - General Mariano Escobedo"
-    ]
+      "Aduana del Aeropuerto Internacional de la Ciudad de México (AICM)",
+      "Aduana del Aeropuerto Internacional Felipe Ángeles (AIFA – NLU)",
+      "Aduana del Aeropuerto Internacional de Guadalajara (GDL)",
+      "Aduana del Aeropuerto Internacional de Monterrey (MTY) — General Mariano Escobedo"
+    ],
+    "subtitle": "Acceso Autorizado. Ejecución Garantizada."
   }
 }

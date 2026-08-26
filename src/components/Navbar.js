@@ -41,6 +41,7 @@ const serviceItems = [
   { key: "bonded", slug: "bonded-carrier" },
   { key: "trailer", slug: "trailer-rental" },
   { key: "hazmat", slug: "hazmat-logistics" },
+  { key: "airCustoms", slug: "air-customs" },
 ];
 
 export default function Navbar() {
@@ -102,7 +103,6 @@ export default function Navbar() {
     { name: t("home"), href: "/" },
     { name: t("aboutUs"), href: "/about-us" },
     { name: t("services"), href: "/services", hasDropdown: true },
-    { name: t("airCustoms"), href: "/air-customs" },
     { name: t("contact"), href: "/contact" },
   ];
 

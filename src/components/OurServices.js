@@ -68,6 +68,12 @@ const serviceItems = [
     slug: "trailer-rental",
     image: "/services/trailer-rental.webp",
     video: "/services/trailer-rental-video.webm"
+  },
+  {
+    key: "airCustoms",
+    slug: "air-customs",
+    image: "/services/air-freight.webp",
+    video: "/services/air-freight-video.webm"
   }
 ];
 
