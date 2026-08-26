@@ -32,7 +32,9 @@ import {
   MapPin,
   Package,
   ClipboardCheck,
-  TrendingDown
+  TrendingDown,
+  Users,
+  Tag
 } from "lucide-react";
 import styles from "../ServiceDetail.module.css";
 
@@ -52,31 +54,37 @@ const serviceIcons = {
     advantages: [
       <Zap size={24} key="z" />,
       <Clock size={24} key="c" />,
+      <Eye size={24} key="e" />,
+      <ShieldCheck size={24} key="sc" />,
       <Shield size={24} key="s" />,
-      <Box size={24} key="b" />
+      <Box size={24} key="b" />,
+      <Globe size={24} key="g" />,
+      <ClipboardCheck size={24} key="cc" />
     ],
     included: [
-      <Zap size={20} key="z2" />,
-      <Award size={20} key="aw" />,
-      <Plane size={20} key="p" />,
-      <Briefcase size={20} key="bc" />,
-      <RefreshCw size={20} key="rcw" />,
-      <Globe size={20} key="g2" />
+      <DollarSign size={20} key="ds" />,
+      <Clock size={20} key="cl2" />,
+      <Plane size={20} key="p" />
     ]
   },
   "bonded-carrier": {
     advantages: [
+      <DollarSign size={24} key="ds" />,
       <Globe size={24} key="g" />,
-      <Box size={24} key="b" />,
-      <TrendingDown size={24} key="td" />,
-      <Lock size={24} key="l" />
+      <Clock size={24} key="c" />,
+      <ShieldCheck size={24} key="sc" />,
+      <ClipboardCheck size={24} key="cc" />
     ]
   },
   "full-truckload-ftl": {
     advantages: [
-      <Truck size={24} key="t" />,
-      <Shield size={24} key="s" />,
-      <DollarSign size={24} key="ds" />
+      <Globe size={24} key="g" />,
+      <Clock size={24} key="c" />,
+      <ShieldCheck size={24} key="sc" />,
+      <Activity size={24} key="act" />,
+      <CheckSquare size={24} key="cs" />,
+      <FileText size={24} key="ft" />,
+      <Truck size={24} key="t" />
     ],
     included: [
       <Box size={20} key="b" />,
@@ -94,23 +102,34 @@ const serviceIcons = {
       <Shield size={24} key="s" />,
       <Clock size={24} key="c" />,
       <Activity size={24} key="act" />
+    ],
+    included: [
+      <Award size={20} key="aw" />,
+      <Globe size={20} key="g" />,
+      <Zap size={20} key="z" />,
+      <ClipboardCheck size={20} key="cc" />,
+      <MapPin size={20} key="mp" />
     ]
   },
   "hazmat-logistics": {
     advantages: [
-      <ShieldCheck size={24} key="sc" />,
+      <Globe size={24} key="g" />,
       <ShieldAlert size={24} key="sa" />,
+      <MapPin size={24} key="mp" />,
       <FileText size={24} key="ft" />,
-      <Eye size={24} key="e" />
+      <Activity size={24} key="act" />,
+      <UserCheck size={24} key="uc" />
     ]
   },
   "less-than-truckload-ltl": {
     advantages: [
-      <DollarSign size={24} key="ds" />,
-      <Award size={24} key="aw" />,
-      <Shield size={24} key="s" />,
+      <Globe size={24} key="g" />,
       <Clock size={24} key="c" />,
-      <RefreshCw size={24} key="rcw" />
+      <Activity size={24} key="act" />,
+      <ShieldCheck size={24} key="sc" />,
+      <FileText size={24} key="ft" />,
+      <MapPin size={24} key="mp" />,
+      <DollarSign size={24} key="ds" />
     ],
     included: [
       <Truck size={20} key="t" />,
@@ -121,9 +140,11 @@ const serviceIcons = {
   },
   "sea-freight": {
     advantages: [
-      <Maximize size={24} key="m" />,
-      <Shield size={24} key="s" />,
-      <DollarSign size={24} key="ds" />
+      <Globe size={24} key="g" />,
+      <Box size={24} key="b" />,
+      <ShieldCheck size={24} key="sc" />,
+      <Activity size={24} key="act" />,
+      <UserCheck size={24} key="uc" />
     ],
     included: [
       <Box size={20} key="b" />,
@@ -150,11 +171,14 @@ const serviceIcons = {
       <DollarSign size={24} key="ds" />,
       <MapPin size={24} key="mp" />,
       <Layers size={24} key="lay" />,
-      <Briefcase size={24} key="bc" />
+      <Users size={24} key="us" />,
+      <ShieldCheck size={24} key="sc" />
     ],
     included: [
       <Package size={20} key="pkg" />,
       <Truck size={20} key="t" />,
+      <RefreshCw size={20} key="rcw" />,
+      <Tag size={20} key="tag" />,
       <ClipboardCheck size={20} key="cc" />
     ]
   }
@@ -180,12 +204,34 @@ export default function ServiceDetailClient({ slug }) {
 
   const included = [];
   if (icons.included) {
-    const includedCount = icons.included.length;
-    for (let i = 0; i < includedCount; i++) {
-      included.push({
-        title: t(`included.${i}`),
-        icon: icons.included[i]
-      });
+    try {
+      const rawIncluded = t.raw("included");
+      if (Array.isArray(rawIncluded)) {
+        for (let i = 0; i < rawIncluded.length; i++) {
+          const item = rawIncluded[i];
+          if (typeof item === 'string') {
+            included.push({
+              title: item,
+              icon: icons.included[i]
+            });
+          } else {
+            included.push({
+              title: item.title,
+              desc: item.desc,
+              icon: icons.included[i]
+            });
+          }
+        }
+      }
+    } catch(e) {
+      // Fallback
+      const includedCount = icons.included.length;
+      for (let i = 0; i < includedCount; i++) {
+        included.push({
+          title: t(`included.${i}`),
+          icon: icons.included[i]
+        });
+      }
     }
   }
 
@@ -214,7 +260,9 @@ export default function ServiceDetailClient({ slug }) {
             transition={{ duration: 0.6 }}
           >
             <div className={styles.introText}>
-              <p>{t("intro")}</p>
+              {Array.isArray(t.raw("intro")) 
+                ? t.raw("intro").map((para, idx) => <p key={idx} style={idx > 0 ? {marginTop: '1rem'} : {}}>{para}</p>)
+                : <p>{t("intro")}</p>}
             </div>
 
             <div className={styles.advantagesSection}>
@@ -260,10 +308,19 @@ export default function ServiceDetailClient({ slug }) {
                       <div className={styles.includedIconWrapper}>
                         {service.icon}
                       </div>
-                      <span className={styles.includedText}>{service.title}</span>
+                      <div className={styles.includedTextContent} style={{ display: 'flex', flexDirection: 'column' }}>
+                        <span className={styles.includedText}>{service.title}</span>
+                        {service.desc && <span className={styles.includedDesc} style={{ fontSize: '0.85rem', color: '#666', marginTop: '4px', fontWeight: 'normal' }}>{service.desc}</span>}
+                      </div>
                     </motion.div>
                   ))}
                 </div>
+              </div>
+            )}
+
+            {t.has?.("outro") && t("outro") !== "outro" && t("outro") !== "Services." + slug + ".outro" && (
+              <div className={styles.introText} style={{ marginTop: '2.5rem', fontWeight: 'bold' }}>
+                <p>{t("outro")}</p>
               </div>
             )}
           </motion.div>

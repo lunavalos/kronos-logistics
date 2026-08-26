@@ -3,7 +3,7 @@ import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import styles from "./PageHero.module.css";
 
-export default function PageHero({ title, video = "/hero-video-new.webm" }) {
+export default function PageHero({ title, subtitle, video = "/hero-video-new.webm" }) {
   const sectionRef = useRef(null);
 
   const { scrollYProgress } = useScroll({
@@ -55,6 +55,16 @@ export default function PageHero({ title, video = "/hero-video-new.webm" }) {
         >
           {title}
         </motion.h1>
+        {subtitle && (
+          <motion.p
+            className={styles.subtitle}
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
+          >
+            {subtitle}
+          </motion.p>
+        )}
       </div>
 
       {/* Moving Tab Divider */}

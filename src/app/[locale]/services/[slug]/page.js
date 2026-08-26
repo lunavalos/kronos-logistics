@@ -40,7 +40,12 @@ export default async function ServiceDetailPage({ params }) {
 
   return (
     <main>
-      <PageHero title={t("heroTitle")} video={videoMap[slug]} />
+      
+      <PageHero 
+        title={t("heroTitle")} 
+        subtitle={t.has?.("heroSubtitle") ? t("heroSubtitle") : (t("heroSubtitle") !== "heroSubtitle" && t("heroSubtitle") !== "Services." + slug + ".heroSubtitle" ? t("heroSubtitle") : null)}
+        video={videoMap[slug]} 
+      />
       <ServiceDetailClient slug={slug} />
     </main>
   );

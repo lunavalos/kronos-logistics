@@ -78,3 +78,13 @@
     height: 60px;
   }
 }
+
+.subtitle {
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 0.5rem;
+  opacity: 0.9;
+  max-width: 800px;
+  line-height: 1.4;
+}

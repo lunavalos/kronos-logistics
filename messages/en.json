@@ -142,79 +142,122 @@
       "metaTitle": "Air Freight - Kronos Logistics",
       "metaDesc": "Kronos Logistics offers fast, secure, and reliable air freight shipping services worldwide. We analyze your cargo size and budget to deliver cost-effective logistics solutions.",
       "heroTitle": "Air Freight",
-      "intro": "With our global experience, we provide reliable and efficient air freight services to meet our customers' specific transportation and logistics needs. We will analyze your freight size and budget so we can offer you the most appropriate, cost-effective solution to move your cargo quickly and securely.",
-      "advantagesTitle": "Key Advantages",
+      "intro": "When speed determines outcome, KRONOS delivers air freight engineered for security and reliability, supported by technology that ensures complete traceability from origin to destination. Our expertise spans the automotive, technology, and aerospace industries, where critical, fragile cargo demands a standard of precision beyond conventional air transport.",
+      "advantagesTitle": "The Kronos Advantage",
       "advantages": [
         {
-          "title": "Fastest Shipping Method",
-          "desc": "Your cargo can travel long distances in a short period of time, ensuring urgent deliveries meet their deadlines."
+          "title": "Speed without compromise",
+          "desc": "the fastest mode available, compressing transit times that ground or ocean freight cannot match."
         },
         {
-          "title": "Reliable Scheduling & Tracking",
-          "desc": "Reliable arrival and departure times with easy real-time tracking allowing you to check the status of your cargo at any moment."
+          "title": "Reliable, on schedule",
+          "desc": "consistent on-time performance and dependable transit times across every service tier, shipment after shipment."
         },
         {
-          "title": "High Level of Security",
-          "desc": "Strict airport security controls reduce the risk of theft and eliminate potential cargo contamination."
+          "title": "End-to-end traceability",
+          "desc": "an integrated technology platform monitors every shipment in real time, ensuring full visibility from origin to final destination."
         },
         {
-          "title": "Reduced Damage Risk",
-          "desc": "Fewer touchpoints and minimal handling of items during transit significantly lower the probability of damage."
+          "title": "Secure by design",
+          "desc": "rigorous security protocols and minimized handling reduce exposure to loss, damage, or compromise throughout the supply chain."
+        },
+        {
+          "title": "Cargo insurance, on demand",
+          "desc": "optional coverage protecting the full value of your shipment throughout transit."
+        },
+        {
+          "title": "Built for critical cargo",
+          "desc": "specialized handling for the automotive, technology, and aerospace industries, where fragile and high-value materials require precision at every stage."
+        },
+        {
+          "title": "Global network, local execution",
+          "desc": "domestic agents combined with direct access to the world’s highest-traffic airports, ensuring consistent execution across every market we serve."
+        },
+        {
+          "title": "Customs guidance, origin to destination",
+          "desc": "dedicated advisory governing every regulatory requirement across the journey."
         }
       ],
-      "includedTitle": "Our Services Include",
+      "includedTitle": "Service Offering",
       "included": [
-        "Next Flight Out",
-        "Priority Shipping",
-        "Charter Services",
-        "Hand Carrier",
-        "Counter to Counter",
-        "International Custom Broker Agency"
+        {
+          "title": "Economy",
+          "desc": "cost-efficient air transport for shipments where flexible timelines allow for greater savings."
+        },
+        {
+          "title": "Priority Freight",
+          "desc": "expedited handling and reduced transit times for shipments where schedule certainty is critical."
+        },
+        {
+          "title": "Next Flight Out (NFO)",
+          "desc": "the fastest possible dispatch, placing time-critical cargo on the next available flight."
+        }
       ]
     },
     "bonded-carrier": {
       "metaTitle": "Bonded Carrier - Kronos Logistics",
       "metaDesc": "Kronos Logistics provides licensed Bonded Carrier services, allowing you to move freight through U.S. points of entry safely and efficiently without immediate duty payments.",
       "heroTitle": "Bonded Carrier",
-      "intro": "Transportation that is licensed to move freight through/across U.S. points of entry without having to pay duties, taxes and/or fees on those goods during transit. By offering this specialized service, we help our customers to speed up their transit times, simplify cross-border procedures, and keep logistics costs low.",
-      "advantagesTitle": "Key Advantages",
+      "intro": "Move your freight through U.S. ports, border crossings, and FTZ warehouses — without paying duties or taxes upfront. Available by ground, air, and ocean transport, Kronos keeps your cargo compliant and your capital working for your business, with a fully auditable chain of custody from origin to final delivery.",
+      "advantagesTitle": "Why Bonded Carrier Works for You",
       "advantages": [
         {
-          "title": "Duty Deferral & Transit",
-          "desc": "Allows you to transport your cargo across international borders before paying any custom duties or taxes."
+          "title": "Defer duty and tax payments",
+          "desc": "Improve cash flow by paying only when goods formally enter U.S. commerce, not before."
         },
         {
-          "title": "Bonded Storage Integration",
-          "desc": "Allows you to store your goods in a secure bonded warehouse while waiting for their next scheduled transportation."
+          "title": "Ground, air, and ocean bonded transport",
+          "desc": "Move freight by truck across border crossings, by air through bonded warehouse facilities at major airports, or by sea through bonded terminals at major U.S. ports — whichever mode your cargo demands."
         },
         {
-          "title": "Time & Cost Efficiency",
-          "desc": "Saves time and money by significantly reducing paperwork and custom clearance delays at border crossing points."
+          "title": "Long-term, flexible storage",
+          "desc": "Keep inventory in bond for as long as your strategy requires, with no forced deadlines."
         },
         {
-          "title": "Enhanced Transit Security",
-          "desc": "Provides total security since the cargo must be transported in a sealed trailer and monitored closely during transit."
+          "title": "Product integrity protected",
+          "desc": "Climate-controlled, monitored facilities preserve cargo quality and condition throughout storage."
+        },
+        {
+          "title": "Full chain-of-custody compliance",
+          "desc": "Every movement documented and audit-ready, built for the standards that regulated industries demand."
         }
-      ]
+      ],
+      "heroSubtitle": "Move Freely. Delay Duties. Stay Compliant."
     },
     "full-truckload-ftl": {
       "metaTitle": "USMCA FTL - Kronos Logistics",
       "metaDesc": "Kronos Logistics provides reliable and professional USMCA Full Truckload (FTL) shipping solutions. We offer dry van, temperature controlled, oversized, and flatbed transportation.",
       "heroTitle": "USMCA FTL",
-      "intro": "We work closely and count with a very large, reliable, and high-quality carrier network to provide professional services and the best affordable rate for all your truckload needs. When you have a shipment that fills a standard trailer, or when you have a high-value cargo, our FTL shipping service is the best option to move your freight securely and efficiently.",
-      "advantagesTitle": "Key Advantages",
+      "intro": "Move full truckload freight seamlessly across Mexico, the United States, and Canada under the USMCA trade agreement — with the speed your just-in-time operation demands and the compliance your supply chain requires. Kronos combines C-TPAT certified cross-border expertise with a dedicated carrier network, powered by Samsara technology and the Kronos Client App, to keep your freight moving without delay at every border crossing.",
+      "advantagesTitle": "Why USMCA FTL Works for You:",
       "advantages": [
         {
-          "title": "Direct & Fast Transit",
-          "desc": "Fastest shipping method by land. Your freight goes directly from point A to point B without any extra stops."
+          "title": "Tri-national coverage",
+          "desc": "Direct full truckload service across Mexico, the U.S., and Canada, all under one carrier relationship and one point of contact."
         },
         {
-          "title": "Dedicated & Safe Cargo",
-          "desc": "Best option for high volume cargo. Less risk of damage since the trailer is dedicated to your freight and remains closed from departure to destination."
+          "title": "Built for just-in-time delivery",
+          "desc": "Optimized border-crossing routes and dedicated capacity keep your production lines running without costly downtime."
         },
         {
-          "title": "Cost-Effective Logistics",
-          "desc": "Allows you to ship large quantities of goods at a lower cost per unit, maximizing your budget efficiency."
+          "title": "C-TPAT certified security",
+          "desc": "Recognized by U.S. Customs and Border Protection as a trusted, low-risk partner — meaning faster clearance and fewer inspections at every crossing."
+        },
+        {
+          "title": "Samsara-powered fleet visibility",
+          "desc": "Live GPS tracking, ELD compliance, and predictive ETAs across every load, giving you precision visibility from pickup to delivery."
+        },
+        {
+          "title": "Real-time shipment tracking via the Kronos Client App",
+          "desc": "Monitor border-crossing status, documentation, and delivery milestones from your phone, anywhere in the world."
+        },
+        {
+          "title": "USMCA-compliant documentation",
+          "desc": "Certificates of origin and customs paperwork handled end-to-end, reducing delays at every checkpoint."
+        },
+        {
+          "title": "Dedicated cross-border carriers",
+          "desc": "A vetted network with deep experience at Laredo, El Paso, Port Huron, Windsor, and other major USMCA crossings."
         }
       ],
       "includedTitle": "Our Services Include",
@@ -226,84 +269,137 @@
         "Hazardous Materials (Hazmat)",
         "Expedited Shipping",
         "Cross-Docking"
-      ]
+      ],
+      "heroSubtitle": "Cross Borders. Stay on Schedule. Keep Production Running."
     },
     "hand-carrier-service": {
       "metaTitle": "Hand Carrier Service - Kronos Logistics",
       "metaDesc": "Kronos Logistics provides high-urgency hand-carrier / onboard courier services. Rest assured that your high-value or critical shipments are under full control, custody, and speed.",
-      "heroTitle": "Hand Carrier Service",
-      "intro": "The hand-carry / onboard courier is characterized by operating in situations of extreme urgency. When a company needs to deliver cargo immediately (critical parts, prototypes, or high-value items) to avoid line stoppages or heavy penalty fees, this service is the best solution. We will assign a dedicated courier to accompany your cargo on board a passenger flight to ensure custody, speed, and delivery.",
-      "advantagesTitle": "Key Advantages",
+      "heroTitle": "Hand Carrier / On Board Courier",
+      "intro": [
+        "Kronos Hand Carrier exists for the cargo that cannot be replaced, cannot be delayed, and cannot be trusted to a warehouse floor. When an assembly line, an aircraft, a defense operation, or a life-saving treatment depends on a single shipment, we put a dedicated courier on the next flight out — your cargo, in hand, anywhere in the world.",
+        "This is our highest priority service tier: every Hand Carrier shipment receives priority dispatch, priority routing, and priority handling — secured at every step, cleared at every border, for the industries where failure has no margin."
+      ],
+      "advantagesTitle": "Built for the Industries Where Delay Is Not an Option:",
       "advantages": [
         {
-          "title": "Maximum Speed & Urgency",
-          "desc": "Fastest shipping method. The courier boards the next flight out to deliver the cargo directly to its final destination."
+          "title": "Automotive",
+          "desc": "A single missing part can halt an entire assembly line, costing far more per hour than the courier service itself. We get it there first."
         },
         {
-          "title": "End-to-End Custody",
-          "desc": "Total custody and control. The courier maintains hands-on custody of the cargo at all times from pick-up to delivery."
+          "title": "Aerospace & Defense",
+          "desc": "Flight-critical components and classified materials that can’t sit in a warehouse. Custody that never breaks, clearance that never stalls."
         },
         {
-          "title": "Accelerated Customs",
-          "desc": "Reduces custom clearance times. The cargo travels as passenger baggage, which speeds up custom procedures at destination."
+          "title": "Pharma & Medical",
+          "desc": "Surgical equipment and biologics needed at a specific location, on a tight timeline. When a patient is waiting, so are we — already in the air."
         },
         {
-          "title": "Constant Monitoring",
-          "desc": "Monitored transit. Real-time updates and direct communication with the courier throughout the entire trip."
+          "title": "High-Tech & Semiconductors",
+          "desc": "Prototype components and sensitive electronics that demand hand-to-hand custody. Nothing irreplaceable ever touches a cargo hold."
         }
-      ]
+      ],
+      "heroSubtitle": "Critical Cargo. Immediate Response.",
+      "includedTitle": "The Kronos Hand Carrier Standard:",
+      "included": [
+        {
+          "title": "Priority service, every time",
+          "desc": "Hand Carrier shipments are dispatched first, routed first, and cleared first. Your cargo is never queued behind standard freight."
+        },
+        {
+          "title": "Global Coverage. One Courier Away.",
+          "desc": "Direct, worldwide courier coverage reaching every major international hub, on every continent — wherever your operation runs, we are already positioned to respond."
+        },
+        {
+          "title": "Response measured in hours, not days",
+          "desc": "A dedicated courier is dispatched and airborne within hours of your call. In your industry, time is not a convenience — it is the cost of doing business."
+        },
+        {
+          "title": "Dedicated customs advisory",
+          "desc": "A Kronos customs specialist manages your clearance strategy in advance and travels the process in person with your courier — turning a multi-day customs procedure into a matter of minutes at every checkpoint, even for controlled and regulated cargo."
+        },
+        {
+          "title": "Live tracking on the Kronos App",
+          "desc": "Follow your courier’s exact location and every milestone in real time, from pickup to final delivery."
+        }
+      ],
+      "outro": "When time stands in your way, speed is our solution."
     },
     "hazmat-logistics": {
       "metaTitle": "Hazmat Logistics - Kronos Logistics",
       "metaDesc": "Kronos is fully certified to move dangerous goods by road, air, and sea under DOT, IATA DGR, IMDG, and NOM-002-SCT standards.",
       "heroTitle": "Hazmat Logistics",
-      "intro": "Hazardous materials demand zero margin for error. Kronos is fully certified to move dangerous goods by road, air, and sea — under DOT, IATA DGR, IMDG, and NOM-002-SCT standards — with certified specialists managing every checkpoint. Built for the industries that can’t afford a mistake: chemical, petrochemical, pharmaceutical, energy, and industrial manufacturing.",
-      "advantagesTitle": "The Kronos Hazmat Standard",
+      "intro": [
+        "Hazardous materials demand zero margin for error. Kronos is fully certified to move dangerous goods by road, air, and sea — under DOT, IATA DGR, IMDG, and NOM-002-SCT standards — with certified specialists managing every checkpoint.",
+        "Built for the industries that can’t afford a mistake: chemical, petrochemical, pharmaceutical, energy, and industrial manufacturing."
+      ],
+      "advantagesTitle": "The Kronos Hazmat Standard:",
       "advantages": [
         {
-          "title": "Certified Across Every Mode",
+          "title": "Certified across every mode",
           "desc": "DOT, IATA DGR, and IMDG certified handling for hazardous materials by road, air, and sea — one partner, every mode of transport."
         },
         {
-          "title": "Full Class Coverage",
+          "title": "Full class coverage",
           "desc": "From Class 1 explosives to Class 9 miscellaneous dangerous goods, our certified teams are trained and equipped to handle the full spectrum of hazard classifications."
         },
         {
-          "title": "Cross-Border Compliance",
+          "title": "Cross-border compliance, Mexico and beyond",
           "desc": "NOM-002-SCT certified for Mexican road transport, with federally licensed drivers and valid SCT permits at every crossing."
         },
         {
-          "title": "Real-Time Tracking",
-          "desc": "Monitor your hazmat shipment’s location, compliance status, and milestone progress in real time via the Kronos App."
+          "title": "Documentation that holds up to scrutiny",
+          "desc": "Complete emergency response documentation, segregation protocols, and compliance paperwork — audit-ready, every time."
+        },
+        {
+          "title": "Real-time tracking via the Kronos App",
+          "desc": "Monitor your hazmat shipment’s location, compliance status, and milestone progress in real time, from anywhere in the world."
+        },
+        {
+          "title": "Specialists, not generalists",
+          "desc": "Every hazmat shipment is managed by certified specialists who understand the regulatory weight of what they’re moving — not a standard freight team handling an exception."
         }
-      ]
+      ],
+      "heroSubtitle": "Precise Execution. Total Compliance.",
+      "outro": "Safety you can trust. Every shipment, every time."
     },
     "less-than-truckload-ltl": {
       "metaTitle": "USMCA LTL - Kronos Logistics",
       "metaDesc": "Kronos Logistics provides flexible and cost-effective USMCA Less Than Truckload (LTL) shipping. Combine your cargo with others to reduce transit costs and increase efficiency.",
       "heroTitle": "USMCA LTL",
-      "intro": "If you want to reduce your freight costs, LTL (Less Than Truckload) is your best solution. It is ideal when your shipment does not require a dedicated trailer. Our LTL service combines shipments from multiple customers on a single trailer, offering more flexibility, efficiency, and significant savings on your daily transport operations.",
-      "advantagesTitle": "Key Advantages",
+      "intro": [
+        "Move less-than-truckload freight across Mexico, the United States, and Canada — without paying for space you don’t need. Kronos connects you to an extensive network of certified carriers across all three countries, consolidating your shipments onto the most efficient cross-border routes available, with both standard and priority service levels to match your timeline.",
+        "This is USMCA LTL built for suppliers who ship often, but not always in full truckloads — cost-efficient, cross-border, and never slower than it needs to be."
+      ],
+      "advantagesTitle": "Why USMCA LTL Works for You:",
       "advantages": [
         {
-          "title": "Cost-Effective Shipping",
-          "desc": "Cost effective freight transportation by combining cargo from multiple shippers on a single trailer."
+          "title": "Multi-carrier network across North America",
+          "desc": "Direct access to a broad network of certified LTL carriers throughout Canada, the United States, and Mexico — more routing options, better rates, and more flexibility than a single-carrier service."
         },
         {
-          "title": "Small Business Friendly",
-          "desc": "Ideal for small to medium businesses who do not ship in high volumes but require regular departures."
+          "title": "Best-in-class transit times",
+          "desc": "Optimized cross-border routing and consolidation get your freight moving on the fastest available path, every time."
         },
         {
-          "title": "Improved Cargo Security",
-          "desc": "Improves security since shipments are often packed onto pallets and shrink-wrapped before loading."
+          "title": "Standard and Priority service tiers",
+          "desc": "Choose standard LTL for routine, cost-driven shipments, or priority service when your timeline can’t flex — same network, same compliance, different speed."
         },
         {
-          "title": "Real-Time Tracking",
-          "desc": "Easy to track so you always know where your cargo is and when it will arrive at its destination."
+          "title": "Bonded LTL for hazmat shipments",
+          "desc": "Move certified dangerous goods across all three countries without paying duties or taxes upfront, with full DOT, IATA DGR, and IMDG-compliant handling — even when consolidated with other freight."
         },
         {
-          "title": "Flexible Scheduling",
-          "desc": "Ideal for non-critical shipments, offering flexible transit options at a lower price point."
+          "title": "USMCA-compliant documentation",
+          "desc": "Certificates of origin and customs paperwork handled end-to-end for every shipment, regardless of how many other shippers are on the trailer."
+        },
+        {
+          "title": "Real-time shipment tracking via the Kronos Client App",
+          "desc": "Monitor your freight’s location, consolidation status, and border-crossing progress from your phone, anywhere in the world."
+        },
+        {
+          "title": "Pay only for what you ship",
+          "desc": "No dedicated trailer, no wasted capacity — just the space your shipment actually needs, at a cross-border rate built for recurring suppliers."
         }
       ],
       "includedTitle": "Our Services Include",
@@ -312,26 +408,39 @@
         "Consolidation",
         "Hazmat",
         "International Custom Broker Agency"
-      ]
+      ],
+      "heroSubtitle": "Wider Network. Affordable Rates. Smarter Consolidation.",
+      "outro": "Fast where it counts. Affordable where it matters."
     },
     "sea-freight": {
       "metaTitle": "Sea Freight - Kronos Logistics",
       "metaDesc": "Kronos Logistics provides high-quality and secure deep sea shipping services, including FCL, LCL, and customs compliance for global import and export.",
       "heroTitle": "Sea Freight",
-      "intro": "With the highest quality and security standards, we offer deep sea shipping freight services, import, and export from/to all main ports in the world. Kronos Logistics is capable of providing you with the best shipping logistics and comprehensive customs compliance for your international shipments.",
-      "advantagesTitle": "Key Advantages",
+      "intro": [
+        "The ocean is the world’s largest supply chain. Kronos is built to navigate it. We provide global ocean freight through the commercial ports that matter most, connecting every continent under a single trusted partner. From the first container loaded to the last mile delivered, your cargo moves with the compliance, visibility, and precision that high-volume global trade demands.",
+        "This is sea freight engineered for scale: automotive components, industrial machinery, chemical compounds, and manufacturing at volume — moved through the ports the world depends on, managed by the partner you can depend on."
+      ],
+      "advantagesTitle": "The Kronos Sea Freight Standard:",
       "advantages": [
         {
-          "title": "Oversized & Heavy Cargo",
-          "desc": "Heavy cargo capability by covering many types of oversized and high-volume freight formats."
+          "title": "Global port coverage, without compromise",
+          "desc": "Direct access to the commercial gateways that drive world trade, including major ports across Mexico (Manzanillo, Veracruz, Lázaro Cárdenas), the United States (Los Angeles/Long Beach, Houston, New York/New Jersey), China (Shanghai, Qingdao, Shenzhen), and key hubs throughout Asia, Africa, and Europe."
         },
         {
-          "title": "Maximum Transit Safety",
-          "desc": "Vessels are highly capable of carrying hazardous materials and specialized cargo under strict international safety standards."
+          "title": "FCL and LCL, engineered for your volume",
+          "desc": "Full container load for shipments at scale, or less-than-container load when precision matters more than volume — both backed by the same uncompromising standard of compliance and visibility."
         },
         {
-          "title": "Affordable Global Rates",
-          "desc": "For intercontinental logistics, sea freight allows moving larger cargo volumes at significantly lower costs compared to air freight."
+          "title": "Customs brokerage, end to end",
+          "desc": "One team manages clearance at origin and destination, across every jurisdiction your cargo crosses — so your cargo never waits on paperwork it shouldn’t have to."
+        },
+        {
+          "title": "Total visibility, ocean to ocean",
+          "desc": "Track your container’s location, port status, and estimated arrival in real time through the Kronos Client App."
+        },
+        {
+          "title": "One contact. Every port. Every time.",
+          "desc": "A single point of contact across your entire global ocean network — no fragmented carriers, no dropped handoffs, no surprises at customs."
         }
       ],
       "includedTitle": "Our Services Include",
@@ -340,30 +449,32 @@
         "Less than Container Load (LCL)",
         "Drayage",
         "International Custom Broker Agency"
-      ]
+      ],
+      "heroSubtitle": "Every Ocean. Every Port. Connected by Kronos.",
+      "outro": "No borders. No limits. Worldwide reach."
     },
     "trailer-rental": {
       "metaTitle": "Trailer Lease - Kronos Logistics",
       "metaDesc": "Kronos Logistics provides flexible dry van and flatbed trailer leasing. Lease short-term or long-term to scale your fleet as needed.",
       "heroTitle": "Trailer Lease",
-      "intro": "Rental gives you the freedom and flexibility to have exactly the trailers you need, whether you are looking for a short-term rental to meet peak season demand or a lease contract for long-term fleet scaling. We offer well-maintained, reliable trailer equipment ready to move your cargo.",
-      "advantagesTitle": "Key Advantages",
+      "intro": "Scale your capacity on demand — without the capital commitment of owning a fleet. Whether you need a trailer for a single day or a dedicated lease for an extended production cycle, Kronos gives you immediate access to a modern, well-maintained trailer fleet that flexes with your operation, not against it.",
+      "advantagesTitle": "Why Kronos Trailer Lease Works for You:",
       "advantages": [
         {
-          "title": "Lower Capital Cost",
-          "desc": "Rental gives you the freedom and flexibility to have exactly the trailers you need at a lower cost than purchasing."
+          "title": "Lower cost, by design",
+          "desc": "Access the trailers you need without the capital expense of fleet ownership."
         },
         {
-          "title": "Zero Maintenance Costs",
-          "desc": "No maintenance cost since we handle regular servicing and inspections, ensuring total compliance and safety."
+          "title": "Zero maintenance burden",
+          "desc": "No repair costs, no downtime for service — every trailer is maintained and ready before it reaches you."
         },
         {
-          "title": "No Static Asset Fees",
-          "desc": "Avoid long-term storage fees and static asset costs by using our trailers only when active and needed."
+          "title": "Flexible yard storage options",
+          "desc": "Choose between daily-use leasing or monthly yard storage for trailers you need on standby — pay only for the arrangement that matches how your operation actually runs."
         },
         {
-          "title": "Flexible Rental Durations",
-          "desc": "Trailer rental for the exact time you need—whether you are looking for a short-term rental or a long-term lease contract."
+          "title": "Flexible terms, built around your timeline",
+          "desc": "From day-to-day leases to long-term agreements, choose the duration that matches your actual operational need."
         }
       ],
       "includedTitle": "Equipment Options",
@@ -371,38 +482,66 @@
         "Dry Van Trailers",
         "Flatbed Trailers",
         "Specialized Equipment"
-      ]
+      ],
+      "heroSubtitle": "The Fleet You Need. Exactly When You Need It.",
+      "outro": "Capacity on your terms. Commitment on your schedule."
     },
     "warehousing": {
       "metaTitle": "Warehousing - Kronos Logistics",
       "metaDesc": "Kronos Logistics offers secure, flexible, and monitored warehousing solutions. Keep your cargo safe at key strategic distribution points.",
       "heroTitle": "Warehousing",
-      "intro": "We understand that modern industries require high storage flexibility along their logistics chain. That’s why we partner with safe, secure, and reliable warehousing providers at main ports and strategic locations, allowing you to keep your cargo under constant monitored surveillance and professional management.",
-      "advantagesTitle": "Key Advantages",
+      "intro": [
+        "Supply chains demand flexibility — and the right storage strategy is what makes that flexibility possible. Kronos operates a network of certified, monitored warehousing facilities at strategic hubs, giving your cargo a safe, well-placed waypoint between origin and destination.",
+        "This is warehousing built to function as an extension of your business — without the overhead of running it yourself."
+      ],
+      "advantagesTitle": "Why Kronos Warehousing Works for You:",
       "advantages": [
         {
-          "title": "Operational Cost Savings",
-          "desc": "Costs savings by eliminating the expenses of facility maintenance, dedicated employees, and specialized storage equipment."
+          "title": "Eliminate fixed costs",
+          "desc": "No maintenance, no equipment, no additional headcount. Storage costs that scale with your actual need, not a fixed overhead you carry year-round."
         },
         {
-          "title": "Strategic Distribution",
-          "desc": "Establish strategic distribution points near main ports and logistics hubs to optimize transit times."
+          "title": "Strategic distribution positioning",
+          "desc": "Facilities located at key hubs, positioning your inventory exactly where your supply chain needs it most."
         },
         {
-          "title": "Facility Space Optimization",
-          "desc": "Save valuable floor space in your own facility by storing excess inventory in our secure network."
+          "title": "Reclaim your own space",
+          "desc": "Free up your facility for what matters most to your operation, while Kronos manages the rest."
         },
         {
-          "title": "Seamless Business Extension",
-          "desc": "Our warehousing network becomes an extension of your business without the need to increase direct labor or management overhead."
+          "title": "An extension of your team, not a burden on it",
+          "desc": "Scale storage and handling capacity without adding labor, training, or management overhead on your side."
+        },
+        {
+          "title": "24/7 monitored security",
+          "desc": "Constant surveillance and controlled access keep your cargo protected around the clock, at every facility."
         }
       ],
-      "includedTitle": "Our Services Include",
+      "includedTitle": "Full-Service Warehousing Includes:",
       "included": [
-        "Packaging",
-        "Loading / Unloading",
-        "Cycle Counts & Inventory Control"
-      ]
+        {
+          "title": "Packaging",
+          "desc": "Professional packaging to industry and shipment-specific standards."
+        },
+        {
+          "title": "Loading & unloading",
+          "desc": "Efficient, damage-free handling at every transfer point."
+        },
+        {
+          "title": "Cycle counts",
+          "desc": "Regular inventory verification to keep your records accurate and audit-ready."
+        },
+        {
+          "title": "Relabeling",
+          "desc": "Compliant relabeling for changing destinations, regulations, or client requirements."
+        },
+        {
+          "title": "Material inspection",
+          "desc": "Quality and condition checks at intake and throughout storage."
+        }
+      ],
+      "heroSubtitle": "Your Inventory. Strategically Placed. Fully Secured.",
+      "outro": "Space that adapts. Security that scales with you."
     }
   },
   "ServicesSidebar": {

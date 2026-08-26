@@ -17,17 +17,15 @@ const fixLeafletIcon = () => {
 
 const createAirportIcon = (isActive) => {
   if (typeof window === 'undefined') return null;
-  const color = isActive ? '#D32F2F' : '#111827';
+  const color = '#D32F2F'; // Always red
   const size = isActive ? 20 : 14;
   const border = isActive ? '3px solid #ffffff' : '2px solid #ffffff';
-  const glow = isActive ? 'box-shadow: 0 0 12px rgba(211, 47, 47, 0.8);' : '';
+  const glow = 'box-shadow: 0 0 12px rgba(211, 47, 47, 0.8);'; // Always glow
   
   return L.divIcon({
     html: `
       <div style="position: relative; width: ${size}px; height: ${size}px; display: flex; align-items: center; justify-content: center;">
-        ${isActive ? `
-          <div style="position: absolute; width: ${size + 12}px; height: ${size + 12}px; background-color: #D32F2F; border-radius: 50%; opacity: 0.4; animation: pulse-active 1.5s infinite ease-in-out;"></div>
-        ` : ''}
+        <div style="position: absolute; width: ${size + 12}px; height: ${size + 12}px; background-color: #D32F2F; border-radius: 50%; opacity: 0.4; animation: pulse-active 1.5s infinite ease-in-out;"></div>
         <div style="position: absolute; width: ${size}px; height: ${size}px; background-color: ${color}; border: ${border}; border-radius: 50%; box-shadow: 0 2px 5px rgba(0,0,0,0.3); ${glow}"></div>
       </div>
       <style>
