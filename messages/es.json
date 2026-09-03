@@ -48,9 +48,43 @@
   "CTA": {
     "title": "¿Listo para Mover <br></br> su Carga?",
     "button": "Obtenga una Cotización Ahora",
-    "quote": "Kronos Logistics ha sido esencial para nuestra cadena de suministro, brindando entregas rápidas y confiables en todo momento.",
-    "name": "John Smith",
-    "role": "Gerente de Cadena de Suministro"
+    "reviews": [
+      {
+        "name": "Raul Lucio",
+        "role": "Local Guide",
+        "quote": "Excelente opcion en logistica especializada, atencion rápida y bien informada. Transporte sin problemas ni letras chiquitas"
+      },
+      {
+        "name": "silvia aguirre",
+        "role": "Cliente",
+        "quote": "Excelente empresa, servicio. 100% recomendada"
+      },
+      {
+        "name": "jannet escobedo",
+        "role": "Cliente",
+        "quote": "Tiene un excelente servicio . Muy recomendable"
+      },
+      {
+        "name": "Ivan SG",
+        "role": "Local Guide",
+        "quote": "Excelente servicio y atención"
+      },
+      {
+        "name": "Sofia Lopez",
+        "role": "Cliente",
+        "quote": "Unidades en excelente estado y 100% confiables 💯👍🏻"
+      },
+      {
+        "name": "Dana Sánchez",
+        "role": "Cliente",
+        "quote": "Excelente servicio, unidades en buenas condiciones y trato muy cordial 🙏 💯 Recomendado!!"
+      },
+      {
+        "name": "Alex Snelson",
+        "role": "Cliente",
+        "quote": "Excelente servicio, unidades en excelente estado, y monitoreo/rastreo 24/7"
+      }
+    ]
   },
   "AboutUs": {
     "heroTitle": "Sobre Nosotros",
@@ -628,5 +662,10 @@
       "Aduana del Aeropuerto Internacional de Monterrey (MTY) — General Mariano Escobedo"
     ],
     "subtitle": "Acceso Autorizado. Ejecución Garantizada."
+  },
+  "PrivacyPolicy": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: [Fecha]",
+    "content": "Este es un texto temporal para la Política de Privacidad. La política de privacidad oficial se encuentra actualmente en redacción y será publicada pronto. Por favor, regrese más tarde para consultar nuestras pautas completas sobre privacidad y protección de datos. Si tiene alguna inquietud inmediata sobre sus datos, por favor contáctenos."
   }
 }

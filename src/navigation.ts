@@ -30,6 +30,10 @@ export const pathnames = {
   '/services/air-customs': {
     en: '/services/air-customs',
     es: '/servicios/aduanas-aereas'
+  },
+  '/privacy-policy': {
+    en: '/privacy-policy',
+    es: '/politica-de-privacidad'
   }
 } as const;
 

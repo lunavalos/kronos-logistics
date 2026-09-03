@@ -48,9 +48,43 @@
   "CTA": {
     "title": "Ready to Move <br></br> Your Freight?",
     "button": "Get a Quote Now",
-    "quote": "Kronos Logistics has been essential to our supply chain, providing fast and reliable deliveries every time.",
-    "name": "John Smith",
-    "role": "Supply Chain Manager"
+    "reviews": [
+      {
+        "name": "Raul Lucio",
+        "role": "Local Guide",
+        "quote": "Excellent specialized logistics option, fast and well-informed service. Trouble-free transport with no hidden clauses."
+      },
+      {
+        "name": "silvia aguirre",
+        "role": "Customer",
+        "quote": "Excellent company, great service. 100% recommended."
+      },
+      {
+        "name": "jannet escobedo",
+        "role": "Customer",
+        "quote": "Has excellent service. Highly recommended."
+      },
+      {
+        "name": "Ivan SG",
+        "role": "Local Guide",
+        "quote": "Excellent service and attention."
+      },
+      {
+        "name": "Sofia Lopez",
+        "role": "Customer",
+        "quote": "Units in excellent condition and 100% reliable 💯👍🏻"
+      },
+      {
+        "name": "Dana Sánchez",
+        "role": "Customer",
+        "quote": "Excellent service, units in good condition and very cordial treatment 🙏 💯 Recommended!!"
+      },
+      {
+        "name": "Alex Snelson",
+        "role": "Customer",
+        "quote": "Excellent service, units in excellent condition, and 24/7 monitoring/tracking"
+      }
+    ]
   },
   "AboutUs": {
     "heroTitle": "About Us",
@@ -627,5 +661,10 @@
       "GUADALAJARA INTERNATIONAL AIRPORT CUSTOMS (GDL)",
       "MONTERREY INTERNATIONAL AIRPORT CUSTOMS (MTY) - General Mariano Escobedo"
     ]
+  },
+  "PrivacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: [Date]",
+    "content": "This is a placeholder for the Privacy Policy. The official privacy policy is currently being drafted and will be published soon. Please check back later for our full privacy and data protection guidelines. If you have any immediate concerns regarding your data, please contact us."
   }
 }

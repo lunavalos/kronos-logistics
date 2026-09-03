@@ -1,6 +1,7 @@
 "use client";
-import { useRef } from "react";
-import { motion, useScroll, useTransform, useSpring, useInView } from "framer-motion";
+
+import { useRef, useState, useEffect } from "react";
+import { motion, useScroll, useTransform, useInView, AnimatePresence } from "framer-motion";
 import { Link } from "@/navigation";
 import { useTranslations } from "next-intl";
 import { Star, ArrowRight } from "lucide-react";
@@ -14,6 +15,17 @@ export default function CTA() {
   const rightRef = useRef(null);
   const isLeftInView = useInView(leftRef, { once: true, margin: "-80px" });
   const isRightInView = useInView(rightRef, { once: true, margin: "-80px" });
+
+  const [currentReview, setCurrentReview] = useState(0);
+  const reviews = t.raw("reviews") || [];
+
+  useEffect(() => {
+    if (reviews.length === 0) return;
+    const interval = setInterval(() => {
+      setCurrentReview((prev) => (prev + 1) % reviews.length);
+    }, 6000); // Change review every 6 seconds
+    return () => clearInterval(interval);
+  }, [reviews.length]);
 
   const { scrollYProgress } = useScroll({
     target: sectionRef,
@@ -42,7 +54,6 @@ export default function CTA() {
 
   return (
     <section ref={sectionRef} className={styles.cta}>
-      {/* Video Background */}
       {/* Video Background */}
       <video
         className={styles.bgVideo}
@@ -111,15 +122,33 @@ export default function CTA() {
                   </motion.span>
                 ))}
               </div>
-              <p className={styles.quote}>
-                &ldquo;{t("quote")}&rdquo;
-              </p>
-              <div className={styles.author}>
-                <div className={styles.avatar}>JS</div>
-                <div>
-                  <h4 className={styles.name}>{t("name")}</h4>
-                  <p className={styles.role}>{t("role")}</p>
-                </div>
+              
+              <div className={styles.carouselContainer} style={{ position: "relative", minHeight: "150px", width: "100%" }}>
+                <AnimatePresence mode="wait">
+                  {reviews.length > 0 && (
+                    <motion.div
+                      key={currentReview}
+                      initial={{ opacity: 0, y: 10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: -10 }}
+                      transition={{ duration: 0.4 }}
+                      style={{ position: "absolute", inset: 0, width: "100%" }}
+                    >
+                      <p className={styles.quote}>
+                        &ldquo;{reviews[currentReview]?.quote}&rdquo;
+                      </p>
+                      <div className={styles.author}>
+                        <div className={styles.avatar}>
+                          {reviews[currentReview]?.name ? reviews[currentReview].name.charAt(0).toUpperCase() : "K"}
+                        </div>
+                        <div>
+                          <h4 className={styles.name}>{reviews[currentReview]?.name}</h4>
+                          <p className={styles.role}>{reviews[currentReview]?.role}</p>
+                        </div>
+                      </div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
               </div>
             </motion.div>
           </div>

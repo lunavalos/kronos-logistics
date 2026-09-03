@@ -48,9 +48,43 @@
   "CTA": {
     "title": "Bereit, Ihre Fracht <br></br> zu bewegen?",
     "button": "Jetzt Angebot einholen",
-    "quote": "Kronos Logistics ist für unsere Lieferkette unverzichtbar geworden und liefert jedes Mal schnell und zuverlässig.",
-    "name": "John Smith",
-    "role": "Supply Chain Manager"
+    "reviews": [
+      {
+        "name": "Raul Lucio",
+        "role": "Local Guide",
+        "quote": "Ausgezeichnete Option für spezialisierte Logistik, schneller und gut informierter Service. Problemloser Transport ohne Kleingedrucktes."
+      },
+      {
+        "name": "silvia aguirre",
+        "role": "Kunde",
+        "quote": "Ausgezeichnetes Unternehmen, toller Service. 100% empfehlenswert."
+      },
+      {
+        "name": "jannet escobedo",
+        "role": "Kunde",
+        "quote": "Hat einen ausgezeichneten Service. Sehr zu empfehlen."
+      },
+      {
+        "name": "Ivan SG",
+        "role": "Local Guide",
+        "quote": "Ausgezeichneter Service und Betreuung."
+      },
+      {
+        "name": "Sofia Lopez",
+        "role": "Kunde",
+        "quote": "Einheiten in ausgezeichnetem Zustand und 100% zuverlässig 💯👍🏻"
+      },
+      {
+        "name": "Dana Sánchez",
+        "role": "Kunde",
+        "quote": "Ausgezeichneter Service, Einheiten in gutem Zustand und sehr herzliche Behandlung 🙏 💯 Empfehlenswert!!"
+      },
+      {
+        "name": "Alex Snelson",
+        "role": "Kunde",
+        "quote": "Ausgezeichneter Service, Einheiten in ausgezeichnetem Zustand und 24/7 Überwachung/Tracking"
+      }
+    ]
   },
   "AboutUs": {
     "heroTitle": "Über uns",
@@ -627,5 +661,10 @@
       "ZOLL AM INTERNATIONALEN FLUGHAFEN GUADALAJARA (GDL)",
       "ZOLL AM INTERNATIONALEN FLUGHAFEN MONTERREY (MTY) - General Mariano Escobedo"
     ]
+  },
+  "PrivacyPolicy": {
+    "title": "Datenschutzrichtlinie",
+    "lastUpdated": "Zuletzt aktualisiert: [Datum]",
+    "content": "Dies ist ein Platzhalter für die Datenschutzrichtlinie. Die offizielle Datenschutzrichtlinie wird derzeit entworfen und in Kürze veröffentlicht. Bitte schauen Sie später wieder vorbei, um unsere vollständigen Richtlinien zu Datenschutz und Datensicherheit zu lesen. Wenn Sie unmittelbare Bedenken bezüglich Ihrer Daten haben, kontaktieren Sie uns bitte."
   }
 }

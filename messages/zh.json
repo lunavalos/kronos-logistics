@@ -48,9 +48,43 @@
   "CTA": {
     "title": "准备好发运您的货物了吗？<br></br>",
     "button": "立即获取报价",
-    "quote": "Kronos Logistics 对我们的供应链至关重要，每次都能快速、可靠地完成交付。",
-    "name": "John Smith",
-    "role": "供应链经理"
+    "reviews": [
+      {
+        "name": "Raul Lucio",
+        "role": "Local Guide",
+        "quote": "专业的物流选择，服务快捷且信息准确。运输无忧，没有隐藏条款。"
+      },
+      {
+        "name": "silvia aguirre",
+        "role": "客户",
+        "quote": "优秀的公司，一流的服务。100% 推荐。"
+      },
+      {
+        "name": "jannet escobedo",
+        "role": "客户",
+        "quote": "服务非常出色。强烈推荐。"
+      },
+      {
+        "name": "Ivan SG",
+        "role": "Local Guide",
+        "quote": "优秀的服务和态度。"
+      },
+      {
+        "name": "Sofia Lopez",
+        "role": "客户",
+        "quote": "设备状况极佳，100% 可靠 💯👍🏻"
+      },
+      {
+        "name": "Dana Sánchez",
+        "role": "客户",
+        "quote": "服务优质，设备状况良好，态度非常亲切 🙏 💯 强烈推荐！！"
+      },
+      {
+        "name": "Alex Snelson",
+        "role": "客户",
+        "quote": "卓越的服务，设备状况极佳，并提供 7x24 小时全天候监控和跟踪"
+      }
+    ]
   },
   "AboutUs": {
     "heroTitle": "关于我们",
@@ -627,5 +661,10 @@
       "瓜达拉哈拉国际机场海关（GDL）",
       "蒙特雷国际机场海关（MTY）- General Mariano Escobedo"
     ]
+  },
+  "PrivacyPolicy": {
+    "title": "隐私政策",
+    "lastUpdated": "最后更新: [日期]",
+    "content": "这是隐私政策的占位符文本。官方隐私政策目前正在起草中，将很快发布。请稍后再回来查看我们完整的隐私和数据保护准则。如果您对您的数据有任何直接疑虑，请与我们联系。"
   }
 }

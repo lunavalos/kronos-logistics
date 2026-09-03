@@ -1,0 +1,39 @@
+.contentSection {
+  padding: 6rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.contentBox {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 4rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+  max-width: 900px;
+  width: 100%;
+  border: 1px solid rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.placeholderBanner {
+  display: inline-block;
+  background: #fff3cd;
+  color: #856404;
+  padding: 0.5rem 1.5rem;
+  border-radius: 50px;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+}
+
+.text {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: #555555;
+}
+
+@media (max-width: 768px) {
+  .contentBox {
+    padding: 2rem;
+  }
+}
