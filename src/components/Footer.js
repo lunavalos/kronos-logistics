@@ -88,25 +88,11 @@ export default function Footer() {
           </ul>
         </motion.div>
 
-        {/* Column 3: Services (Col 1) */}
+        {/* Column 3: Services */}
         <motion.div variants={itemVariants} className={styles.colServices}>
           <h4 className={styles.colTitle}>{t("servicesTitle")}</h4>
-          <ul className={styles.list}>
-            {services.slice(0, 5).map((service, i) => (
-              <li key={i}>
-                <Link href={`/services/${service.slug}`} className={styles.link}>
-                  {service.name}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </motion.div>
-
-        {/* Column 4: Services (Col 2) */}
-        <motion.div variants={itemVariants} className={styles.colServices}>
-          <h4 className={styles.colTitle} style={{ visibility: "hidden" }}>&nbsp;</h4>
-          <ul className={styles.list}>
-            {services.slice(5).map((service, i) => (
+          <ul className={styles.servicesList}>
+            {services.map((service, i) => (
               <li key={i}>
                 <Link href={`/services/${service.slug}`} className={styles.link}>
                   {service.name}

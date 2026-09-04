@@ -18,7 +18,7 @@
 
 @media (min-width: 1024px) {
   .grid {
-    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 2fr;
     gap: 4rem;
   }
 }
@@ -67,6 +67,24 @@
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
+}
+
+.servicesList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+@media (min-width: 1024px) {
+  .servicesList {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(5, auto);
+    gap: 0.8rem 2rem;
+  }
 }
 
 .link {
