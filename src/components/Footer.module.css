@@ -82,7 +82,7 @@
   .servicesList {
     display: grid;
     grid-auto-flow: column;
-    grid-template-rows: repeat(5, auto);
+    grid-template-rows: repeat(6, auto);
     gap: 0.8rem 2rem;
   }
 }

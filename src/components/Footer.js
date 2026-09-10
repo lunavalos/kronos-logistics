@@ -15,7 +15,8 @@ const services = [
   { name: "Hazmat Logistics", slug: "hazmat-logistics" },
   { name: "4PL Logistics", slug: "4pl-logistics" },
   { name: "Bonded Carrier", slug: "bonded-carrier" },
-  { name: "Trailer Lease", slug: "trailer-rental" }
+  { name: "Trailer Lease", slug: "trailer-rental" },
+  { name: "Air Customs", slug: "air-customs" }
 ];
 
 export default function Footer() {
@@ -45,22 +46,22 @@ export default function Footer() {
 
   return (
     <footer className={styles.footer}>
-      <motion.div 
+      <motion.div
         className={`container ${styles.grid}`}
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, margin: "-50px" }}
       >
-        
+
         {/* Column 1: Brand */}
         <motion.div variants={itemVariants} className={styles.colBrand}>
           <Link href="/" className={styles.logo}>
-            <Image 
-              src="/logo-1.png" 
-              alt="Kronos Logistics" 
-              width={220} 
-              height={55} 
+            <Image
+              src="/logo-1.png"
+              alt="Kronos Logistics"
+              width={220}
+              height={55}
               style={{ width: "100%", maxWidth: "220px", height: "auto" }}
             />
           </Link>
