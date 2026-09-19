@@ -245,7 +245,8 @@ export default function ServiceDetailClient({ slug }) {
     { key: "hazmat", slug: "hazmat-logistics" },
     { key: "fourpl", slug: "4pl-logistics" },
     { key: "bonded", slug: "bonded-carrier" },
-    { key: "trailer", slug: "trailer-rental" }
+    { key: "trailer", slug: "trailer-rental" },
+    { key: "airCustoms", slug: "air-customs" }
   ];
 
   return (
