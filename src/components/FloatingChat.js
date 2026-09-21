@@ -13,7 +13,7 @@ const WeChatIcon = () => (
 );
 
 export default function FloatingChat() {
-  const whatsappUrl = "http://wa.me/+19566003606/";
+  const whatsappUrl = "http://wa.me/+528672458909/";
   const wechatUrl = "https://u.wechat.com/kNwplY_XlG_3-44ZIIUvJJc?s=2";
 
   return (
