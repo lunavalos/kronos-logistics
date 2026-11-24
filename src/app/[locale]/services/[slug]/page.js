@@ -9,7 +9,7 @@ const videoMap = {
   "air-freight": "/services/air-freight-video.webm",
   "bonded-carrier": "/services/bonded-carrier-video.webm",
   "full-truckload-ftl": "/services/trailer-rental-video.webm",
-  "hand-carrier-service": "/services/hand-carrier-service-video.webm",
+  "hand-carrier-service": "/services/hand-carrier-service-video-v2.webm",
   "hazmat-logistics": "/services/hazmat-service.webm",
   "less-than-truckload-ltl": "/services/less-than-truckload-video.webm",
   "sea-freight": "/services/sea-freight-video.webm",
