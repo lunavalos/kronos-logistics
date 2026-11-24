@@ -31,7 +31,7 @@ const serviceItems = [
     key: "hand",
     slug: "hand-carrier-service",
     image: "/services/hand-carrier-service-v2.webp",
-    video: "/services/hand-carrier-service-video.webm"
+    video: "/services/hand-carrier-service-video-v2.webm"
   },
   {
     key: "sea",
